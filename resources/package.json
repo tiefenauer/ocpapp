@@ -1,0 +1,17 @@
+{
+  "name": "ocp-app-resources",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "parse_win": "SET DEBUG=* && node scripts/scrape.js",
+    "parse": "DEBUG=* node scripts/scrape.js"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "jquery": "^3.1.1",
+    "jsdom": "^9.6.0",
+    "lodash": "^4.16.4",
+    "phantom": "^2.1.21",
+    "superagent": "^2.3.0"
+  }
+}
