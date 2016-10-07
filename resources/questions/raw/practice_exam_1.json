@@ -1,0 +1,4592 @@
+{
+	"id": "392268",
+	"title": null,
+	"user_id": "14161",
+	"course_id": "823",
+	"test_id": "123",
+	"section_id": null,
+	"mode": "exam",
+	"date_created": "2016-10-07 02:35:42",
+	"lesson_location": "0",
+	"status": "1",
+	"category": "Book 9781119067900",
+	"course_name": "OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide: <br\/>Exam 1Z0-809",
+	"global_time": 0,
+	"sections": {
+		"directions": [{
+			"id": "994",
+			"test_id": "123",
+			"description": "Bonus Exam 1",
+			"time": "60",
+			"direction": [{
+				"id": "984",
+				"reference_id": "994",
+				"direction_for": "section",
+				"data_type_id": "2",
+				"data": "Section level Directions Text appears here.",
+				"display_order": "0"
+			}]
+		}],
+		"question": [{
+			"id": "34315",
+			"attempts_id": "392268",
+			"question_id": "34315",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "7",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of executing the following application? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">import&#160;java.util.concurrent.*;<\/span><br><span class=\"dCode dNoWrap\">import&#160;java.util.stream.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;RabbitPenManager&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;await(CyclicBarrier&#160;cb)&#160;{&#160;\/\/&#160;k1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;{&#160;cb.await();&#160;}&#160;catch&#160;(InterruptedException&#160;|&#160;BrokenBarrierException&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\/\/&#160;Handle&#160;exception<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;CyclicBarrier&#160;cb&#160;=&#160;new&#160;CyclicBarrier(2,<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;()&#160;-&#62;&#160;System.out.println(\"Pen&#160;is&#160;Full\"));&#160;\/\/&#160;k2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;IntStream.iterate(1,&#160;i&#160;-&#62;&#160;1)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.limit(2).forEach(i&#160;-&#62;&#160;await(cb));&#160;\/\/&#160;k3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It outputs <span class=\"dCode dNoWrap\">Pen&#160;is&#160;Full<\/span> exactly once.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It outputs <span class=\"dCode dNoWrap\">Pen&#160;is&#160;Full<\/span> multiple times.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">k1<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">k2<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">k3<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but throws an exception at runtime.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but waits forever at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code compiles without issue, so C, D, and E are incorrect. The key to solving this question is to notice that the stream allocated by <span class=\"dCode dNoWrap\">iterate()<\/span> is not a parallel stream by default. Therefore, the <span class=\"dCode dNoWrap\">forEach()<\/span> operation is single threaded, with the first task waiting indefinitely and the cyclic barrier never being reached. Therefore, G is the correct answer, and A, B, and F are incorrect.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34316",
+			"attempts_id": "392268",
+			"question_id": "34316",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "2",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which resources are closed by the following code? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Connection&#160;conn&#160;=&#160;DriverManager.getConnection(\"jdbc:derby:zoo\");<\/span><br><span class=\"dCode dNoWrap\">Statement&#160;stmt&#160;=&#160;conn.createStatement();<\/span><br><span class=\"dCode dNoWrap\">ResultSet&#160;rs&#160;=&#160;stmt.executeQuery(\"select&#160;count(*)&#160;from&#160;animal\");<\/span><br><span class=\"dCode dNoWrap\">rs.close();<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Connection<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">ResultSet<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Statement<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "None of the resources are closed.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Closing a <span class=\"dCode dNoWrap\">ResultSet<\/span> does not automatically close any other resources.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34350",
+			"attempts_id": "392268",
+			"question_id": "34350",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "1",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of the following code? <br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;FruitStore&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;enum&#160;Fruit&#160;{<\/span><br><span class=\"dCode dNoWrap\"><i>&#160;&#160;&#160;&#160;&#160;&#160;APPLE<\/i>(\"red\"),&#160;<i>BANANA<\/i>(\"yellow\"),&#160;<i>ORANGE<\/i>(\"orange\"),&#160;<i>PLUM<\/i>(\"purple\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;private&#160;Fruit(String&#160;color)&#160;{&#160;this.color&#160;=&#160;color;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;public&#160;String&#160;color;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Fruit&#160;one&#160;=&#160;Fruit.<i>PLUM<\/i>;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;System.<i>out<\/i>.println(\"a&#160;\"&#160;+&#160;one&#160;+&#160;\"&#160;is&#160;\"&#160;+&#160;one.color);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A <span class=\"dCode dNoWrap\">PLUM&#160;<\/span>is <span class=\"dCode dNoWrap\">purple<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A <span class=\"dCode dNoWrap\">Fruit.PLUM<\/span> is <span class=\"dCode dNoWrap\">purple<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The enum does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The <span class=\"dCode dNoWrap\">main<\/span> method does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "An exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Printing an enum gives its unqualified name. There is nothing wrong with this code. Enums may have constructors and instance variables.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34322",
+			"attempts_id": "392268",
+			"question_id": "34322",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "3",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of executing the following program? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">import&#160;java.util.concurrent.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;MonkeyCounter&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;static&#160;AtomicInteger&#160;monkey1&#160;=&#160;new&#160;AtomicInteger(0);&#160;\/\/&#160;m1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;static&#160;AtomicLong&#160;monkey2&#160;=&#160;new&#160;AtomicLong(0);<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;ExecutorService&#160;service&#160;=&#160;null;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;service&#160;=&#160;Executors.newSingleThreadExecutor();&#160;\/\/&#160;m2<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for(int&#160;i=0;&#160;i&#60;100;&#160;i++)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;service.submit(()&#160;-&#62;&#160;monkey1.getAndIncrement());&#160;\/\/&#160;m3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for(int&#160;i=0;&#160;i&#60;100;&#160;i++)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;service.submit(()&#160;-&#62;&#160;monkey2.incrementAndGet());<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(monkey1+\"&#160;\"+monkey2);&#160;\/\/&#160;m4<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;finally&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if(service&#160;!=&#160;null)&#160;service.shutdown();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It outputs <span class=\"dCode dNoWrap\">100&#160;99<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It outputs <span class=\"dCode dNoWrap\">100&#160;100<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The output cannot be determined ahead of time.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">m1<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">m2<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">m3<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">m4<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "8",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but throws an exception at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code compiles and runs without issue, so D, E, F, G, and H are incorrect. The key here is that the tasks are submitted but the output is retrieved, possibly before the results are finished. It may output <span class=\"dCode dNoWrap\">100&#160;100<\/span>, but it may also output <span class=\"dCode dNoWrap\">10&#160;40<\/span>, <span class=\"dCode dNoWrap\">37&#160;4<\/span>, and so on. Therefore, C is the only correct answer.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34359",
+			"attempts_id": "392268",
+			"question_id": "34359",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of executing the following code snippet?<br><br><span class=\"dCode dNoWrap\">List&#60;Integer&#62;&#160;list1&#160;=&#160;new&#160;ArrayList&#60;&#62;(Arrays.asList(1,2,3));<\/span><br><span class=\"dCode dNoWrap\">List&#60;Integer&#62;&#160;list2&#160;=&#160;new&#160;CopyOnWriteArrayList&#60;&#62;(list1);<\/span><br><span class=\"dCode dNoWrap\">Map&#60;Integer,Integer&#62;&#160;map3&#160;=&#160;new&#160;ConcurrentHashMap&#60;&#62;();<\/span><br><span class=\"dCode dNoWrap\">map3.put(1,&#160;2);<\/span><br><span class=\"dCode dNoWrap\">map3.put(3,&#160;3);<\/span><br><br><span class=\"dCode dNoWrap\">for(Integer&#160;item&#160;:&#160;list1)&#160;list1.add(10);&#160;\/\/&#160;f1<\/span><br><span class=\"dCode dNoWrap\">for(Integer&#160;item&#160;:&#160;list2)&#160;list2.add(item);&#160;\/\/&#160;f2<\/span><br><span class=\"dCode dNoWrap\">for(Integer&#160;key&#160;:&#160;map3.keySet())&#160;map3.remove(key);&#160;\/\/&#160;f2<\/span><br><span class=\"dCode dNoWrap\">System.out.println(list1.size()+\"&#160;\"+list2.size()+\"&#160;\"+map3.size());<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It outputs <span class=\"dCode dNoWrap\">3&#160;6&#160;0<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It outputs <span class=\"dCode dNoWrap\">6&#160;6&#160;0<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It outputs <span class=\"dCode dNoWrap\">6&#160;3&#160;3<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but throws an exception at runtime on line <span class=\"dCode dNoWrap\">f1<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but throws an exception at runtime on line <span class=\"dCode dNoWrap\">f2<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but throws an exception at runtime on line <span class=\"dCode dNoWrap\">f3<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "8",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but enters an infinite loop at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code compiles without issue, so D is incorrect. The code throws a <span class=\"dCode dNoWrap\">ConcurrentModificationException<\/span> at runtime on line <span class=\"dCode dNoWrap\">f1<\/span>, since <span class=\"dCode dNoWrap\">list1<\/span> is a regular collection and not a concurrent one. Therefore, E is the correct answer. Note that if line <span class=\"dCode dNoWrap\">f1<\/span> was removed, the rest of the code would run without throwing an exception, outputting <span class=\"dCode dNoWrap\">3&#160;6&#160;0<\/span>.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34361",
+			"attempts_id": "392268",
+			"question_id": "34361",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "2",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which option fills in the blank to make this code compile?<br><br><span class=\"dCode dNoWrap\">Stream&#60;String&#62;&#160;s&#160;=&#160;Stream.of(\"bull\",&#160;\"cow\");<\/span><br><span class=\"dCode dNoWrap\">_____&#160;r=&#160;s.collect(Collectors.partitioningBy(b&#160;-&#62;&#160;b.startsWith(\"c\")));<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">List&#60;String&#62;<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Map&#60;Boolean,&#160;List&#60;String&#62;&#62;<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Map&#60;String,&#160;List&#60;String&#62;&#62;<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Map&#60;Object,&#160;List&#60;String&#62;&#62;<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "None of the above",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The <span class=\"dCode dNoWrap\">partitioningBy()<\/span> method groups input into two parts of type <span class=\"dCode dNoWrap\">Boolean<\/span>.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34332",
+			"attempts_id": "392268",
+			"question_id": "34332",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "4",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">import&#160;java.io.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;AutocloseableFlow&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;Door&#160;implements&#160;AutoCloseable&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;public&#160;void&#160;close()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"D\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;Window&#160;implements&#160;Closeable&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;public&#160;void&#160;close()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"W\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;(Door&#160;d&#160;=&#160;new&#160;Door();&#160;Window&#160;w&#160;=&#160;new&#160;Window())&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"T\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;catch&#160;(Exception&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"E\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;finally&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"F\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}&#160;}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TF<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TEF<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TDWF<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TWDF<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A compilation error is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "After opening both resources in the try-with-resources statement, <span class=\"dCode dNoWrap\">T<\/span> is printed. Then the try-with-resources completes and closes the resources in the reverse of the order in which they are opened. <span class=\"dCode dNoWrap\">W<\/span> is printed and then <span class=\"dCode dNoWrap\">D<\/span>. Last, the <span class=\"dCode dNoWrap\">finally<\/span> block is run, printing <span class=\"dCode dNoWrap\">F<\/span>. Therefore the answer is <span class=\"dCode dNoWrap\">TWDF<\/span>.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34306",
+			"attempts_id": "392268",
+			"question_id": "34306",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "2;3",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following statements are true given that <span class=\"dCode dNoWrap\">a<\/span> and <span class=\"dCode dNoWrap\">b<\/span> are of type <span class=\"dCode dNoWrap\">Integer<\/span>? (Choose all that apply.)",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "If <span class=\"dCode dNoWrap\">a.hashCode()&#160;==&#160;b.hashCode()<\/span> is <span class=\"dCode dNoWrap\">true<\/span>, <span class=\"dCode dNoWrap\">a.equals(b)<\/span> is always <span class=\"dCode dNoWrap\">true<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "If <span class=\"dCode dNoWrap\">a.hashCode()&#160;==&#160;b.hashCode()<\/span> is <span class=\"dCode dNoWrap\">true<\/span>, <span class=\"dCode dNoWrap\">a.equals(b)<\/span> is sometimes but not always <span class=\"dCode dNoWrap\">true<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "If <span class=\"dCode dNoWrap\">a.hashCode()&#160;==&#160;b.hashCode()<\/span> is <span class=\"dCode dNoWrap\">false<\/span>, <span class=\"dCode dNoWrap\">a.equals(b)<\/span> is never <span class=\"dCode dNoWrap\">true<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "If <span class=\"dCode dNoWrap\">a.hashCode()&#160;==&#160;b.hashCode()<\/span> is <span class=\"dCode dNoWrap\">false<\/span>, <span class=\"dCode dNoWrap\">a.equals(b)<\/span> is sometimes <span class=\"dCode dNoWrap\">true<\/span>.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The relevant rule is that two equal objects must return the same hash code. Therefore, A is incorrect and B is correct. Two objects with the same hash code may or may not be equal. This makes C correct and D incorrect. The fact that two objects are not equal does not guarantee or preclude them from sharing a hash code. Remember that <span class=\"dCode dNoWrap\">hashCode()<\/span> tells you which bucket to look in and <span class=\"dCode dNoWrap\">equals()<\/span> tells you whether you have found an exact match.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34333",
+			"attempts_id": "392268",
+			"question_id": "34333",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following is a valid JDBC URL?",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">jdbc-mysql-1234\/db<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">jdbc-mysql-localhost:1234\/db<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">jdbc-mysql-localhost-1234-db<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">jdbc:mysql:1234\/db<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">jdbc:mysql:localhost:1234\/db<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "A JDBC URL has three main parts separated by colons, making choices A, B, and C incorrect. Choice D is tempting since there are two colons. However, the location shouldn't just be just a number. If a port is present, there should be other information, such an IP address or localhost.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34337",
+			"attempts_id": "392268",
+			"question_id": "34337",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "4",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Assume that today is June 1, 2016. What is the result of the following?<br><br><span class=\"dCode dNoWrap\">Stream&#60;LocalDate&#62;&#160;s&#160;=&#160;Stream.of(LocalDate.now());<\/span><br><span class=\"dCode dNoWrap\">UnaryOperator&#60;LocalDate&#62;&#160;u&#160;=&#160;l&#160;-&#62;&#160;l;<\/span><br><span class=\"dCode dNoWrap\">System.out.println(s.filter(l&#160;-&#62;&#160;l&#160;!=&#160;null).map(u));<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">2016-05-01<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">2016-06-01<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "There is no output.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The output is something other than <span class=\"dCode dNoWrap\">5<\/span> or <span class=\"dCode dNoWrap\">6<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "An exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "There is no terminal operation, which means that <span class=\"dCode dNoWrap\">map()<\/span> returns a <span class=\"dCode dNoWrap\">Stream<\/span> object. The output is something like <span class=\"dCode dNoWrap\">java.util.stream.ReferencePipeline$3@6d03e736<\/span>.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34317",
+			"attempts_id": "392268",
+			"question_id": "34317",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of this program?<br><br><span class=\"dCode dNoWrap\">1:&#160;&#160;&#160;&#160;public&#160;class&#160;Color&#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;&#160;&#160;&#160;&#160;private&#160;int&#160;hue&#160;=&#160;10;<\/span><br><span class=\"dCode dNoWrap\">3:&#160;&#160;&#160;&#160;&#160;&#160;&#160;public&#160;class&#160;Shade&#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;public&#160;int&#160;hue&#160;=&#160;Color.this.hue;<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.<i>out<\/i>.println(new&#160;Shade().hue);<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">0<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">10<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A compiler error occurs on line 3.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A compiler error occurs on line 4.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A compiler error occurs on line 7.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "<span class=\"dCode dNoWrap\">Shade<\/span> is member inner class. It may be accessed from an instance of <span class=\"dCode dNoWrap\">Color<\/span>. Since the constructor is called from a static method, line 7 does not compile. Line 4 does use the correct syntax for referencing a variable in the outer class.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34309",
+			"attempts_id": "392268",
+			"question_id": "34309",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "4",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Assuming <span class=\"dCode dNoWrap\">in<\/span> and <span class=\"dCode dNoWrap\">out<\/span> are properly defined and instantiated <span class=\"dCode dNoWrap\">InputStream<\/span> and<span class=\"dCode dNoWrap\">&#160;OutputStream<\/span> objects, respectively, which are true statements about the following code snippet? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">1:&#160;&#160;&#160;&#160;final&#160;byte[]&#160;buffer&#160;=&#160;new&#160;byte[100];<\/span><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;&#160;int&#160;lengthRead;<\/span><br><span class=\"dCode dNoWrap\">3:&#160;&#160;&#160;&#160;while&#160;((lengthRead&#160;=&#160;in.read(buffer))&#160;&#62;&#160;0)&#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;&#160;&#160;&#160;&#160;out.flush();<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;&#160;&#160;&#160;out.write(buffer,lengthRead);<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;&#160;&#160;&#160;out.flush();<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because the <span class=\"dCode dNoWrap\">buffer<\/span> reference is marked <span class=\"dCode dNoWrap\">final<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will throw an exception at runtime because the size of the <span class=\"dCode dNoWrap\">buffer<\/span> is not a power of <span class=\"dCode dNoWrap\">2<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile due to line 3.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile due to line 5.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will compile and throw an exception at runtime on line 6.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will compile and run without issue.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "None of the above.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code does not compile because the offset parameter is missing on line 5; therefore D is correct and F and G are incorrect. If the method signature on line 5 was changed to <span class=\"dCode dNoWrap\">out.write(buffer,0,lengthRead)<\/span>, then the code would compile and run without issue. Marking a <span class=\"dCode dNoWrap\">buffer<\/span> reference <span class=\"dCode dNoWrap\">final<\/span> does not prevent data from being written and read to and from it, so A is incorrect. Although a <span class=\"dCode dNoWrap\">buffer<\/span> size that is a power of 2 is often recommended, it is not required, so B is also incorrect. Line 3 is fine as written, so C is incorrect. Finally, <span class=\"dCode dNoWrap\">flush()<\/span> can be called any number of times on a valid <span class=\"dCode dNoWrap\">OutputStream<\/span>, so E is incorrect. Note that in this case, <span class=\"dCode dNoWrap\">flush()<\/span> is being called successively between loop iterations and is therefore redundant, but it is not incorrect.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34340",
+			"attempts_id": "392268",
+			"question_id": "34340",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "2",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of following is the best way to convert a stream of <span class=\"dCode dNoWrap\">String<\/span> objects to a stream of <span class=\"dCode dNoWrap\">int<\/span> primitives?",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">IntStream&#160;is&#160;=&#160;stream.map(Integer::parseInt);<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">IntStream&#160;is&#160;=&#160;stream.mapToInt(Integer::parseInt);<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Stream&#60;Integer&#62;&#160;is&#160;=&#160;stream.mapToInt(Integer::parseInt);<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Stream&#60;Integer&#62;&#160;is&#160;=&#160;stream.mapToInt(Integer::parseInt);<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "None of the above. Primitives cannot be used in any type of stream.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Choices C and D are incorrect because they create a <span class=\"dCode dNoWrap\">Stream<\/span> of wrapper objects rather than primitives. Choice A does not compile because <span class=\"dCode dNoWrap\">map()<\/span> returns a <span class=\"dCode dNoWrap\">Stream<\/span> rather than an <span class=\"dCode dNoWrap\">IntStream<\/span>. Choice B is correct because it does return the primitive stream type of <span class=\"dCode dNoWrap\">IntStream<\/span>.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34338",
+			"attempts_id": "392268",
+			"question_id": "34338",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "4",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDate&#160;date&#160;=&#160;LocalDate.of(2018,&#160;Month.APRIL,&#160;30)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.plusMonths(-1).plusYears(20);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(date.getYear()&#160;+&#160;\"&#160;\"&#160;+&#160;date.getMonth()<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;+&#160;\"&#160;\"&#160;+&#160;date.getDayOfMonth());<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">2018&#160;MARCH&#160;30<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">2018&#160;APRIL&#160;30<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">2018&#160;MAY&#160;30<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">2038&#160;MARCH&#160;30<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">2038&#160;APRIL&#160;30<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">2038&#160;MAY&#160;30<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The date starts out as April 30, 2018. Adding a negative month is like subtracting a month, which brings us to March 30, 2018. Then adding 20 years brings us to March 30, 2038, making option D the correct answer.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34326",
+			"attempts_id": "392268",
+			"question_id": "34326",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "How do you obtain a connection through JDBC?",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">new&#160;Connection(url)<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">new&#160;ConnectionImpl(url)<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Driver.getConnection(url)<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">new&#160;Driver().getConnection(url)<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">DriverManager.getConnection(url)<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">new&#160;DriverManager().getConnection(url)<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "On the exam, a <span class=\"dCode dNoWrap\">Connection<\/span> is always obtained from a <span class=\"dCode dNoWrap\">DriverManager<\/span> using a <span class=\"dCode dNoWrap\">static<\/span> method. Therefore, choice E is correct.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34363",
+			"attempts_id": "392268",
+			"question_id": "34363",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "3",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is true of the following code? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;public&#160;class&#160;School&#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&#160;&#160;&#160;&#160;&#160;&#160;private&#160;List&#60;Object&#62;&#160;exceptions;<\/span><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;&#160;&#160;&#160;private&#160;List&#60;?&#62;&#160;names&#160;=&#160;new&#160;ArrayList&#60;Object&#62;();<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;&#160;&#160;public&#160;School()&#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;exceptions&#160;=&#160;new&#160;LinkedList&#60;&#62;();<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "There is a compiler error on line 4.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "There is a compiler error on line 6.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "We can add objects to <span class=\"dCode dNoWrap\">exceptions<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "We can add objects to <span class=\"dCode dNoWrap\">names<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "None of the above.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code compiles. Line 4 uses an unbounded wildcard, which means that we cannot add any objects to the list. Line 6 infers the type to be <span class=\"dCode dNoWrap\">Object<\/span> based on the diamond operator.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34334",
+			"attempts_id": "392268",
+			"question_id": "34334",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "1;3",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Assuming <span class=\"dCode dNoWrap\">Donkey<\/span> is an existing class that properly implements the <span class=\"dCode dNoWrap\">Serializable<\/span> interface and <span class=\"dCode dNoWrap\">dataFile<\/span> refers to a valid <span class=\"dCode dNoWrap\">File<\/span> object that exists within the file system, what statements about the following code snippet are true? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">1:&#160;&#160;&#160;&#160;List&#60;Donkey&#62;&#160;donkeys&#160;=&#160;new&#160;ArrayList&#60;Donkey&#62;();<\/span><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;&#160;try&#160;(ObjectInputStream&#160;in&#160;=&#160;new&#160;ObjectInputStream(<\/span><br><span class=\"dCode dNoWrap\">3:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;new&#160;BufferedInputStream(new&#160;FileReader(dataFile))))&#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;&#160;&#160;&#160;&#160;while(true)&#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Object&#160;object&#160;=&#160;in.readObject();<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if(object&#160;instanceof&#160;Donkey)<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;donkeys.add(object);<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">9:&#160;&#160;&#160;&#160;}&#160;catch&#160;(EOFException&#160;e)&#160;{&#160;}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 3.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 6.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 7.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will compile but throw an exception at runtime.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will compile and run without issue.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "None of the above",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code has two bugs in it preventing it from compiling, so D, E, and F are incorrect. The first issue is that line 3 will not compile due to mixing of <span class=\"dCode dNoWrap\">InputStream<\/span> and <span class=\"dCode dNoWrap\">FileReader<\/span> classes, so A is correct. If a <span class=\"dCode dNoWrap\">FileInputStream<\/span> was used instead of a <span class=\"dCode dNoWrap\">FileReader<\/span>, that line of code would compile. The second compilation error is due to the missing explicit cast of the <span class=\"dCode dNoWrap\">object<\/span> reference to <span class=\"dCode dNoWrap\">Donkey<\/span> on line 7, so C is also correct. There are no problems with line 6, so B is incorrect.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34335",
+			"attempts_id": "392268",
+			"question_id": "34335",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "1",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of executing the following application? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">import&#160;java.util.concurrent.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;SpinWheels&#160;extends&#160;RecursiveTask&#160;{&#160;\/\/&#160;k1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;int&#160;a;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;int&#160;c;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;SpinWheels(int&#160;a,&#160;int&#160;c)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.a&#160;=&#160;a;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.c&#160;=&#160;c;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;protected&#160;Object&#160;compute()&#160;{&#160;\/\/&#160;k2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;if&#160;(a&#160;&#60;=&#160;0)&#160;return&#160;10;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;else&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;b&#160;=&#160;a&#160;+&#160;((c&#160;-&#160;a)&#160;\/&#160;2);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;invokeAll(new&#160;SpinWheels(a,&#160;b),&#160;new&#160;SpinWheels(b,&#160;c));&#160;\/\/&#160;k3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;\"\";&#160;\/\/&#160;k4<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;ForkJoinTask&#160;task&#160;=&#160;new&#160;SpinWheels(0,&#160;100);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;ForkJoinPool&#160;pool&#160;=&#160;new&#160;ForkJoinPool();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;int&#160;x&#160;=&#160;(Integer)pool.invoke(task);&#160;\/\/&#160;k4<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles and runs without issue.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of <span class=\"dCode dNoWrap\">k1<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of <span class=\"dCode dNoWrap\">k2<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of <span class=\"dCode dNoWrap\">k3<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of <span class=\"dCode dNoWrap\">k4<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but throws an exception at runtime.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but hangs at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Although this program is a generics mess, with the compiler warning about numerous generics problems it does compile and run without issue. The class declaration <i>should<\/i> include a generic type, but since it does not, <span class=\"dCode dNoWrap\">Object<\/span> is assumed as the return type of the <span class=\"dCode dNoWrap\">compute()<\/span> method. The key here is that the <span class=\"dCode dNoWrap\">compute()<\/span> method is called only once, exiting on the very first iteration since <span class=\"dCode dNoWrap\">a&#160;&#60;=&#160;0<\/span>, returning a value of <span class=\"dCode dNoWrap\">10<\/span>. Since an <span class=\"dCode dNoWrap\">int<\/span> can be autoboxed to an <span class=\"dCode dNoWrap\">Integer<\/span> value, the cast on line <span class=\"dCode dNoWrap\">k4<\/span> does not throw an exception at runtime. Therefore, A is the only correct answer.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34342",
+			"attempts_id": "392268",
+			"question_id": "34342",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "2;6",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which statements about the following class definition are true? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">1:&#160;public&#160;class&#160;FoodStorage&#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;private&#160;synchronized&#160;int&#160;apples;<\/span><br><span class=\"dCode dNoWrap\">3:&#160;&#160;&#160;public&#160;synchronized&#160;int&#160;getAppleCount()&#160;{&#160;return&#160;apples;&#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;public&#160;synchronized&#160;void&#160;stock(int&#160;applesToStock)&#160;{&#160;apples&#160;+=&#160;applesToStock;&#160;}<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;public&#160;synchronized&#160;void&#160;eaten(int&#160;eatenCount)&#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;&#160;&#160;synchronized&#160;(this)&#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;apples&#160;-=&#160;eatenCount;<\/span><br><span class=\"dCode dNoWrap\">9:&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">11:&#160;}<\/span><\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles without issue.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 2.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 4.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 7.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The class could result in a deadlock due to line 6 and 7 synchronizing on the same object.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The locks acquired on line 3 and 4 are on the same object.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The class does not compile, because you cannot apply <span class=\"dCode dNoWrap\">synchronized<\/span> to variables, only methods or block statements; therefore B is correct and A is incorrect. Lines 4 and 7 compile without issue, so C and D are incorrect. Calling <span class=\"dCode dNoWrap\">synchronized<\/span> inside an already <span class=\"dCode dNoWrap\">synchronized<\/span> method does not cause a deadlock if they are the same object; it just means that the thread already has the lock it needs, so E is incorrect. Finally, the locks acquired on line 3 and 4 are for the same object, so F is correct.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34365",
+			"attempts_id": "392268",
+			"question_id": "34365",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "1",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which statements about the following code snippet are true? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Object&#160;o1&#160;=&#160;new&#160;Object();<\/span><br><span class=\"dCode dNoWrap\">Object&#160;o2&#160;=&#160;new&#160;Object();<\/span><br><span class=\"dCode dNoWrap\">ExecutorService&#160;service&#160;=&#160;Executors.newSingleThreadExecutor();<\/span><br><span class=\"dCode dNoWrap\">Future&#60;?&#62;&#160;f1&#160;=&#160;service.submit(()&#160;-&#62;&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;synchronized&#160;(o1)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;synchronized&#160;(o2)&#160;{&#160;System.out.println(\"Fox\");&#160;}&#160;\/\/&#160;g1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">});<\/span><br><span class=\"dCode dNoWrap\">Future&#60;?&#62;&#160;f2&#160;=&#160;service.submit(()&#160;-&#62;&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;synchronized&#160;(o2)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;synchronized&#160;(o1)&#160;{&#160;System.out.println(\"Hound\");&#160;}&#160;\/\/&#160;g2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">});<\/span><br><span class=\"dCode dNoWrap\">f1.get();<\/span><br><span class=\"dCode dNoWrap\">f2.get();<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will always output <span class=\"dCode dNoWrap\">Fox<\/span> followed by <span class=\"dCode dNoWrap\">Hound<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will always output <span class=\"dCode dNoWrap\">Hound<\/span> followed by <span class=\"dCode dNoWrap\">Fox<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile because of line <span class=\"dCode dNoWrap\">g1<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile because of line <span class=\"dCode dNoWrap\">g2<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "If the code does output anything, the order cannot be determined.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code may produce a deadlock at runtime.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code may produce a livelock at runtime.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "8",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but throws an exception at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code compiles and runs without issue, so C, D, and H are incorrect. Since both tasks are submitted to the same single-thread executor, the tasks are processed sequentially based on insertion order. Since a single-thread executor is used, the second task will be queued and will wait for the first task to complete. The result is that the first task outputs <span class=\"dCode dNoWrap\">Fox<\/span>, and afterward the second task outputs <span class=\"dCode dNoWrap\">Hound<\/span>; therefore A is the only correct answer.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34344",
+			"attempts_id": "392268",
+			"question_id": "34344",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following can fill in the blank so that the code prints out <span class=\"dCode dNoWrap\">false<\/span>? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Stream&#60;String&#62;&#160;s&#160;=&#160;Stream.generate(()&#160;-&#62;&#160;\"\");<\/span><br><span class=\"dCode dNoWrap\">boolean&#160;match&#160;=&#160;s.___________(String::isEmpty);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(match);<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">allMatch<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">anyMatch<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">findAny<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">findFirst<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">noneMatch<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "None of the above",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Options C and D are incorrect because these methods do not take a <span class=\"dCode dNoWrap\">Predicate<\/span> parameter and do not return a <span class=\"dCode dNoWrap\">boolean<\/span>. Option A is incorrect because the stream has no way to know that a non-matching value won't show up later. Option B is incorrect because it returns <span class=\"dCode dNoWrap\">true<\/span>. Option E is correct because it is safe to return <span class=\"dCode dNoWrap\">false<\/span> as soon as one element passes through the stream that doesn't match.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34330",
+			"attempts_id": "392268",
+			"question_id": "34330",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "6",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDate&#160;d&#160;=&#160;LocalDate.of(2015,&#160;5,&#160;1);<\/span><br><span class=\"dCode dNoWrap\">Period&#160;p&#160;=&#160;Period.of(1,&#160;2,&#160;3);<\/span><br><span class=\"dCode dNoWrap\">d&#160;=&#160;d.minus(p);<\/span><br><span class=\"dCode dNoWrap\">DateTimeFormatter&#160;f&#160;=&#160;DateTimeFormatter<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.ofLocalizedDateTime(FormatStyle.SHORT);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(f.format(d));<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">3\/7\/14&#160;11:22&#160;AM<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">6\/7\/14&#160;11:22&#160;AM<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">5\/10\/15&#160;11:22&#160;AM<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">6\/10\/15&#160;11:22&#160;AM<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A runtime exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Formatting a date object as a date and time is not allowed because there is no time. Therefore, a runtime exception is thrown.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34331",
+			"attempts_id": "392268",
+			"question_id": "34331",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "1;4;6",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following are properties of classes that define immutable objects? (Choose all that apply.)",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "They don't allow referenced mutable objects to be modified or accessed directly.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "They have a <span class=\"dCode dNoWrap\">final<\/span> constructor.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "They must extend the <span class=\"dCode dNoWrap\">IsImmutable<\/span> interface.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "They use a constructor to set all properties of the object.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "They include a <span class=\"dCode dNoWrap\">serialVersionUID<\/span> variable.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "They prevent methods from being overridden.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Immutable objects may not be modified after creation. A, D, and F are correct statements that support this property. B is incorrect, because the <span class=\"dCode dNoWrap\">final<\/span> modifier cannot be used on constructors. C is incorrect, because there is no <span class=\"dCode dNoWrap\">IsImmutable<\/span> interface defined in the Java API. Finally, E is incorrect, because this is a property of serialization, not the immutable object pattern.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34313",
+			"attempts_id": "392268",
+			"question_id": "34313",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "1;4",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following fill in the blank to make the code compile? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;try&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;process();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}&#160;catch&#160;(____________________________)&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">private&#160;static&#160;void&#160;process()&#160;throws&#160;InterruptedException,&#160;SQLException&#160;{&#160;}<\/span><\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">InterruptedException&#160;|&#160;SQLException&#160;e<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">InterruptedException&#160;e&#160;|&#160;SQLException&#160;e<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">InterruptedException&#160;e1&#160;|&#160;SQLException&#160;e2<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">SQLException&#160;|&#160;InterruptedException&#160;e<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">SQLException&#160;e&#160;|&#160;InterruptedException&#160;e<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">SQLException&#160;e1&#160;|&#160;InterruptedException&#160;e2<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Options B, C, E, and F are incorrect because only one variable name is allowed in a multi-catch block. It doesn't matter whether the same name is a repeated or a different name is used. Neither is allowed. Options A and D are correct because the order of exceptions in a multi-catch does not matter.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34343",
+			"attempts_id": "392268",
+			"question_id": "34343",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "4",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "There are currently 100 rows in the table <span class=\"dCode dNoWrap\">species<\/span> before inserting a new row. What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">try&#160;(Connection&#160;conn&#160;=&#160;DriverManager.getConnection(\"jdbc:derby:zoo\");&#160;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;Statement&#160;stmt&#160;=&#160;conn.createStatement())&#160;{<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;ResultSet&#160;rs&#160;=&#160;stmt.executeQuery(\"select&#160;count(*)&#160;from&#160;species\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;int&#160;num&#160;=&#160;stmt.executeUpdate(\"INSERT&#160;INTO&#160;species&#160;VALUES&#160;(3,&#160;'Ant',&#160;.05)\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;rs&#160;=&#160;stmt.executeQuery(\"select&#160;count(*)&#160;from&#160;species\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;System.out.println(rs.getInt(1));<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">100<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">101<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A <span class=\"dCode dNoWrap\">SQLException<\/span> is thrown.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A different exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Before accessing data from a <span class=\"dCode dNoWrap\">ResultSet<\/span>, the cursor needs to be positioned. The call to <span class=\"dCode dNoWrap\">rs.next()<\/span> is missing from this code.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34358",
+			"attempts_id": "392268",
+			"question_id": "34358",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "3;4;5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following are valid functional interfaces? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;interface&#160;Bark&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;int&#160;bark()&#160;{return&#160;10;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public&#160;interface&#160;Sing&#160;{}<\/span><br><span class=\"dCode dNoWrap\">public&#160;interface&#160;Woof&#160;extends&#160;Bark&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;Long&#160;wolf();<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public&#160;interface&#160;Meow&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;int&#160;meow();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;default&#160;void&#160;purr()&#160;{}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">interface&#160;Whistle&#160;extends&#160;Meow&#160;{}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Sing<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Bark<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Meow<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Whistle<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Woof<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "None of these are valid functional interfaces.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "A is incorrect, because <span class=\"dCode dNoWrap\">Sing<\/span> does not define any abstract methods&#8212;or any methods at all for that matter. B is also incorrect, because <span class=\"dCode dNoWrap\">Bark<\/span> defines a <span class=\"dCode dNoWrap\">static<\/span> method but does not define any abstract methods. C is correct, because <span class=\"dCode dNoWrap\">Meow<\/span> defines only a single abstract method. Recall that functional interfaces can have any number of <span class=\"dCode dNoWrap\">static<\/span> or <span class=\"dCode dNoWrap\">default<\/span> methods. D is correct, because <span class=\"dCode dNoWrap\">Whistle<\/span> has exactly one abstract method inherited from <span class=\"dCode dNoWrap\">Meow<\/span>. Even though <span class=\"dCode dNoWrap\">Woof<\/span> inherits the <span class=\"dCode dNoWrap\">static<\/span> method from <span class=\"dCode dNoWrap\">Bark<\/span>, it has exactly one abstract method, so E is correct. Finally, F is incorrect because C, D, and E are correct.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34321",
+			"attempts_id": "392268",
+			"question_id": "34321",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "1;5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the answer choices are true given the following? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">2016<\/span>&#8211;<span class=\"dCode dNoWrap\">08<\/span>&#8211;<span class=\"dCode dNoWrap\">28T05:00<\/span>&#8211;<span class=\"dCode dNoWrap\">07:00<\/span><br><span class=\"dCode dNoWrap\">2016<\/span>&#8211;<span class=\"dCode dNoWrap\">08<\/span>&#8211;<span class=\"dCode dNoWrap\">28T09:00<\/span>&#8211;<span class=\"dCode dNoWrap\">06:00<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The first date\/time is earlier.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The second date\/time is earlier.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "Both date\/times are the same.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The date\/times are 1 hour apart.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The date\/times are 3 hours apart.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The date\/times are 5 hours apart.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "When dealing with time zones, it is best to convert to GMT first by subtracting the time zone. The first date\/time is 12:00 GMT and the second is 15:00 GMT (using a 24-hour clock). Therefore, the first one is earlier by 3 hours.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34351",
+			"attempts_id": "392268",
+			"question_id": "34351",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "2",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">List&#60;Integer&#62;&#160;l&#160;=&#160;IntStream.rangeClosed(1,&#160;5)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.mapToObj(i&#160;-&#62;&#160;i).collect(Collectors.toList());<\/span><br><span class=\"dCode dNoWrap\">l.forEach(System.out::print);<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">1234<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">12345<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "There is no output.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "An exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The <span class=\"dCode dNoWrap\">rangeClosed()<\/span> method includes the ending parameter in the stream. The code then converts to <span class=\"dCode dNoWrap\">Integer<\/span> wrapper classes and stores them in a <span class=\"dCode dNoWrap\">List<\/span>. Finally, <span class=\"dCode dNoWrap\">forEach()<\/span> is available on both lists and streams.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34345",
+			"attempts_id": "392268",
+			"question_id": "34345",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "4",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What are some reasons to use a byte stream, such as <span class=\"dCode dNoWrap\">InputStream<\/span>\/<span class=\"dCode dNoWrap\">OutputStream<\/span>, over a character stream, such as <span class=\"dCode dNoWrap\">Reader<\/span>\/<span class=\"dCode dNoWrap\">Writer<\/span>? (Choose all that apply.)",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "Improved performance.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "More convenient code syntax when working with <span class=\"dCode dNoWrap\">String<\/span> data.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "Built-in serialization and deserialization.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "Reading and writing binary data.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "Multi-threading support.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "Byte streams are low-level streams.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Byte streams are appropriate when reading and writing binary data such as images, so D is correct. The rest of the statements are irrelevant or incorrect, and they are not properties of all byte streams.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34312",
+			"attempts_id": "392268",
+			"question_id": "34312",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "2",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of the following program?<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">import&#160;java.util.*;<\/span><br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;StringSearch&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;List&#60;String&#62;&#160;list&#160;=&#160;new&#160;ArrayList&#60;String&#62;();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;list.add(\"ab\");&#160;&#160;&#160;&#160;&#160;list.add(\"ba\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;list.add(\"bd\");&#160;&#160;&#160;&#160;&#160;list.add(\"aa\");<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Comparator&#60;String&#62;&#160;comparator&#160;=&#160;(a,b)&#160;-&#62;&#160;b.compareToIgnoreCase(a);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Collections.sort(list,&#160;comparator);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;int&#160;index&#160;=&#160;Collections.binarySearch(list,&#160;\"ab\",&#160;comparator);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(index);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">1<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">2<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">3<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">4<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A runtime exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The <span class=\"dCode dNoWrap\">List<\/span> is sorted and searched using a custom comparator, which does reverse-case insensitive order, which sorts to <span class=\"dCode dNoWrap\">[bd,&#160;ba,&#160;ab,&#160;aa]<\/span>. The index of <span class=\"dCode dNoWrap\">ab<\/span> is <span class=\"dCode dNoWrap\">2<\/span> since indexes start with <span class=\"dCode dNoWrap\">0<\/span>.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34324",
+			"attempts_id": "392268",
+			"question_id": "34324",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "1",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Assume that all bundles mentioned in the answers exist and define the same keys. Which resource bundle will be used to find the key in line 8?<br><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;Locale.setDefault(new&#160;Locale(\"en\",&#160;\"US\"));<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;ResourceBundle&#160;b&#160;=&#160;ResourceBundle.getBundle(\"Dolphins\");<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;&#160;b.getString(\"name\");<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Dolphins.properties<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Dolphins_fr.java<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Dolphins_fr.properties<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Whales.properties<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Whales_en_US.properties<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Java will first look for the most specific matches it can find, starting with <span class=\"dCode dNoWrap\">Dolphins_en_US.java<\/span> and <span class=\"dCode dNoWrap\">Dolphins_en_US.properties<\/span>. Since neither is found, it drops the country and looks for <span class=\"dCode dNoWrap\">Dolphins_en.java<\/span> and <span class=\"dCode dNoWrap\">Dolphins_en.properties<\/span>. Since no match is found, Java drops the language and goes on to <span class=\"dCode dNoWrap\">Dolphin.java<\/span> and <span class=\"dCode dNoWrap\">Dolphin.properties<\/span>.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34355",
+			"attempts_id": "392268",
+			"question_id": "34355",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "1",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;WhichBrowser&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;class&#160;Browser&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;class&#160;Firefox&#160;extends&#160;Browser&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;class&#160;IE&#160;extends&#160;Browser&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;void&#160;check()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Browser&#160;ref&#160;=&#160;new&#160;IE();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;if&#160;(ref&#160;instanceof&#160;Firefox)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.<i>out<\/i>.println(\"Firefox\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;else&#160;if&#160;(ref&#160;instanceof&#160;Browser)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.<i>out<\/i>.println(\"Browser\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;else&#160;if&#160;(ref&#160;instanceof&#160;IE)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.<i>out<\/i>.println(\"IE\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;else&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.<i>out<\/i>.println(\"None&#160;of&#160;the&#160;above\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;new&#160;WhichBrowser().check();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Browser<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Firefox<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">IE<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "None of the above.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A runtime exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "An <span class=\"dCode dNoWrap\">IE<\/span> object is created, which is an instance of <span class=\"dCode dNoWrap\">IE<\/span>, <span class=\"dCode dNoWrap\">Browser<\/span>, and <span class=\"dCode dNoWrap\">Objec<\/span>t. The <span class=\"dCode dNoWrap\">if<\/span> statement for <span class=\"dCode dNoWrap\">Browser<\/span> returns <span class=\"dCode dNoWrap\">true<\/span>, so the ones under it never run.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34319",
+			"attempts_id": "392268",
+			"question_id": "34319",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which is a true statement about the following code?<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;WhatisIt&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;interface&#160;Furry&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;class&#160;Chipmunk&#160;&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;class&#160;FurryChipmunk&#160;implements&#160;Furry&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Chipmunk&#160;c&#160;=&#160;new&#160;Chipmunk();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;int&#160;result&#160;=&#160;0;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;if&#160;(c&#160;instanceof&#160;Furry)&#160;result&#160;+=&#160;1;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;if&#160;(c&#160;instanceof&#160;Chipmunk)&#160;result&#160;+=2;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;if&#160;(null&#160;instanceof&#160;FurryChipmunk)&#160;result&#160;+=&#160;4;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;System.<i>out<\/i>.println(result);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;}&#160;}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code compiles, and the output is <span class=\"dCode dNoWrap\">1<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code compiles, and the output is <span class=\"dCode dNoWrap\">2<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code compiles, and the output is <span class=\"dCode dNoWrap\">7<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile due to an <span class=\"dCode dNoWrap\">instanceof<\/span> statement.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile for another reason.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A runtime exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Sometimes, the exam tries to trick you by making a question look like it is about one topic, but it is really be about another one. This question appears to be about <span class=\"dCode dNoWrap\">instanceof<\/span>. However, it is really trying to see if you notice that the inner classes are not static. They require an instance of <span class=\"dCode dNoWrap\">WhatIsIt<\/span> to be instantiated.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34352",
+			"attempts_id": "392268",
+			"question_id": "34352",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "3",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">TreeMap&#60;Integer,&#160;String&#62;&#160;treeMap&#160;=&#160;new&#160;TreeMap&#60;&#62;();<\/span><br><span class=\"dCode dNoWrap\">treeMap.put(3,&#160;\"a\");<\/span><br><span class=\"dCode dNoWrap\">treeMap.put(3,&#160;\"a\");<\/span><br><span class=\"dCode dNoWrap\">treeMap.put(2,&#160;\"b\");<\/span><br><span class=\"dCode dNoWrap\">treeMap.put(5,&#160;\"c\");<\/span><br><span class=\"dCode dNoWrap\">for&#160;(Number&#160;number:&#160;treeMap.keySet())<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.print(treeMap.get(number));<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">abc<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">abc<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">bac<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">baac<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A runtime exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "When the same key is put into a <span class=\"dCode dNoWrap\">Map<\/span>, it overrides the original value. Therefore, there are only three key\/value pairs in the map. <span class=\"dCode dNoWrap\">TreeMap<\/span> sorts its keys. This makes the output <span class=\"dCode dNoWrap\">bac<\/span>.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34314",
+			"attempts_id": "392268",
+			"question_id": "34314",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "3",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">1:&#160;&#160;&#160;&#160;public&#160;class&#160;Employee&#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;&#160;&#160;&#160;&#160;public&#160;int&#160;employeeId;<\/span><br><span class=\"dCode dNoWrap\">3:&#160;&#160;&#160;&#160;&#160;&#160;&#160;public&#160;String&#160;firstName,&#160;lastName;<\/span><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;&#160;&#160;&#160;&#160;public&#160;java.time.LocalDate&#160;hireDate;<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;&#160;&#160;&#160;@Override&#160;public&#160;int&#160;hashCode(int&#160;id)&#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;employeeId;<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;&#160;&#160;&#160;&#160;public&#160;boolean&#160;equals(Employee&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">9:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;this.employeeId&#160;==&#160;e.employeeId;<\/span><br><span class=\"dCode dNoWrap\">10:&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">11:&#160;&#160;&#160;&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">12:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Employee&#160;one&#160;=&#160;new&#160;Employee();<\/span><br><span class=\"dCode dNoWrap\">13:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;one.employeeId&#160;=&#160;101;<\/span><br><span class=\"dCode dNoWrap\">14:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Employee&#160;two&#160;=&#160;new&#160;Employee();<\/span><br><span class=\"dCode dNoWrap\">15:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;two.employeeId&#160;=&#160;101;<\/span><br><span class=\"dCode dNoWrap\">16:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if&#160;(one.equals(two))&#160;System.<i>out<\/i>.println(\"Success\");<\/span><br><span class=\"dCode dNoWrap\">17:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;else&#160;System.<i>out<\/i>.println(\"Failure\");<\/span><br><span class=\"dCode dNoWrap\">18:&#160;&#160;&#160;&#160;&#160;}&#160;<\/span><br><span class=\"dCode dNoWrap\">19:&#160;\/\/&#160;imagine&#160;getters&#160;and&#160;setters&#160;are&#160;here<\/span><br><span class=\"dCode dNoWrap\">20:&#160;}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Success<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Failure<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The <span class=\"dCode dNoWrap\">hashCode()<\/span> method fails to compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The <span class=\"dCode dNoWrap\">equals()<\/span> method fails to compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "Another line of code fails to compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A runtime exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Line 5 uses <span class=\"dCode dNoWrap\">@Override<\/span> to indicate <span class=\"dCode dNoWrap\">hashCode()&#160;<\/span>overrides a method. However, the signature does not match <span class=\"dCode dNoWrap\">hashCode()<\/span> in <span class=\"dCode dNoWrap\">Object<\/span>. Therefore, the code does not compile.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34346",
+			"attempts_id": "392268",
+			"question_id": "34346",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Suppose that the directory <span class=\"dCode dNoWrap\">c:\\text<\/span> exists within the file system but no subdirectories of it exist. Which line of code would be the best way to create the directory <span class=\"dCode dNoWrap\">c:\\text\\book\\java<\/span>?",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">File.mkdir(\"c:\\text\\book\\java\");<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">File.mkdirs(\"c:\\text\\book\\java\");<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">new&#160;File(\"c:\\text\\book\\java\").mkdir();<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">new&#160;File(\"c:\\text\\book\\java\").mkdirs();<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "None of the above",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Java requires escaping a backslash with another backslash, so none of these snippets will compile, and E is correct. If the slashes were correct, D would be the correct choice since it creates both <span class=\"dCode dNoWrap\">book<\/span> and <span class=\"dCode dNoWrap\">java<\/span> subdirectories. Remember that a question may appear on the exam to be asking one thing, when in fact it is actually asking a completely different thing.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34328",
+			"attempts_id": "392268",
+			"question_id": "34328",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "1;2;5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the answer choices output the same result as this traditional <span class=\"dCode dNoWrap\">for<\/span> loop? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">for&#160;(int&#160;i&#160;=&#160;0;&#160;i&#160;&#60;&#160;3;&#160;i++)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;System.out.print(i);<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Arrays.asList(0,1,2)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.forEach(System.out::print);<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Arrays.asList(0,1,2)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.stream()<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.forEach(System.out::print);<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">IntStream.range(0,&#160;2)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.forEach(System.out::print);<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">IntStream.range(0,&#160;2)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.stream()<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.forEach(System.out::print);<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">IntStream.range(0,&#160;3)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.forEach(System.out::print);<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">IntStream.range(0,&#160;3)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.stream()<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.forEach(System.out::print);<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Choices D and F do not compile because you cannot call <span class=\"dCode dNoWrap\">stream()<\/span> on an object that is already a <span class=\"dCode dNoWrap\">Stream<\/span>. Choice C does compile but prints <span class=\"dCode dNoWrap\">01<\/span> because the second parameter for <span class=\"dCode dNoWrap\">range()<\/span> is not inclusive. Choice E is the correct way to print the desired result using <span class=\"dCode dNoWrap\">range()<\/span>. Using the <span class=\"dCode dNoWrap\">Arrays<\/span> approach, choices A and B are both correct. The <span class=\"dCode dNoWrap\">forEach()<\/span> method is declared for both lists and streams. ",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34308",
+			"attempts_id": "392268",
+			"question_id": "34308",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "3",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Assuming the directory <span class=\"dCode dNoWrap\">\/capybara\/food<\/span> exists, is accessible within the file system, and has at least one regular file in it, what are the possible results of executing the following code? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">import&#160;java.nio.file.*;<\/span><br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;DirStream&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Path&#160;one&#160;=&#160;Paths.get(\"\/capybara\/food\",&#160;\"apples.txt\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Path&#160;two&#160;=&#160;Paths.get(\"\/capybara\/food\",&#160;\"bananas.txt\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Files.copy(one,&#160;two);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The file is copied.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code runs without printing anything.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code compiles but throws an exception at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "This one is tricky. Remember that questions about exceptions can show up in a question that appears to be on any topic. In this case, <span class=\"dCode dNoWrap\">Files<\/span> is a NIO.2 class and throws a checked <span class=\"dCode dNoWrap\">IOException<\/span>. Since the exception is not handled or declared, the code does not compile.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34353",
+			"attempts_id": "392268",
+			"question_id": "34353",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Suppose that we are asked to write an application that lists animals. The most important requirement is that each animal be included in the list only once. We are also asked to produce a list of all of the animals in alphabetical order. Which collection type should we choose?",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">ArrayList<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">HashSet<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">LinkedList<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TreeMap<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TreeSet<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Vector<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Since the scenario asks for unique animals, we know we need a <span class=\"dCode dNoWrap\">Set<\/span>. This rules out choices A, C, D, and F. <span class=\"dCode dNoWrap\">TreeSet<\/span> is the answer because we are asked about order. This question is tricky because it uses the word <i>list<\/i>, even though we don't want a <span class=\"dCode dNoWrap\">List<\/span>.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34323",
+			"attempts_id": "392268",
+			"question_id": "34323",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "3",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;List&#160;list&#160;=&#160;new&#160;ArrayList();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;list.add(1);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;list.add(\"2\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;list.add(.3);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;print(list);<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">private&#160;static&#160;void&#160;print(List&#60;String&#62;&#160;list)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;for&#160;(Object&#160;object:&#160;list)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(object);<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">1<\/span> followed by an exception.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">12<\/span> followed by an exception.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">120.3<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The output is indeterminate.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "An exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Generics are used only at compile time. After that, type erasure removes them. Since non-generic code is calling the method and objects are cast to <span class=\"dCode dNoWrap\">Object<\/span>, the code executes fine.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34354",
+			"attempts_id": "392268",
+			"question_id": "34354",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "6",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Assuming that the file <span class=\"dCode dNoWrap\">\/giraffe\/food.csv<\/span> exists within the file system and that it is not empty, what is the result of executing the following code? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Path&#160;path&#160;=&#160;Paths.get(\"\/giraffe\/food.csv\");<\/span><br><span class=\"dCode dNoWrap\">Files.lines(path)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.flatMap(p&#160;-&#62;&#160;Stream.of(p.split(\",\")))&#160;\/\/&#160;j1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.map(s&#160;-&#62;&#160;s.length())&#160;\/\/&#160;j2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.collect(Collectors.toList())<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.forEach(System.out::print);&#160;\/\/&#160;j3<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code compiles but does not produce any output at runtime.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">j1<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">j2<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">j3<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code prints the contents of the file without any commas.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code prints a series of numbers.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code produces an infinite loop at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code compiles without issue, so B, C, and D are incorrect. Since we are given that the file is non-empty, A is incorrect. At runtime, the code reads the lines of the file, splits the values by commas, and then converts the stream of resulting string values to a stream of numbers using the string <span class=\"dCode dNoWrap\">length()<\/span> function. Finally, the results are collected into an array and printed to the user, so F is correct. E is incorrect, because line <span class=\"dCode dNoWrap\">j2<\/span> converts the contents of the file into numbers based on string length. The code does not produce any infinite loops, so G is incorrect.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34347",
+			"attempts_id": "392268",
+			"question_id": "34347",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "7",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">Map&#60;Integer,&#160;Integer&#62;&#160;map&#160;=&#160;new&#160;HashMap&#60;&#62;();<\/span><br><span class=\"dCode dNoWrap\">map.put(1,&#160;10);<\/span><br><span class=\"dCode dNoWrap\">map.put(2,&#160;20);<\/span><br><span class=\"dCode dNoWrap\">map.put(3,&#160;null);<\/span><br><br><span class=\"dCode dNoWrap\">map.merge(1,&#160;3,&#160;v&#160;-&#62;&#160;v);<\/span><br><span class=\"dCode dNoWrap\">map.merge(3,&#160;3,&#160;v&#160;-&#62;&#160;v);<\/span><br><br><span class=\"dCode dNoWrap\">System.out.println(map);<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">{1=10,&#160;2=20}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">{1=10,&#160;2=20,&#160;3=null}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">{1=10,&#160;2=20,&#160;3=3}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">{1=13,&#160;2=20}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">{1=13,&#160;2=20,&#160;3=null}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">{1=13,&#160;2=20,&#160;3=3}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "8",
+				"data": [{
+					"data_type_id": "2",
+					"data": "An exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The <span class=\"dCode dNoWrap\">merge()<\/span> function requires a <span class=\"dCode dNoWrap\">BiFunction<\/span> as the mapping function. This code uses a <span class=\"dCode dNoWrap\">Function<\/span> instead, which does not compile.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34339",
+			"attempts_id": "392268",
+			"question_id": "34339",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "2",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following is least likely to be supported by your JDBC driver? ",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">ResultSet.CONCUR_READ_ONLY<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">ResultSet.CONCUR_UPDATABLE<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">ResultSet.TYPE_FORWARD_ONLY<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">ResultSet.TYPE_SCROLL_INSENSITIVE<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">ResultSet.TYPE_SCROLL_SENSITIVE<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Many databases and drivers do not support reloading data from the database after the initial query.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34341",
+			"attempts_id": "392268",
+			"question_id": "34341",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "1",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;FourLegged&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;String&#160;walk&#160;=&#160;\"walk,\";<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;void&#160;walk()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;System.<i>out<\/i>.print(walk);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;BabyRhino&#160;extends&#160;FourLegged&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;String&#160;walk&#160;=&#160;\"toddle,\";<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;@Override&#160;public&#160;void&#160;walk()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.<i>out<\/i>.print(walk);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;FourLegged&#160;f&#160;=&#160;new&#160;BabyRhino();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;BabyRhino&#160;b&#160;=&#160;new&#160;BabyRhino();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;f.walk();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;b.walk();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;}&#160;}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">toddle,toddle,<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">toddle,walk,<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">walk,toddle,<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">walk,walk,<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A runtime exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Both objects are <span class=\"dCode dNoWrap\">BabyRhino<\/span> objects. Due to virtual method invocation, the subclass method gets called at runtime rather than the type in the variable reference.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34307",
+			"attempts_id": "392268",
+			"question_id": "34307",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "6;7",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following are valid lambda expressions? (Choose all that apply.)",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">a,b&#160;-&#62;&#160;a<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">(Dolphin&#160;d,&#160;Fish&#160;f)&#160;-&#62;&#160;{return&#160;new&#160;Object()}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">Kangaroo&#160;w&#160;-&#62;&#160;new&#160;Kangaroo()<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">(Cat&#160;c,&#160;d)&#160;-&#62;&#160;{return&#160;10;}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">(Whale&#160;w)&#160;-&#62;&#160;{int&#160;w&#160;=&#160;3;&#160;return&#160;w;}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">(int&#160;o)&#160;-&#62;&#160;\"\"<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;10<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The first lambda expression is incorrect, because more than one parameter requires parentheses <span class=\"dCode dNoWrap\">()<\/span>, so A is incorrect. B is incorrect, because a semicolon is required following a return statement and value inside braces <span class=\"dCode dNoWrap\">{}<\/span> on the right side of a lambda expression. C is incorrect, because using the data type in the left side of the lambda requires parentheses, <span class=\"dCode dNoWrap\">()<\/span>. D is incorrect, because specifying the data type for one parameter in a lambda expression requires you to specify the data type for all parameters in the expression. In this case, <span class=\"dCode dNoWrap\">c<\/span> has a data type and <span class=\"dCode dNoWrap\">d<\/span> does not; therefore the expression is invalid. E is incorrect, because the variable <span class=\"dCode dNoWrap\">w<\/span> is already used in the left side of lambda expression and cannot be redefined. F is correct, because it takes a single <span class=\"dCode dNoWrap\">int<\/span> argument and returns a value of type <span class=\"dCode dNoWrap\">String<\/span>. Finally, G is correct, because it defines an expression that takes no arguments and returns an <span class=\"dCode dNoWrap\">int<\/span> value.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34325",
+			"attempts_id": "392268",
+			"question_id": "34325",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "3",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">import&#160;java.io.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;AutocloseableFlow&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;Door&#160;implements&#160;AutoCloseable&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;public&#160;void&#160;close()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"D\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;RuntimeException();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;Window&#160;implements&#160;Closeable&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;public&#160;void&#160;close()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"W\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;RuntimeException();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;(Door&#160;d&#160;=&#160;new&#160;Door();&#160;Window&#160;w&#160;=&#160;new&#160;Window())&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"T\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;RuntimeException();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;catch&#160;(Exception&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"E\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;finally&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"F\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}&#160;}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TWF<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TWDF<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TWDEF<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TWF<\/span> followed by an exception.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TWDF<\/span> followed by an exception.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">TWEF<\/span> followed by an exception.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "After opening both resources in the try-with-resources statement, <span class=\"dCode dNoWrap\">T<\/span> is printed. Even though an exception is thrown, the try-with-resources completes and closes the resources in the reverse of the order in which they are opened. <span class=\"dCode dNoWrap\">W<\/span> and <span class=\"dCode dNoWrap\">D<\/span> are printed, throwing suppressed exceptions as well. The exception thrown (including its two suppressions) is then caught and <span class=\"dCode dNoWrap\">E<\/span> is printed. Last, the <span class=\"dCode dNoWrap\">finally<\/span> block is run, printing <span class=\"dCode dNoWrap\">F<\/span>. Therefore the answer is <span class=\"dCode dNoWrap\">TWDEF<\/span>.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34318",
+			"attempts_id": "392268",
+			"question_id": "34318",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "1;3;5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of following can fill in the blank to make the method successfully compile? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;static&#160;void&#160;add(_________)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;list.add(123);<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">List&#160;list<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">List&#60;?&#62;&#160;list<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">List&#60;Number&#62;&#160;list<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">List&#60;?&#160;extends&#160;Object&#62;&#160;list<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">List&#60;?&#160;super&#160;Number&#62;&#160;list<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">List&#60;?&#160;implements&#160;Number&#62;&#160;list<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "A doesn't use generics, so adding anything is fine. C uses generics and specifies the type. 123 autoboxes to <span class=\"dCode dNoWrap\">Integer<\/span>, which is a <span class=\"dCode dNoWrap\">Number<\/span>. E allows <span class=\"dCode dNoWrap\">Number<\/span> and a superclass of <span class=\"dCode dNoWrap\">Number<\/span>. The tricky part is that <span class=\"dCode dNoWrap\">Integer<\/span> is a subclass of <span class=\"dCode dNoWrap\">Number<\/span> so it matches on the <span class=\"dCode dNoWrap\">Number<\/span> class. B is an unbounded wildcard and D is an upper-bounded wildcard, neither of which allows adding to the list. F doesn't compile because <span class=\"dCode dNoWrap\">implements<\/span> is not a valid keyword in describing generic bounds.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34336",
+			"attempts_id": "392268",
+			"question_id": "34336",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "3;4",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What statements about the following code snippet are true? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">3:&#160;Stream&#60;Integer&#62;&#160;prime&#160;=&#160;Stream.of(2,3,5,7);<\/span><br><span class=\"dCode dNoWrap\">4:&#160;Stream&#60;Integer&#62;&#160;composite&#160;=&#160;Stream.of(4,6,8);<\/span><br><span class=\"dCode dNoWrap\">5:&#160;ConcurrentMap&#60;Boolean,&#160;List&#60;Integer&#62;&#62;&#160;data&#160;=&#160;Stream.combine(prime,composite)<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;.flatMap(s&#160;-&#62;&#160;s).parallelStream()<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;.collect(Collectors.groupingByConcurrent(n&#160;-&#62;&#160;(n%2)==0));<\/span><br><span class=\"dCode dNoWrap\">8:&#160;System.out.println(data.get(true).size()+\"&#160;\"+data.get(false).size());<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It outputs <span class=\"dCode dNoWrap\">3&#160;4<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It outputs <span class=\"dCode dNoWrap\">4&#160;3<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 5.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 6.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 7.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but throws an exception at runtime.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The <span class=\"dCode dNoWrap\">collect()<\/span> operation is always executed concurrently.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code does not compile, so A, B, F, and G are incorrect. This may appear to be about parallel reductions, but it is actually about stream operations. On line 5, there is no such method <span class=\"dCode dNoWrap\">Stream.combine()<\/span>, although <span class=\"dCode dNoWrap\">Stream.of()<\/span> or <span class=\"dCode dNoWrap\">Stream.concat()<\/span> would have been acceptable; therefore C is correct. Next, to create a parallel stream out of an existing stream, you need to call <span class=\"dCode dNoWrap\">parallel()<\/span> on line 6, not <span class=\"dCode dNoWrap\">parallelStream()<\/span>; therefore D is also correct. Finally, there are no issues on line 7, so E is incorrect.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34311",
+			"attempts_id": "392268",
+			"question_id": "34311",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "2;4",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following can fill in the blank to make the code compile? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">import&#160;java.util.stream.*;<\/span><br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;DragonBoat&#160;{<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;________&#160;DragonBoat&#160;boat;<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;row()&#160;{&#160;}<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;race()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;boat&#160;=&#160;new&#160;DragonBoat();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;IntStream.range(1,&#160;100).forEach(i&#160;-&#62;&#160;boat.row());&#160;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">private<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">private&#160;static<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">public<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">public&#160;static<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">secret<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">secret&#160;static<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The variable is referenced from a <span class=\"dCode dNoWrap\">static<\/span> method context. A <span class=\"dCode dNoWrap\">static<\/span> method is allowed to reference only <span class=\"dCode dNoWrap\">static<\/span>, not instance variables, making A, C, and E incorrect. Since the variable is referenced from within the same class, any valid access modifier is permitted. Since <span class=\"dCode dNoWrap\">secret<\/span> is not a valid access modifier, F is also incorrect. Therefore only B and D are correct.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34348",
+			"attempts_id": "392268",
+			"question_id": "34348",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "6",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "What statements about the following code are true? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Path&#160;path&#160;=&#160;Paths.get(\"\/zoo\/gorilla.txt\");<\/span><br><span class=\"dCode dNoWrap\">try&#160;(BufferedReader&#160;reader&#160;=&#160;Files.newBufferedReader(path))&#160;{&#160;\/\/&#160;x1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;String&#160;s&#160;=&#160;null;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;while(reader.readLine()&#160;!=&#160;null)&#160;\/\/&#160;x2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(s);&#160;\/\/&#160;x3<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "If the file exists and is non-empty, it is capable of printing all lines of the file.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">x1<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">x2<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">x3<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but may result in an infinite loop at runtime.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but may throw an exception at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code compiles without issue, so B, C, and D are incorrect. If the file pointed to by the path does not exist, an exception will be thrown, so F is correct. The loop is not infinite, because the <span class=\"dCode dNoWrap\">readLine()<\/span> exhausts one line per iteration, so E is incorrect. Finally, A is incorrect because the <span class=\"dCode dNoWrap\">s<\/span> variable is not assigned on each loop iteration, so the loop will print <span class=\"dCode dNoWrap\">null<\/span> for each line.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34364",
+			"attempts_id": "392268",
+			"question_id": "34364",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "6",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Assuming that the following class has proper <span class=\"dCode dNoWrap\">public<\/span> getter\/setter methods for all of its <span class=\"dCode dNoWrap\">private<\/span> fields, which of the following fields will always be <span class=\"dCode dNoWrap\">null<\/span> after an instance of the class is serialized and then deserialized? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;Dolphin&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;transient&#160;String&#160;name&#160;=&#160;\"Flipper\";<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;static&#160;String&#160;birthPlace&#160;=&#160;\"ocean\";<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;transient&#160;int&#160;age;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;java.util.List&#60;Dolphin&#62;&#160;friends&#160;=&#160;new&#160;java.util.ArrayList&#60;&#62;();<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">name<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">age<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">birthPlace<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">friends<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code compiles but throws an exception at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code appears to be about the deserialization process, but the class itself does not implement <span class=\"dCode dNoWrap\">Serializable<\/span>, so it will throw a <span class=\"dCode dNoWrap\">java.io.NotSerializableException<\/span> at runtime when it is serialized, and F is correct. E is incorrect because the code compiles without issue. If the class was modified to implement <span class=\"dCode dNoWrap\">Serializable<\/span>, then the correct answer would be A, because the <span class=\"dCode dNoWrap\">name<\/span> value is lost on serialization and set to <span class=\"dCode dNoWrap\">null<\/span> on deserialization. B would be incorrect, since the default value of the primitive <span class=\"dCode dNoWrap\">int<\/span> is <span class=\"dCode dNoWrap\">0<\/span>, not <span class=\"dCode dNoWrap\">null<\/span>. C would be incorrect, since the <span class=\"dCode dNoWrap\">static<\/span> value is set on the class level and is therefore available on all instances. D would be incorrect because an empty array would be serialized and returned on deserialization, not <span class=\"dCode dNoWrap\">null<\/span>. Even though these non-<span class=\"dCode dNoWrap\">transient<\/span> fields could be set to <span class=\"dCode dNoWrap\">null<\/span>, they are not guaranteed to be <span class=\"dCode dNoWrap\">null<\/span> after deserialization.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34360",
+			"attempts_id": "392268",
+			"question_id": "34360",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "1;2;5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following are properties of classes that are properly encapsulated as a JavaBean? (Choose all that apply.)",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The first letter of the any getter\/setter, after the <span class=\"dCode dNoWrap\">get<\/span>, <span class=\"dCode dNoWrap\">set<\/span>, or <span class=\"dCode dNoWrap\">is<\/span> prefix, must be uppercase.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "Instance variables are accessed using <span class=\"dCode dNoWrap\">public<\/span> getter methods.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "All instance variables are set by the constructor.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">boolean<\/span> instance variables may be accessed with <span class=\"dCode dNoWrap\">gimme<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "Non-<span class=\"dCode dNoWrap\">boolean<\/span> instance variables are accessed with <span class=\"dCode dNoWrap\">get<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "All instance variables are marked <span class=\"dCode dNoWrap\">static<\/span>.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "A, B, and E are each correct statements about JavaBean encapsulation. C is incorrect, because there is no requirement for setting values in the constructor for encapsulation. D is incorrect, because <span class=\"dCode dNoWrap\">gimme<\/span> is not a valid getter prefix. Finally, F is incorrect, because the variables do not all need to be marked <span class=\"dCode dNoWrap\">static<\/span>.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34357",
+			"attempts_id": "392268",
+			"question_id": "34357",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "2;5;6;7",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following are valid <span class=\"dCode dNoWrap\">Callable<\/span> expressions? (Choose all that apply.)",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">void&#160;-&#62;&#160;10<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;10<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">(int&#160;quantity)&#160;-&#62;&#160;{return&#160;10;}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;{return;}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;Math.min(10,5)<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;{for(int&#160;i=0;&#160;i&#60;10;&#160;i++)&#160;{}&#160;return&#160;10;}<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "7",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;\"Chipmunk\"<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "A <span class=\"dCode dNoWrap\">Callable<\/span> lambda expression takes no values and returns a generic type; therefore B, E, F, and G are correct. C is incorrect because it takes an input parameter. D is a <span class=\"dCode dNoWrap\">Runnable<\/span> lambda expression, since it does not return a value, but is not a <span class=\"dCode dNoWrap\">Callable<\/span> one, so D is incorrect. Finally, A is an invalid lambda expression, so it is incorrect.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34310",
+			"attempts_id": "392268",
+			"question_id": "34310",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "6",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Assuming that the current directory is <span class=\"dCode dNoWrap\">\/zoo<\/span> and this path exists, what is the output of the following code?<br><br><span class=\"dCode dNoWrap\">URI&#160;uri&#160;=&#160;new&#160;File(\"elephant\").toURI();&#160;&#160;\/\/&#160;x1<\/span><br><span class=\"dCode dNoWrap\">Path&#160;path&#160;=&#160;Paths.get(uri).toAbsolutePath();&#160;\/\/&#160;x2<\/span><br><span class=\"dCode dNoWrap\">System.out.println(path.relativize(Paths.get(\"zoo\")));&#160;\/\/&#160;x3<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">..<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">..\/elephant<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">x1<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">x2<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line <span class=\"dCode dNoWrap\">x3<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but throws an exception at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The code compiles without issue, so C, D, and E are incorrect. The code does throw an exception at runtime on line 3, because it mixes the absolute path created in line 2 with the relative <span class=\"dCode dNoWrap\">zoo<\/span> path, so F is correct. A and B are incorrect since the code throws an exception at runtime. If the last line was changed to use the absolute path <span class=\"dCode dNoWrap\">\/zoo<\/span>, the answer would be A.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34327",
+			"attempts_id": "392268",
+			"question_id": "34327",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Suppose the table <span class=\"dCode dNoWrap\">food<\/span> has five rows. What is the result of this code?<br><br><span class=\"dCode dNoWrap\">public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;throws&#160;SQLException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;Connection&#160;conn&#160;=&#160;DriverManager.getConnection(\"jdbc:derby:zoo\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;Statement&#160;stmt&#160;=&#160;conn.createStatement();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;int&#160;result&#160;=&#160;stmt.executeUpdate(\"select&#160;*&#160;from&#160;food\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(result);<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">0<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">1<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">5<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code does not compile.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A <span class=\"dCode dNoWrap\">SQLException<\/span> is thrown.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "A different exception is thrown.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "While the code compiles, an <span class=\"dCode dNoWrap\">executeUpdate()<\/span> statement is not expecting a <span class=\"dCode dNoWrap\">SELECT<\/span> SQL statement. The code throws a <span class=\"dCode dNoWrap\">SQLException<\/span> because the wrong query is used.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34329",
+			"attempts_id": "392268",
+			"question_id": "34329",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "1;2",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following fill in the blank on line 6 so that the program can compile and run without throwing an exception? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;DoubleStream&#160;ds&#160;=&#160;DoubleStream.empty();<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;OptionalDouble&#160;opt&#160;=&#160;ds.findAny();<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;System.out.println(______________________);<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">opt.orElse(0)<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">opt.orElseGet(()&#160;-&#62;&#160;0)<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">opt.orElseThrow(RuntimeException::new)<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">opt.get()<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">opt.getAsDouble()<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "Line 5 throws an exception at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "Option D is wrong because it doesn't even compile. A primitive stream doesn't have a <span class=\"dCode dNoWrap\">get()<\/span> method. Option E is wrong because there is no value in the optional to get. Option C throws an exception when there is no value. Options A and B provide a default return value to print.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34349",
+			"attempts_id": "392268",
+			"question_id": "34349",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "5",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following can fill in the blank to make the code compile? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">import&#160;java.util.stream.*;<\/span><br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;SwanBoat&#160;{<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;________&#160;SwanBoat&#160;boat;<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;void&#160;row()&#160;{&#160;}<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;void&#160;paddle()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;IntStream.range(1,&#160;10).forEach(i&#160;-&#62;&#160;boat.row());&#160;&#160;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;boat&#160;=&#160;new&#160;SwanBoat();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">final<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">public<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">public&#160;final<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">public&#160;final&#160;static<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">public&#160;static<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">static&#160;final<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The variable is not instantiated in the declaration or a static block, which prevents it from being marked <span class=\"dCode dNoWrap\">final<\/span>. Therefore A, C, D and F are incorrect. Since the <span class=\"dCode dNoWrap\">static<\/span> <span class=\"dCode dNoWrap\">main<\/span> method refers to the variable, it must be <span class=\"dCode dNoWrap\">static<\/span> as well. Therefore E is correct.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34320",
+			"attempts_id": "392268",
+			"question_id": "34320",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "3;4",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which classes can be inserted in the blank to make this code compile? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">import&#160;_________________;<\/span><br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;StartOfSummer&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;LocalDate&#160;date&#160;=&#160;LocalDate.of(2014,&#160;6,&#160;21);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}&#160;}<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">java.date.*<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">java.date.LocalDate<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">java.time.*<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">java.time.LocalDate<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">java.util.*<\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dCode dNoWrap\">java.util.LocalDate<\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The Java 8 <span class=\"dCode dNoWrap\">date<\/span> and <span class=\"dCode dNoWrap\">time<\/span> classes are in the <span class=\"dCode dNoWrap\">java.time<\/span> package.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34362",
+			"attempts_id": "392268",
+			"question_id": "34362",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mmcq",
+			"answer": "2;4",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which statements about the following code are true? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">1:&#160;Console&#160;console&#160;=&#160;System.console();<\/span><br><span class=\"dCode dNoWrap\">2:&#160;String&#160;password&#160;=&#160;console.readPassword(\"Enter&#160;a&#160;password:&#160;\");<\/span><br><span class=\"dCode dNoWrap\">3:&#160;System.out.println(\"You&#160;entered:&#160;\"&#160;+&#160;password);<\/span>",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 1.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 2.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The code will not compile because of line 3.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The <span class=\"dCode dNoWrap\">console<\/span> reference on line 2 may be <span class=\"dCode dNoWrap\">null<\/span>.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "The <span class=\"dCode dNoWrap\">readPassword<\/span> method does not use a format specifier.",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "It compiles but throws an exception at runtime.",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "The <span class=\"dCode dNoWrap\">Console.readPassword()<\/span> method returns a <span class=\"dCode dNoWrap\">char[]<\/span> object, not a <span class=\"dCode dNoWrap\">String<\/span>. Therefore, the code does not compile due to line 2, making B correct and F incorrect. There are no other compilation problems with this code, so A and C are incorrect. D is correct because the <span class=\"dCode dNoWrap\">System.console()<\/span> method may return <span class=\"dCode dNoWrap\">null<\/span> if no user console is available. Finally, E is incorrect because the <span class=\"dCode dNoWrap\">readPassword()<\/span> method does take a format specifier.",
+				"display_order": "1"
+			}]
+		}, {
+			"id": "34356",
+			"attempts_id": "392268",
+			"question_id": "34356",
+			"user_answer": null,
+			"notes": null,
+			"is_bookmarked": "0",
+			"is_correct": null,
+			"time_spent": "0",
+			"status": "0",
+			"section_id": "994",
+			"question_type_id": null,
+			"question_type": "mcq",
+			"answer": "3",
+			"is_final": "0",
+			"opt_start": "1",
+			"correctAnserForDisplay": null,
+			"difficulty_level": "Easy",
+			"assessment_title": "Problem Solving",
+			"learning_objective": "Arithmetic Operations with rational numbers",
+			"suffix": null,
+			"prefix": null,
+			"direction": [],
+			"questionData": [{
+				"data_type_id": "2",
+				"data": "Which of the following prints out all of the keys in <span class=\"dCode dNoWrap\">props<\/span>?",
+				"display_order": "1"
+			}],
+			"choiceData": [{
+				"id": "1",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.keys().stream().map(k&#160;-&#62;&#160;k&#160;.forEach(System.out::println);<\/span><\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "2",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.keys().stream().map(k&#160;-&#62;&#160;props.get(k))&#160;.forEach(System.out::println);<\/span><\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "3",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.keySet().stream().map(k&#160;-&#62;&#160;k)&#160;.forEach(System.out::println);<\/span><\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "4",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.keySet().stream().map(k&#160;-&#62;&#160;props.get(k))&#160;.forEach(System.out::println);<\/span><\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "5",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.stream().map(k&#160;-&#62;&#160;k)&#160;.forEach(System.out::println);<\/span><\/span>",
+					"display_order": "0"
+				}]
+			}, {
+				"id": "6",
+				"data": [{
+					"data_type_id": "2",
+					"data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.stream().map(k&#160;-&#62;&#160;props.get(k))&#160;.forEach(System.out::println);<\/span><\/span>",
+					"display_order": "0"
+				}]
+			}],
+			"hints": [{
+				"data_type_id": "2",
+				"data": "E and F do not compile because you can't get a stream directly from a <span class=\"dCode dNoWrap\">Properties<\/span> object. A and B do not compile because the method is <span class=\"dCode dNoWrap\">keySet()<\/span>, not <span class=\"dCode dNoWrap\">keys()<\/span>. C outputs all of the keys and D outputs all of the values. The <span class=\"dCode dNoWrap\">map<\/span> method could have been omitted entirely since it is performing an identity and mapping to itself.",
+				"display_order": "1"
+			}]
+		}]
+	}
+}
