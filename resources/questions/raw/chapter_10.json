@@ -1,0 +1,1531 @@
+{
+  "id": "392284",
+  "title": null,
+  "user_id": "14161",
+  "course_id": "823",
+  "test_id": "123",
+  "section_id": null,
+  "mode": "practice",
+  "date_created": "2016-10-07 02:49:55",
+  "lesson_location": "0",
+  "status": "1",
+  "category": "Book 9781119067900",
+  "course_name": "OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide: <br\/>Exam 1Z0-809",
+  "global_time": 0,
+  "sections": {
+    "directions": [{
+      "id": "993",
+      "test_id": "123",
+      "description": "Chapter 10",
+      "time": "20",
+      "direction": [{
+        "id": "983",
+        "reference_id": "993",
+        "direction_for": "section",
+        "data_type_id": "2",
+        "data": "Section level Directions Text appears here.",
+        "display_order": "0"
+      }]
+    }],
+    "question": [{
+      "id": "34286",
+      "attempts_id": "392284",
+      "question_id": "34286",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which interfaces or classes are in a database-specific JAR file? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Driver<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Driver<\/span>'s implementation",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">DriverManager<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">DriverManager<\/span>'s implementation",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Statement<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Statement<\/span>'s implementation",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The <span class=\"dCode dNoWrap\">Driver<\/span>, <span class=\"dCode dNoWrap\">Connection<\/span>, <span class=\"dCode dNoWrap\">Statement<\/span>, and <span class=\"dCode dNoWrap\">ResultSet<\/span> interfaces are part of the JDK, making choices A and E incorrect. The concrete <span class=\"dCode dNoWrap\">DriverManager<\/span> class is also part of the JDK, making choices C and D incorrect. Choices B and F are correct since the implementation of these interfaces is part of the database-specific driver JAR file.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34287",
+      "attempts_id": "392284",
+      "question_id": "34287",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which are required parts of a JDBC URL? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Connection parameters",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Database name",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">jdbc<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Location of database",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Port",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Password",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A JDBC URL has three parts. The first part is the string <span class=\"dCode dNoWrap\">jdbc<\/span>, making choice C correct. The second part is the vendor\/product name. The third part is database specific, but it includes a database name, making choice B correct as well. The location, such as IP address and port, is optional.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34288",
+      "attempts_id": "392284",
+      "question_id": "34288",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "1",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following is a valid JDBC URL?",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">jdbc:sybase:localhost:1234\/db<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">jdbc::sybase::localhost::\/db<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">jdbc::sybase:localhost::1234\/db<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">sybase:localhost:1234\/db<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">sybase::localhost::\/db<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">sybase::localhost::1234\/db<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A JDBC URL has three main parts separated by single colons, making choices B, C, E, and F incorrect. The first part is always <span class=\"dCode dNoWrap\">jdbc<\/span>. Therefore, the correct answer is A. Notice that you can get this right even if you've never heard of the Sybase database before.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34289",
+      "attempts_id": "392284",
+      "question_id": "34289",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What file is required inside a JDBC 4.0+ driver JAR?",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">java.sql.Driver<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">META-INF\/java.sql.Driver<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">META-INF\/db\/java.sql.Driver<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">META-INF\/database\/java.sql.Driver<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">META-INF\/service\/java.sql.Driver<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Starting with JDBC 4.0, driver implementations were required to provide the name of the class implementing <span class=\"dCode dNoWrap\">Driver<\/span> in a file named <span class=\"dCode dNoWrap\">java.sql.Driver<\/span> in the directory <span class=\"dCode dNoWrap\">META-INF\/service<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34290",
+      "attempts_id": "392284",
+      "question_id": "34290",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Suppose that you have a table named <span class=\"dCode dNoWrap\">animal<\/span> with two rows. What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;Connection&#160;conn&#160;=&#160;new&#160;Connection(url,&#160;userName,&#160;password);<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;Statement&#160;stmt&#160;=&#160;conn.createStatement();<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;&#160;ResultSet&#160;rs&#160;=&#160;stmt.executeQuery(\"select&#160;count(*)&#160;from&#160;animal\");<\/span><br><span class=\"dCode dNoWrap\">9:&#160;&#160;&#160;&#160;if&#160;(rs.next())&#160;System.out.println(rs.getInt(1));<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">0<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "There is a compiler error on line 6.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "There is a compiler error on line 9.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "There is a compiler error on another line.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A runtime exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A <span class=\"dCode dNoWrap\">Connection<\/span> is created using a static method on <span class=\"dCode dNoWrap\">DriverManager<\/span>. It does not use a constructor. Therefore, choice C is correct. If the <span class=\"dCode dNoWrap\">Connection<\/span> was created properly, the answer would be choice B.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34291",
+      "attempts_id": "392284",
+      "question_id": "34291",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are true? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Calling <span class=\"dCode dNoWrap\">Class.forName()<\/span> is mandatory in JDBC 4.0.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Class.forName()<\/span> throws a <span class=\"dCode dNoWrap\">ClassNotFoundException<\/span> if the driver class is not found.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Class.forName()<\/span> throws a <span class=\"dCode dNoWrap\">SQLException<\/span> if the driver class is not found.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">DriverManager.getConnection()<\/span> throws a <span class=\"dCode dNoWrap\">ClassNotFoundException<\/span> if the driver class is not found.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">DriverManager.getConnection()<\/span> throws a <span class=\"dCode dNoWrap\">SQLException<\/span> if the driver class is not found.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "<span class=\"dCode dNoWrap\">Class.forName()<\/span> was used with old JDBC drivers to load the driver. It is not needed in JDBC 4.0, making choice A incorrect. If it is called, it throws a <span class=\"dCode dNoWrap\">ClassNotFoundException<\/span>. By contrast, <span class=\"dCode dNoWrap\">DriverManager.getConnection()<\/span> throws a <span class=\"dCode dNoWrap\">SQLException<\/span> when the driver cannot be found. Therefore, choices B and E are correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34292",
+      "attempts_id": "392284",
+      "question_id": "34292",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;5;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following can fill in the blank? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;void&#160;stmt(Connection&#160;conn,&#160;int&#160;b)&#160;throws&#160;SQLException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;Statement&#160;stmt&#160;=&#160;conn.createStatement(________________,&#160;b);<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ResultSet.CONCUR_READ_ONLY<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ResultSet.CONCUR_UPDATABLE<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ResultSet.TYPE_FORWARD_ONLY<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ResultSet.TYPE_REVERSE_ONLY<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ResultSet.TYPE_SCROLL_INSENSITIVE<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ResultSet.TYPE_SCROLL_SENSITIVE<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The first parameter is the <span class=\"dCode dNoWrap\">ResultSet<\/span> type. The second parameter is the <span class=\"dCode dNoWrap\">ResultSet<\/span> concurrency mode. Choices A and B are incorrect because they represent the second parameter. Choice D is incorrect because it is not a constant in JDBC. Choices C, E, and F are correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34293",
+      "attempts_id": "392284",
+      "question_id": "34293",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Given a valid <span class=\"dCode dNoWrap\">conn<\/span> object of type <span class=\"dCode dNoWrap\">Connection<\/span>, what will happen if you run this code when the requested mode is not supported?<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,&#160;ResultSet.CONCUR_UPDATABLE);<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">ClassNotFoundException<\/span> is thrown.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">NoSuchTypeException<\/span> is thrown.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">SQLException<\/span> is thrown.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">TypeNotFoundException<\/span> is thrown.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will run without throwing an exception.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None of the above. The code will not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "When a <span class=\"dCode dNoWrap\">Statement<\/span> is requested with an unsupported mode, the JDBC driver will downgrade the request to one that is supported. Therefore, choice E is correct. No exception is thrown. Furthermore, choices B and D are incorrect because exceptions with those names do not exist.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34294",
+      "attempts_id": "392284",
+      "question_id": "34294",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the options can fill in the blanks in order to make the code compile?<br><br><span class=\"dCode dNoWrap\">boolean&#160;bool&#160;=&#160;stmt.________(sql);<\/span><br><span class=\"dCode dNoWrap\">int&#160;num&#160;=&#160;stmt.________&#160;(sql);<\/span><br><span class=\"dCode dNoWrap\">ResultSet&#160;rs&#160;=&#160;stmt.________&#160;(sql);<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">execute<\/span>, <span class=\"dCode dNoWrap\">executeQuery<\/span>, <span class=\"dCode dNoWrap\">executeUpdate<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">execute<\/span>, <span class=\"dCode dNoWrap\">executeUpdate<\/span>, <span class=\"dCode dNoWrap\">executeQuery<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">executeQuery<\/span>, <span class=\"dCode dNoWrap\">execute<\/span>, <span class=\"dCode dNoWrap\">executeUpdate<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">executeQuery<\/span>, <span class=\"dCode dNoWrap\">executeUpdate<\/span>, <span class=\"dCode dNoWrap\">execute<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">executeUpdate<\/span>, <span class=\"dCode dNoWrap\">execute<\/span>, <span class=\"dCode dNoWrap\">executeQuery<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">executeUpdate<\/span>, <span class=\"dCode dNoWrap\">executeQuery<\/span>, <span class=\"dCode dNoWrap\">execute<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The first line has a return type of <span class=\"dCode dNoWrap\">boolean<\/span> because any type of SQL statement can be run, making it an <span class=\"dCode dNoWrap\">execute()<\/span> call. The second line returns the number of modified rows, making it an <span class=\"dCode dNoWrap\">executeUpdate()<\/span> call. The third line returns the results of a query, making it an <span class=\"dCode dNoWrap\">executeQuery()<\/span> call.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34295",
+      "attempts_id": "392284",
+      "question_id": "34295",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Suppose that the table <span class=\"dCode dNoWrap\">animal<\/span> has five rows and this SQL statement updates all of them. What is the result of this code?<br><br><span class=\"dCode dNoWrap\">public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;throws&#160;SQLException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;Connection&#160;conn&#160;=&#160;DriverManager.getConnection(\"jdbc:derby:zoo\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;Statement&#160;stmt&#160;=&#160;conn.createStatement();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;int&#160;result&#160;=&#160;stmt.executeUpdate(\"update&#160;animal&#160;set&#160;name&#160;=&#160;name\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(result);<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">0<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">1<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">5<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">SQLException<\/span> is thrown.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A different exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "This code works as expected. It updates each of the five rows in the table and returns the number of rows updated. Therefore, choice C is correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34296",
+      "attempts_id": "392284",
+      "question_id": "34296",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Suppose that the table <span class=\"dCode dNoWrap\">food<\/span> has five rows and this SQL statement updates all of them. What is the result of this code?<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;Connection&#160;conn&#160;=&#160;DriverManager.getConnection(\"jdbc:derby:zoo\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;Statement&#160;stmt&#160;=&#160;conn.createStatement();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;int&#160;result&#160;=&#160;stmt.executeUpdate(\"update&#160;food&#160;set&#160;amount&#160;=&#160;amount&#160;+&#160;1\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(result);<\/span><br><span class=\"dCode dNoWrap\">}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">0<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">1<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">5<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">SQLException<\/span> is thrown.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A different exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "JDBC code throws a <span class=\"dCode dNoWrap\">SQLException<\/span>, which is a checked exception. The code does not handle or declare this exception, and therefore it doesn't compile. If the exception were handled or declared, the answer would be choice C.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34297",
+      "attempts_id": "392284",
+      "question_id": "34297",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which is the correct order in which to close database resources?",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Connection<\/span>, <span class=\"dCode dNoWrap\">ResultSet<\/span>, <span class=\"dCode dNoWrap\">Statement<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Connection<\/span>, <span class=\"dCode dNoWrap\">Statement<\/span>, <span class=\"dCode dNoWrap\">ResultSet<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ResultSet<\/span>, <span class=\"dCode dNoWrap\">Connection<\/span>, <span class=\"dCode dNoWrap\">Statement<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ResultSet<\/span>, <span class=\"dCode dNoWrap\">Statement<\/span>, <span class=\"dCode dNoWrap\">Connection<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Statement<\/span>, <span class=\"dCode dNoWrap\">Connection<\/span>, <span class=\"dCode dNoWrap\">ResultSet<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Statement<\/span>, <span class=\"dCode dNoWrap\">ResultSet<\/span>, <span class=\"dCode dNoWrap\">Connection<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "JDBC resources should be closed in the reverse order from that in which they were opened. The order for opening is <span class=\"dCode dNoWrap\">Connection<\/span>, <span class=\"dCode dNoWrap\">Statement<\/span>, and <span class=\"dCode dNoWrap\">ResultSet<\/span>. The order for closing is <span class=\"dCode dNoWrap\">ResultSet<\/span>, <span class=\"dCode dNoWrap\">Statement<\/span>, and <span class=\"dCode dNoWrap\">Connection<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34298",
+      "attempts_id": "392284",
+      "question_id": "34298",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "There are currently 100 rows in the table <span class=\"dCode dNoWrap\">species<\/span> before inserting a new row. What is the output of the following code?<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">try&#160;(Connection&#160;conn&#160;=&#160;DriverManager.getConnection(\"jdbc:derby:zoo\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;Statement&#160;stmt&#160;=&#160;conn.createStatement())&#160;{<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;ResultSet&#160;rs&#160;=&#160;stmt.executeQuery(\"select&#160;count(*)&#160;from&#160;species\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;int&#160;num&#160;=&#160;stmt.executeUpdate(\"INSERT&#160;INTO&#160;species&#160;VALUES&#160;(3,&#160;'Ant',&#160;.05)\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;rs.next();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.getInt(1));<\/span><br><span class=\"dCode dNoWrap\">}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">100<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">101<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">SQLException<\/span> is thrown.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A different exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A <span class=\"dCode dNoWrap\">Statement<\/span> automatically closes the open <span class=\"dCode dNoWrap\">ResultSet<\/span> when another SQL statement is run. This means that <span class=\"dCode dNoWrap\">rs<\/span> is no longer open by the <span class=\"dCode dNoWrap\">println<\/span>, and a <span class=\"dCode dNoWrap\">SQLException<\/span> is thrown because the <span class=\"dCode dNoWrap\">ResultSet<\/span> is closed.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34299",
+      "attempts_id": "392284",
+      "question_id": "34299",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following can fill in the blank correctly? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">ResultSet&#160;rs&#160;=&#160;stmt.executeQuery(sql);<\/span><br><span class=\"dCode dNoWrap\">if&#160;(rs.next())&#160;{<\/span><br><span class=\"dCode dNoWrap\">_______________________________<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">String&#160;s&#160;=&#160;rs.getString(0);<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">String&#160;s&#160;=&#160;rs.getString(1);<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">String&#160;s&#160;=&#160;rs.getObject(0);<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">String&#160;s&#160;=&#160;rs.getObject(1);<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Object&#160;s&#160;=&#160;rs.getObject(0);<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Object&#160;s&#160;=&#160;rs.getObject(1);<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "In a <span class=\"dCode dNoWrap\">ResultSet<\/span>, columns are indexed starting with 1, not 0. Therefore, choices A, C, and E are incorrect. There are methods to get the column as a <span class=\"dCode dNoWrap\">String<\/span> or <span class=\"dCode dNoWrap\">Object<\/span>. However, choice D is incorrect because an <span class=\"dCode dNoWrap\">Object<\/span> cannot be assigned to a <span class=\"dCode dNoWrap\">String<\/span> without a cast.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34300",
+      "attempts_id": "392284",
+      "question_id": "34300",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following can fill in the blank to print the month, date, year, hour, minute, and second?<br><br><span class=\"dCode dNoWrap\">ResultSet&#160;rs&#160;=&#160;stmt.executeQuery(sql);<\/span><br><span class=\"dCode dNoWrap\">if&#160;(rs.next())&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(___________________________);<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">rs.getDate(\"d\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">rs.getLocalDate(\"d\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">rs.getLocalDateTime(\"d\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">rs.getLocalTime(\"d\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">rs.getTime(\"d\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">rs.getTimeStamp(\"d\");<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Choices B, C, and D are incorrect because they are not JDBC methods. Choice A is incorrect because it outputs just the month, date, and year. Choice E is incorrect because it outputs just the hours, minutes, and seconds.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34301",
+      "attempts_id": "392284",
+      "question_id": "34301",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Suppose that you have a table with three rows. The names in those rows are Anna, Betty, and Cat. What does the following output?<br><br><span class=\"dCode dNoWrap\">String&#160;sql&#160;=&#160;\"select&#160;name&#160;from&#160;animal\";<\/span><br><span class=\"dCode dNoWrap\">try&#160;(Connection&#160;conn&#160;=&#160;DriverManager.getConnection(\"jdbc:derby:zoo\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;Statement&#160;stmt&#160;=&#160;conn.createStatement();<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;ResultSet&#160;rs&#160;=&#160;stmt.executeQuery(sql))&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;rs.next();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;rs.previous();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;rs.previous();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;rs.next();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;rs.next();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;rs.absolute(2);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.getString(1));<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Anna<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Betty<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Cat<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">SQLException<\/span> is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "By default, a <span class=\"dCode dNoWrap\">Statement<\/span> is not scrollable. The first call to <span class=\"dCode dNoWrap\">previous()<\/span> throws a <span class=\"dCode dNoWrap\">SQLException<\/span> because the <span class=\"dCode dNoWrap\">ResultSet<\/span> type is <span class=\"dCode dNoWrap\">TYPE_FORWARD_ONLY<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34302",
+      "attempts_id": "392284",
+      "question_id": "34302",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following methods move the cursor without returning a <span class=\"dCode dNoWrap\">boolean<\/span>?",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">absolute()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">afterFirst()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">afterLast()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">beforeFirst()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">beforeLast()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">previous()<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Choices B and E are incorrect because those methods don't exist. Choices A and F are incorrect because these methods return a <span class=\"dCode dNoWrap\">boolean<\/span>. Choices C and D are correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34303",
+      "attempts_id": "392284",
+      "question_id": "34303",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "1",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Suppose that you have a table <span class=\"dCode dNoWrap\">animal<\/span> with three rows. The names in those rows are Anna, Betty, and Cat. What does the following output?<br><br><span class=\"dCode dNoWrap\">String&#160;sql&#160;=&#160;\"select&#160;name&#160;from&#160;animal&#160;order&#160;by&#160;id\";<\/span><br><span class=\"dCode dNoWrap\">try&#160;(Connection&#160;conn&#160;=&#160;DriverManager.getConnection(\"jdbc:derby:zoo\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;Statement&#160;stmt&#160;=&#160;conn.createStatement();<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;ResultSet&#160;rs&#160;=&#160;stmt.executeQuery(sql))&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;rs.absolute(0);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;rs.next();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.getString(1));<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Anna<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Betty<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Cat<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">SQLException<\/span> is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The call to <span class=\"dCode dNoWrap\">absolute(0)<\/span> moves the cursor to a location immediately before the results, and then <span class=\"dCode dNoWrap\">next()<\/span> goes to the first row, so the answer is choice A.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34304",
+      "attempts_id": "392284",
+      "question_id": "34304",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "In a table <span class=\"dCode dNoWrap\">animal<\/span> with 10 rows, how many times does <span class=\"dCode dNoWrap\">true<\/span> get output by the following? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">String&#160;sql&#160;=&#160;\"select&#160;*&#160;from&#160;animal\";<\/span><br><span class=\"dCode dNoWrap\">try&#160;(Connection&#160;conn&#160;=&#160;DriverManager.getConnection(\"jdbc:derby:zoo\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;Statement&#160;stmt&#160;=&#160;conn.createStatement(<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ResultSet.TYPE_SCROLL_INSENSITIVE,&#160;ResultSet.CONCUR_READ_ONLY);<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;ResultSet&#160;rs&#160;=&#160;stmt.executeQuery(sql))&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.absolute(0));<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.absolute(5));<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.previous());<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.relative(-2));<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.relative(-100));<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "One",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Two",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Three",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Four",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Five",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">SQLException<\/span> is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The first <span class=\"dCode dNoWrap\">println<\/span> outputs <span class=\"dCode dNoWrap\">false<\/span> because the cursor is immediately before the result. The second <span class=\"dCode dNoWrap\">println<\/span> outputs <span class=\"dCode dNoWrap\">true<\/span> because the cursor is pointing to the fifth row. The third <span class=\"dCode dNoWrap\">println<\/span> outputs <span class=\"dCode dNoWrap\">true<\/span> because the cursor is pointing to the fourth row. The fourth <span class=\"dCode dNoWrap\">println<\/span> outputs <span class=\"dCode dNoWrap\">true<\/span> because the cursor is pointing to the second row. The fifth <span class=\"dCode dNoWrap\">println<\/span> outputs <span class=\"dCode dNoWrap\">false<\/span> because the cursor is located before the beginning of the result.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34305",
+      "attempts_id": "392284",
+      "question_id": "34305",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "993",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "In the table <span class=\"dCode dNoWrap\">animal<\/span> with 10 rows, how many times does <span class=\"dCode dNoWrap\">true<\/span> get output by the following? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">String&#160;sql&#160;=&#160;\"select&#160;*&#160;from&#160;animal\";<\/span><br><span class=\"dCode dNoWrap\">try&#160;(Connection&#160;conn&#160;=&#160;DriverManager.getConnection(\"jdbc:derby:zoo\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;Statement&#160;stmt&#160;=&#160;conn.createStatement(<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ResultSet.TYPE_SCROLL_INSENSITIVE,&#160;ResultSet.CONCUR_READ_ONLY);<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;ResultSet&#160;rs&#160;=&#160;stmt.executeQuery(sql));<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.beforeFirst());<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.absolute(5));<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.previous());<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.relative(-2));<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(rs.afterLast());<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "One",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Two",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Three",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Four",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Five",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">SQLException<\/span> is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The first and last <span class=\"dCode dNoWrap\">println<\/span> statements do not compile. The <span class=\"dCode dNoWrap\">beforeFirst()<\/span> and <span class=\"dCode dNoWrap\">afterLast()<\/span> methods have a void return type. Therefore, the code does not compile and choice F is correct.",
+        "display_order": "1"
+      }]
+    }]
+  }
+}

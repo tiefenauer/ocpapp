@@ -1,0 +1,1559 @@
+{
+  "id": "392282",
+  "title": null,
+  "user_id": "14161",
+  "course_id": "823",
+  "test_id": "123",
+  "section_id": null,
+  "mode": "practice",
+  "date_created": "2016-10-07 02:49:07",
+  "lesson_location": "0",
+  "status": "1",
+  "category": "Book 9781119067900",
+  "course_name": "OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide: <br\/>Exam 1Z0-809",
+  "global_time": 0,
+  "sections": {
+    "directions": [{
+      "id": "992",
+      "test_id": "123",
+      "description": "Chapter 9",
+      "time": "20",
+      "direction": [{
+        "id": "982",
+        "reference_id": "992",
+        "direction_for": "section",
+        "data_type_id": "2",
+        "data": "Section level Directions Text appears here.",
+        "display_order": "0"
+      }]
+    }],
+    "question": [{
+      "id": "34266",
+      "attempts_id": "392282",
+      "question_id": "34266",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">Path&#160;path&#160;=&#160;Path.get(\"\/user\/..\/.\/root\",\"..\/kodiacbear.txt\");<\/span><br><span class=\"dCode dNoWrap\">path.normalize().relativize(\"\/lion\");<\/span><br><span class=\"dCode dNoWrap\">System.out.println(path);&#160;<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/user\/..\/.\/root\/..\/kodiacbear.txt<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/user\/.\/root\/kodiacbear.txt\/lion<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/kodiacbear.txt<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">kodiacbear.txt<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">..\/lion<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code snippet will not compile due to a bug on the first and second lines. The first line should use <span class=\"dCode dNoWrap\">Paths.get()<\/span>, because there is no method <span class=\"dCode dNoWrap\">Path.get()<\/span>. The second line passes a <span class=\"dCode dNoWrap\">String<\/span> to <span class=\"dCode dNoWrap\">relativize()<\/span> instead of a <span class=\"dCode dNoWrap\">Path<\/span> object. If both lines were corrected to use <span class=\"dCode dNoWrap\">Paths.get()<\/span>, then the correct answer would be A. Remember that the <span class=\"dCode dNoWrap\">normalize()<\/span> method, like most methods in the <span class=\"dCode dNoWrap\">Path<\/span> interface, does not modify the <span class=\"dCode dNoWrap\">Path<\/span> object, but instead it returns a new <span class=\"dCode dNoWrap\">Path<\/span> object. If it was corrected to reassign the new value to the existing <span class=\"dCode dNoWrap\">path<\/span> variable, then E would be correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34267",
+      "attempts_id": "392282",
+      "question_id": "34267",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "For which values of <span class=\"dCode dNoWrap\">path<\/span> inserted on the blank line would it be possible for the following code to output <span class=\"dCode dNoWrap\">Success<\/span>? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">Path&#160;path&#160;=&#160;________________;<\/span><br><span class=\"dCode dNoWrap\">if(Files.isDirectory(path))<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(Files.deleteIfExists(path)&#160;?&#160;\"Success\":&#160;\"Try&#160;Again\");<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">path<\/span> refers to a regular file in the file system.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">path<\/span> refers to a symbolic link in the file system.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">path<\/span> refers to an empty directory in the file system.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">path<\/span> refers to a directory with content in the file system.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">path<\/span> does not refer to a record that exists within the file system.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code snippet compiles without issue, so F is incorrect. If the value refers to a regular file, <span class=\"dCode dNoWrap\">isDirectory()<\/span> will return <span class=\"dCode dNoWrap\">false<\/span> and the statement will be skipped, so A is incorrect. Likewise, if the directory does not exist, the method also returns <span class=\"dCode dNoWrap\">false<\/span>, so E is also incorrect. A symbolic link can point to a real directory, and by default <span class=\"dCode dNoWrap\">isDirectory()<\/span> follows links, so B is possible. In this case, the symbolic link, not the directory, would be deleted. C is also possible and is the simple case of deleting an empty directory. D would allow the code to reach the execution block of the <span class=\"dCode dNoWrap\">if\/then<\/span> statement, but the method <span class=\"dCode dNoWrap\">deleteIfExists()<\/span> would throw a <span class=\"dCode dNoWrap\">DirectoryNotEmptyException<\/span> if it had contents.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34268",
+      "attempts_id": "392282",
+      "question_id": "34268",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of executing the following code? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">1:&#160;Path&#160;path&#160;=&#160;Paths.get(\"sloth.schedule\");<\/span><br><span class=\"dCode dNoWrap\">2:&#160;BasicFileAttributes&#160;attributes&#160;=&#160;Files.readAttributes(path,&#160;BasicFileAttributes.class);<\/span><br><span class=\"dCode dNoWrap\">3:&#160;if(attributes.size()&#62;0&#160;&&&#160;attributes.creationTime().toMillis()&#62;0)&#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;&#160;attributes.setTimes(null,null,null);<\/span><br><span class=\"dCode dNoWrap\">5:&#160;}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles and runs without issue.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 2.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 3.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 4.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The <span class=\"dCode dNoWrap\">setTimes()<\/span> method is available only on <span class=\"dCode dNoWrap\">BasicFileAttributeView<\/span>, not the read-only <span class=\"dCode dNoWrap\">BasicFileAttributes<\/span> class, so line 4 will not compile and D is correct. You need to retrieve an instance of the view class to update the data. The rest of the lines compile without issue and only D is correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34269",
+      "attempts_id": "392282",
+      "question_id": "34269",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "If the current working directory is <span class=\"dCode dNoWrap\">\/user\/home<\/span>, then what is the output of the following code?<br><br><span class=\"dCode dNoWrap\">Path&#160;path&#160;=&#160;Paths.get(\"\/zoo\/animals\/bear\/koala\/food.txt\");<\/span><br><span class=\"dCode dNoWrap\">System.out.println(path.subpath(1,3).getName(1).toAbsolutePath());<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">animals\/bear<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">koala<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/user\/home\/bear<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/user\/home\/koala\/koala<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/user\/home\/food.txt<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/user\/home\/koala\/food.txt<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "First off, the code compiles without issue, so G is incorrect. Let's take this one step at a time. First, the <span class=\"dCode dNoWrap\">subpath()<\/span> method is applied to the absolute path, which returns the relative path <span class=\"dCode dNoWrap\">animals\/bear<\/span>. Next, the <span class=\"dCode dNoWrap\">getName()<\/span> method is applied to the relative path, and since this is indexed from zero, it returns the relative path <span class=\"dCode dNoWrap\">bear<\/span>. Finally, the <span class=\"dCode dNoWrap\">toAbsolutePath()<\/span> method is applied to the relative path <span class=\"dCode dNoWrap\">bear<\/span>, resulting in the current directory being incorporated into the path. The final output is the absolute path <span class=\"dCode dNoWrap\">\/user\/home\/bear<\/span>, so C is correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34270",
+      "attempts_id": "392282",
+      "question_id": "34270",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3;4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assume <span class=\"dCode dNoWrap\">\/kang<\/span> exists as a symbolic link to the directory <span class=\"dCode dNoWrap\">\/mammal\/kangaroo<\/span> within the file system. Which of the following statements are correct about this code snippet? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Path&#160;path&#160;=&#160;Paths.get(\"\/kang\");<\/span><br><span class=\"dCode dNoWrap\">if(Files.isDirectory(path)&#160;&&&#160;Files.isSymbolicLink(path))<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;Files.createDirectory(path.resolve(\"joey\"));<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A new directory will always be created.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A new directory will be created only if <span class=\"dCode dNoWrap\">\/mammal\/kangaroo<\/span> exists.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "If the code creates a directory, it will be reachable at <span class=\"dCode dNoWrap\">\/kang\/joey<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "If the code creates a directory, it will be reachable at <span class=\"dCode dNoWrap\">\/mammal\/kangaroo\/joey<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will compile but always throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The first clause of the <span class=\"dCode dNoWrap\">if\/then<\/span> statement will be <span class=\"dCode dNoWrap\">true<\/span> only if the target of the symbolic link, <span class=\"dCode dNoWrap\">\/mammal\/kangaroo<\/span>, exists, since by default <span class=\"dCode dNoWrap\">isDirectory()<\/span> follows symbolic links, so B is correct. Option A is incorrect because <span class=\"dCode dNoWrap\">\/mammal\/kangaroo<\/span> may not exist or <span class=\"dCode dNoWrap\">\/mammal\/kangaroo\/joey<\/span> may already exist. If <span class=\"dCode dNoWrap\">\/mammal\/kangaroo<\/span> does exist, then the directory will be created at <span class=\"dCode dNoWrap\">\/mammal\/kangaroo\/joey<\/span>, and because the symbolic link would be accessible as <span class=\"dCode dNoWrap\">\/kang\/joey<\/span>, C and D are both correct. E is incorrect, because the code compiles without issue. F is incorrect because the code may throw an exception at runtime, such as when the file system is unavailable or locked for usage; thus it is not guaranteed to throw an exception at runtime.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34271",
+      "attempts_id": "392282",
+      "question_id": "34271",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Given that <span class=\"dCode dNoWrap\">\/animals<\/span> is a directory that exists and it is empty, what is the result of the following code?<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">Path&#160;path&#160;=&#160;Paths.get(\"\/animals\");<\/span><br><span class=\"dCode dNoWrap\">boolean&#160;myBoolean&#160;=&#160;Files.walk(path)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.filter((p,a)&#160;-&#62;&#160;a.isDirectory()&#160;&&&#160;!path.equals(p))&#160;\/\/&#160;w1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.findFirst().isPresent();&#160;&#160;\/\/&#160;w2<\/span><br><span class=\"dCode dNoWrap\">System.out.println(myBoolean&#160;?&#160;\"No&#160;Sub-directory\":&#160;\"Has&#160;Sub-directory\");<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It prints <span class=\"dCode dNoWrap\">No&#160;Sub-directory<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It prints <span class=\"dCode dNoWrap\">Has&#160;Sub-directory<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">w1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">w2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The output cannot be determined.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It produces an infinite loop at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code does not compile since the stream output by <span class=\"dCode dNoWrap\">Files.walk()<\/span> is <span class=\"dCode dNoWrap\">Stream&#60;Path&#62;<\/span>, therefore we need a <span class=\"dCode dNoWrap\">Predictate<\/span>, not a <span class=\"dCode dNoWrap\">BiPredicate<\/span>, on line <span class=\"dCode dNoWrap\">w1<\/span>, and the answer is C. If the <span class=\"dCode dNoWrap\">Files.find()<\/span> method had been used instead, and the lambda had been passed as an argument to the method instead of on <span class=\"dCode dNoWrap\">filter()<\/span>, the output would be B, <span class=\"dCode dNoWrap\">Has&#160;Sub-directory<\/span>, since the directory is given to be empty. For fun, we reversed the expected output of the ternary operation to make sure that you understood the process.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34272",
+      "attempts_id": "392282",
+      "question_id": "34272",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "If the current working directory is <span class=\"dCode dNoWrap\">\/zoo<\/span>, and the path <span class=\"dCode dNoWrap\">\/zoo\/turkey<\/span> does not exist, then what is the result of executing the following code? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Path&#160;path&#160;=&#160;Paths.get(\"turkey\");<\/span><br><span class=\"dCode dNoWrap\">if(Files.isSameFile(path,Paths.get(\"\/zoo\/turkey\")))&#160;&#160;\/\/&#160;x1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;Files.createDirectory(path.resolve(\"info\"));&#160;&#160;\/\/&#160;x2<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code compiles and runs without issue, but it does not create any directories.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The directory <span class=\"dCode dNoWrap\">\/zoo\/turkey<\/span> is created.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The directory <span class=\"dCode dNoWrap\">\/zoo\/turkey\/info<\/span> is created.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">x1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">x2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles without issue, so D and E are incorrect. The method <span class=\"dCode dNoWrap\">Files.isSameFile()<\/span> first checks to see if the <span class=\"dCode dNoWrap\">Path<\/span> values are the same in terms of <span class=\"dCode dNoWrap\">equals()<\/span>. Since the first path is relative and the second path is absolute, this comparison will return <span class=\"dCode dNoWrap\">false<\/span>, forcing <span class=\"dCode dNoWrap\">isSameFile()<\/span> to check for the existence of both paths in the file system. Since we know <span class=\"dCode dNoWrap\">\/zoo\/turkey<\/span> does not exist, a <span class=\"dCode dNoWrap\">NoSuchFileException<\/span> is thrown and F is the correct answer. A, B, and C are incorrect since an exception is thrown at runtime.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34273",
+      "attempts_id": "392282",
+      "question_id": "34273",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "1",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">Path&#160;path1&#160;=&#160;Paths.get(\"\/pets\/..\/cat.txt\");<\/span><br><span class=\"dCode dNoWrap\">Path&#160;path2&#160;=&#160;Paths.get(\".\/dog.txt\");<\/span><br><span class=\"dCode dNoWrap\">System.out.println(path1.resolve(path2));<\/span><br><span class=\"dCode dNoWrap\">System.out.println(path2.resolve(path1));<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/pets\/..\/cat.txt\/.\/dog.txt<\/span><br><span class=\"dCode dNoWrap\">\/pets\/..\/cat.txt<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/pets\/..\/cat.txt\/.\/dog.txt<\/span><br><span class=\"dCode dNoWrap\">.\/dog.txt\/pets\/..\/cat.txt<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/cats.txt<\/span><br><span class=\"dCode dNoWrap\">\/dog.txt<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/cats.txt\/dog.txt<\/span><br><span class=\"dCode dNoWrap\">\/cat.txt<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles and runs without issue, so E is incorrect. For this question, you have to remember two things. First, the <span class=\"dCode dNoWrap\">resolve()<\/span> method does not normalize any path symbols, so C and D are not correct. Second, calling <span class=\"dCode dNoWrap\">resolve()<\/span> with an absolute path as a parameter returns the absolute path, so A is correct and B is incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34274",
+      "attempts_id": "392282",
+      "question_id": "34274",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What are some advantages of using <span class=\"dCode dNoWrap\">Files.lines()<\/span> over <span class=\"dCode dNoWrap\">Files.readAllLines()<\/span>? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It is often faster.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It can be run on large files with very little memory available.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It can be chained with stream methods directly.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It does not modify the contents of the file.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It ensures the file is not read-locked by the file system.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "There are no differences, because one method is a pointer to the other.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The methods are not the same, because <span class=\"dCode dNoWrap\">Files.lines()<\/span> returns a <span class=\"dCode dNoWrap\">Stream&#60;Path&#62;<\/span> and <span class=\"dCode dNoWrap\">Files.readAllLines()<\/span> returns a <span class=\"dCode dNoWrap\">List&#60;String&#62;<\/span>, so F is incorrect. A is incorrect, because performance is not often the reason to prefer one to the other. <span class=\"dCode dNoWrap\">Files.lines()<\/span> reads the file in a lazy manner, while <span class=\"dCode dNoWrap\">Files.readAllLines()<\/span> reads the entire file into memory all at once; therefore <span class=\"dCode dNoWrap\">Files.lines()<\/span> works better on large files with limited memory available, and B is correct. Although a <span class=\"dCode dNoWrap\">List<\/span> can be converted to a stream with the <span class=\"dCode dNoWrap\">stream()<\/span> method, this requires an extra step; therefore C is correct since the resulting object can be chained directly to a stream. Finally, D and E are incorrect because they are not relevant to these methods.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34275",
+      "attempts_id": "392282",
+      "question_id": "34275",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is correct about the following code snippet? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Files.move(Paths.get(\"monkey.txt\"),&#160;Paths.get(\"\/animals\"),<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;StandardCopyOption.ATOMIC_MOVE,<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;LinkOption.NOFOLLOW_LINKS);<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "If <span class=\"dCode dNoWrap\">\/animals<\/span> exists, it will be overwritten at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "If <span class=\"dCode dNoWrap\">monkey.txt<\/span> is a symbolic link, the file it points to will be moved at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "If another process is monitoring the file system, it will not see an incomplete file at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will always throw an exception, since no filename is specified in the target folder path.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The metadata of the <span class=\"dCode dNoWrap\">monkey.txt<\/span> will be moved along with the file.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The <span class=\"dCode dNoWrap\">REPLACE_EXISTING<\/span> flag was not provided, so if the target exists, it will throw an exception at runtime and A is incorrect. Next, the <span class=\"dCode dNoWrap\">NOFOLLOW_LINKS<\/span> option means that if the source is a symbolic link, the link itself and not the target will be copied at runtime, so B is also incorrect. The option <span class=\"dCode dNoWrap\">ATOMIC_MOVE<\/span> means that any process monitoring the file system will not see an incomplete file during the move, so C is correct. D is incorrect, since you could rename a file not to have an extension. Note that in this example, if <span class=\"dCode dNoWrap\">monkey.txt<\/span> is a file, then the resulting <span class=\"dCode dNoWrap\">\/animals<\/span> would be a file, not a directory. Likewise, if the source is a directory, the result would also be a directory. E is correct, because moving always preserves the metadata even if the <span class=\"dCode dNoWrap\">COPY_ATTRIBUTES<\/span> flag is not set.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34276",
+      "attempts_id": "392282",
+      "question_id": "34276",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "1",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "For the <span class=\"dCode dNoWrap\">copy()<\/span> method shown here, assume that the source exists as regular file and that the target does not. What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">Path&#160;path1&#160;=&#160;Paths.get(\".\/goat.txt\").normalize();&#160;\/\/&#160;k1<\/span><br><span class=\"dCode dNoWrap\">Path&#160;path2&#160;=&#160;Paths.get(\"mule.png\");<\/span><br><span class=\"dCode dNoWrap\">Files.copy(path1,path2,StandardCopyOption.COPY_ATTRIBUTES);&#160;&#160;\/\/k2<\/span><br><span class=\"dCode dNoWrap\">System.out.println(Files.isSameFile(path1,&#160;path2));&#160;\/\/k3<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It will output <span class=\"dCode dNoWrap\">false<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It will output <span class=\"dCode dNoWrap\">true<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It does not compile because of line <span class=\"dCode dNoWrap\">k1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It does not compile because of line <span class=\"dCode dNoWrap\">k2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It does not compile because of line <span class=\"dCode dNoWrap\">k3<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles and runs without issue, so C, D, E, and F are incorrect. Even though the file is copied with attributes preserved, the file is considered a separate file, so the output is <span class=\"dCode dNoWrap\">false<\/span> and A is correct and B is incorrect. Remember, <span class=\"dCode dNoWrap\">isSameFile()<\/span>returns <span class=\"dCode dNoWrap\">true<\/span> only if the files pointed to in the file system are the same, without regard to the file contents.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34277",
+      "attempts_id": "392282",
+      "question_id": "34277",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following methods <i>cannot<\/i> be used to obtain a <span class=\"dCode dNoWrap\">Path<\/span> instance? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;Path(\"jaguar.txt\")<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileSystems.getDefault().getPath(\"puma.txt\")<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Paths.get(new&#160;URI(\"cheetah.txt\"))<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Paths.get(\"cats\",\"lynx.txt\")<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;java.io.File(\"tiger.txt\").toPath()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;FileSystem().getPath(\"leopard\")<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Paths.getPath(\"ocelot.txt\")<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "For this question, you need to rule out the answers that <i>can<\/i> be used to obtain a <span class=\"dCode dNoWrap\">Path<\/span> instance. D and G both use the <span class=\"dCode dNoWrap\">Paths.get()<\/span> method, one with optional vararg values. C uses an overloaded version of <span class=\"dCode dNoWrap\">Paths.get()<\/span> that takes a <span class=\"dCode dNoWrap\">URI<\/span>. B is a longer form for getting a <span class=\"dCode dNoWrap\">Path<\/span> using a specific file system, in this case the default file system. Finally, E uses a method added to <span class=\"dCode dNoWrap\">java.io.File<\/span> to make it easily compatible with <span class=\"dCode dNoWrap\">Path<\/span>. The remaining choices A and F are the correct ones, because they call constructors on <span class=\"dCode dNoWrap\">Path<\/span> and <span class=\"dCode dNoWrap\">FileSystem<\/span>, respectively, instead of using the underlying factory methods. The rest are invalid since they do not use the factory methods to gain access to instances.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34278",
+      "attempts_id": "392282",
+      "question_id": "34278",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assume <span class=\"dCode dNoWrap\">\/monkeys<\/span> exists as a regular directory containing multiple files, symbolic links, and subdirectories. What is true about the following code? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">Path&#160;path&#160;=&#160;Paths.get(\"\/monkeys\");<\/span><br><span class=\"dCode dNoWrap\">Files.find(path,&#160;0,&#160;(p,a)&#160;-&#62;&#160;a.isSymbolicLink()).map(p&#160;-&#62;&#160;p.toString())&#160;&#160;\/\/&#160;y1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.collect(Collectors.toList())&#160;&#160;\/\/&#160;y2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.stream()&#160;\/\/&#160;y3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.filter(x&#160;-&#62;&#160;x.toString().endsWith(\".txt\"))&#160;\/\/&#160;y4<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.forEach(System.out::println);<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It will print all symbolic links in the directory tree ending in <span class=\"dCode dNoWrap\">.txt<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It will print nothing.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It does not compile because of line <span class=\"dCode dNoWrap\">y1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It does not compile because of line <span class=\"dCode dNoWrap\">y2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It does not compile because of line <span class=\"dCode dNoWrap\">y3<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It does not compile because of line <span class=\"dCode dNoWrap\">y4<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles and runs without issue, so C, D, E, F, and G are incorrect. Note that the sample code creates a stream, collects it as a list, and then converts it back to a stream before outputting the filenames. The key here is that the depth parameter specified as the second argument to <span class=\"dCode dNoWrap\">find()<\/span> is <span class=\"dCode dNoWrap\">0<\/span>, meaning the only record that will be searched is the top-level directory. Since we know that the top directory is regular and not a symbolic link, no other paths will be visited and nothing will be printed. For these reasons, B is the correct answer and A is incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34279",
+      "attempts_id": "392282",
+      "question_id": "34279",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which NIO.2 method is most similar to the legacy <span class=\"dCode dNoWrap\">java.io.File.listFiles()<\/span> method?",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Path.listFiles()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Files.walk()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Files.find()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Files.files()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Files.list()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Files.lines()<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "First off, recall that the <span class=\"dCode dNoWrap\">java.io.File.listFiles()<\/span> method retrieves the members of the current directory without traversing any subdirectories. The methods <span class=\"dCode dNoWrap\">Path.listFiles()<\/span> and <span class=\"dCode dNoWrap\">Files.files()<\/span> do not exist, so A and D are incorrect. <span class=\"dCode dNoWrap\">Files.walk()<\/span> and <span class=\"dCode dNoWrap\">Files.find()<\/span> recursively traverse a directory tree rather than list the contents of the current directory; therefore, they are not a close match, and B and C are incorrect. Note that you could use these methods to perform the same operation if you set the depth limit to <span class=\"dCode dNoWrap\">1<\/span> and used a lambda with <span class=\"dCode dNoWrap\">Files.find()<\/span> that always returns <span class=\"dCode dNoWrap\">true<\/span>, but the question was about which method is most similar to <span class=\"dCode dNoWrap\">java.io.File.listFiles()<\/span>. In that regard, <span class=\"dCode dNoWrap\">Files.list()<\/span> is the closest match since it always reads only a single directory, and E is correct. Note that instead of an array, a stream of <span class=\"dCode dNoWrap\">Path<\/span> values is returned. Finally, F is incorrect because it reads the contents of a file, not a directory.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34280",
+      "attempts_id": "392282",
+      "question_id": "34280",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "4;5;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What are some advantages of using NIO.2 views to read metadata rather than individually from <span class=\"dCode dNoWrap\">java.nio.Files<\/span> methods? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It can be used on both files and directories.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "For reading a single attribute, it is often more performant.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It allows you to read symbolic links.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It makes fewer round-trips to the file system.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It can be used to access file system&#8211;dependent attributes.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "For reading multiple attributes, it is often more performant.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Whether a path is a symbolic link, file, or directory is not relevant, so A and C are incorrect. Using a view to read multiple attributes leads to fewer round-trips between the process and the file system and better performance, so D and F are correct. For reading single attributes, there is little or no expected gain, so B is incorrect. Finally, views can be used to access file system&#8211;specific attributes that are not available in <span class=\"dCode dNoWrap\">java.nio.Files<\/span> methods; therefore E is correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34281",
+      "attempts_id": "392282",
+      "question_id": "34281",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assuming <span class=\"dCode dNoWrap\">\/squid\/food-schedule.csv<\/span> exists as a regular non-empty file that a program has access to read, what is correct about the following code snippet? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Path&#160;path&#160;=&#160;Paths.get(\"\/squid\/food-schedule.csv\");<\/span><br><span class=\"dCode dNoWrap\">Files.lines(path)&#160;\/\/&#160;r1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.flatMap(p&#160;-&#62;&#160;Stream.of(p.split(\",\")))&#160;&#160;\/\/&#160;r2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.map(s&#160;-&#62;&#160;s.toUpperCase())&#160;&#160;\/\/&#160;r3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.forEach(System.out::println);<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but may throw an exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">r1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">r2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">r3<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It may not print anything at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "If it prints anything, it will not include commas.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles without issue, so B, C, and D are incorrect. The code snippet breaks a file into lines and then further separates the lines by commas using the <span class=\"dCode dNoWrap\">flatMap()<\/span> method. The result is printed with one entry on a single line, but all original line breaks and commas from the file are removed; therefore F is correct. Since we are told that the file is non-empty and regular, and the program has access to read it, A and E are incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34282",
+      "attempts_id": "392282",
+      "question_id": "34282",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;7",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assuming the current directory is <span class=\"dCode dNoWrap\">\/animals\/cute<\/span>, which are possible results of executing the following code? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Files.walk(Paths.get(\"..\").toRealPath().getParent())&#160;&#160;\/\/&#160;u1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.map(p&#160;-&#62;&#160;p.toAbsolutePath().toString())&#160;\/\/&#160;u2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.filter(s&#160;-&#62;&#160;s.endsWith(\".java\"))&#160;\/\/&#160;u3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.collect(Collectors.toList())<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.forEach(System.out::println);<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but may throw an exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">u1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">u2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">u3<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It prints all <span class=\"dCode dNoWrap\">.java<\/span> files in the <span class=\"dCode dNoWrap\">\/animals<\/span> directory tree.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It prints all <span class=\"dCode dNoWrap\">.java<\/span> files in the <span class=\"dCode dNoWrap\">\/animals\/cute<\/span> directory tree.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It prints all <span class=\"dCode dNoWrap\">.java<\/span> files in the root directory tree.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles without issue, so B, C, and D are incorrect. The first line actually resolves to the root path since <span class=\"dCode dNoWrap\">..<\/span> and <span class=\"dCode dNoWrap\">getParent()<\/span>are conceptually equivalent. Therefore, G is correct and E and F are incorrect. A is also correct since it may encounter a file that it does not have access to read, which is common when trying to read an entire file system.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34283",
+      "attempts_id": "392282",
+      "question_id": "34283",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assuming the directories and files referenced here all exist and are accessible within the file system, what is the result of the following code?<br><br><span class=\"dCode dNoWrap\">Path&#160;path1&#160;=&#160;Paths.get(\"\/lizard\/.\/\").resolve(Paths.get(\"walking.txt\"));<\/span><br><span class=\"dCode dNoWrap\">Path&#160;path2&#160;=&#160;new&#160;File(\"\/lizard\/.\/.\/actions\/..\/walking.txt\").toPath();<\/span><br><br><span class=\"dCode dNoWrap\">System.out.print(Files.isSameFile(path1,path2));<\/span><br><span class=\"dCode dNoWrap\">System.out.print(\"&#160;\"+path1.equals(path2));<\/span><br><span class=\"dCode dNoWrap\">System.out.print(\"&#160;\"+path1.normalize().equals(path2.normalize()));<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">true&#160;true&#160;true<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">false&#160;false&#160;false<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">false&#160;true&#160;false<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">true&#160;false&#160;true<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">true&#160;false&#160;false<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles and runs without issue, so F is incorrect. The one thing to notice about these paths is that they represent the same path within the file system. Therefore, <span class=\"dCode dNoWrap\">isSameFile()<\/span> would return <span class=\"dCode dNoWrap\">true<\/span> and B and C are incorrect. The second output is <span class=\"dCode dNoWrap\">false<\/span>, because <span class=\"dCode dNoWrap\">Path.equals()<\/span> does not resolve the path within the file system, so A is incorrect. Finally, the normalized paths are <span class=\"dCode dNoWrap\">equals()<\/span>, since all extra symbols have been removed; therefore D is correct and E is incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34284",
+      "attempts_id": "392282",
+      "question_id": "34284",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;3;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What are three advantages of the NIO.2 API over the legacy <span class=\"dCode dNoWrap\">java.io.File<\/span> class for working with files?",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "NIO.2 supports file system&#8211;dependent attributes.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "NIO.2 can be used to list all the files within a single directory.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "NIO.2 allows you to traverse a directory tree directly.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "NIO.2 can be used to delete files and non-empty directories.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "NIO.2 supports symbolic links.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "NIO.2 can be used to read the last-modified time.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "While all of the answers are applicable to the NIO.2, only A, C, and E are options that are not supported by the legacy <span class=\"dCode dNoWrap\">java.io.File<\/span> class and therefore give NIO.2 an advantage over <span class=\"dCode dNoWrap\">java.io.File<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34285",
+      "attempts_id": "392282",
+      "question_id": "34285",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "992",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assuming the current directory is <span class=\"dCode dNoWrap\">\/seals\/harp\/food<\/span>, what is the result of executing the following code?<br><br><span class=\"dCode dNoWrap\">final&#160;Path&#160;path&#160;=&#160;Paths.get(\".\").normalize();&#160;&#160;\/\/&#160;h1<\/span><br><span class=\"dCode dNoWrap\">int&#160;count&#160;=&#160;0;<\/span><br><span class=\"dCode dNoWrap\">for(int&#160;i=0;&#160;i&#60;path.getNameCount();&#160;++i)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;count++;<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">System.out.println(count);<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">0<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">1<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">3<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">4<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code throws a runtime exception because of line <span class=\"dCode dNoWrap\">h1<\/span>.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The <span class=\"dCode dNoWrap\">normalize()<\/span> method does not convert a relative path into an absolute path; therefore, the path value after the first line is just the current directory symbol. The <span class=\"dCode dNoWrap\">for()<\/span> loop iterates the name values, but since there is only one entry, the loop terminates after a single iteration. Therefore, B is correct and the rest of the answers are incorrect.",
+        "display_order": "1"
+      }]
+    }]
+  }
+}

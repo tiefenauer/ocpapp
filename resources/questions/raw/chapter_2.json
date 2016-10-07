@@ -1,0 +1,1545 @@
+{
+  "id": "392273",
+  "title": null,
+  "user_id": "14161",
+  "course_id": "823",
+  "test_id": "123",
+  "section_id": null,
+  "mode": "practice",
+  "date_created": "2016-10-07 02:41:38",
+  "lesson_location": "0",
+  "status": "1",
+  "category": "Book 9781119067900",
+  "course_name": "OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide: <br\/>Exam 1Z0-809",
+  "global_time": 0,
+  "sections": {
+    "directions": [{
+      "id": "985",
+      "test_id": "123",
+      "description": "Chapter 2",
+      "time": "20",
+      "direction": [{
+        "id": "975",
+        "reference_id": "985",
+        "direction_for": "section",
+        "data_type_id": "2",
+        "data": "Section level Directions Text appears here.",
+        "display_order": "0"
+      }]
+    }],
+    "question": [{
+      "id": "34116",
+      "attempts_id": "392273",
+      "question_id": "34116",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following statements about design principles and design patterns are true? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A design principle is focused on solving a specific commonly occurring problem.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Design principles and design patterns are the same thing.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Design principles are often applied throughout an application, whereas design patterns are applied to solve specific problems.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Design patterns can only be applied to static classes.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Design principles and design patterns tend to produce code that is easier to maintain and easier for other developers to read.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Option A is incorrect as a design pattern is focused on solving a specific commonly occurring problem. Option B is also incorrect, as design principles and design patterns are different, despite both promoting better code development. Option D is incorrect as design patterns may be applied to <span class=\"dCode dNoWrap\">static<\/span> or non-<span class=\"dCode dNoWrap\">static<\/span> classes alike. Options C and E are correct statements about design principles and design patterns.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34117",
+      "attempts_id": "392273",
+      "question_id": "34117",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of the following code?<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">1:&#160;public&#160;interface&#160;CanClimb&#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;&#160;public&#160;abstract&#160;void&#160;climb();<\/span><br><span class=\"dCode dNoWrap\">3:&#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&#160;public&#160;interface&#160;CanClimbTrees&#160;extends&#160;CanClimb&#160;{}<\/span><br><span class=\"dCode dNoWrap\">5:&#160;public&#160;abstract&#160;class&#160;Chipmunk&#160;implements&#160;CanClimbTrees&#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;public&#160;abstract&#160;void&#160;chew();<\/span><br><span class=\"dCode dNoWrap\">7:&#160;}<\/span><br><span class=\"dCode dNoWrap\">8:&#160;public&#160;class&#160;EasternChipmunk&#160;extends&#160;Chipmunk&#160;{<\/span><br><span class=\"dCode dNoWrap\">9:&#160;&#160;&#160;&#160;public&#160;void&#160;chew()&#160;{&#160;System.out.println(\"Eastern&#160;Chipmunk&#160;is&#160;Chewing\");&#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&#160;}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles and runs without issue.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 2.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 4.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 5.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 8.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code does not compile because <span class=\"dCode dNoWrap\">EasternChipmunk<\/span> inherits the <span class=\"dCode dNoWrap\">abstract<\/span> method <span class=\"dCode dNoWrap\">climb()<\/span> but does not implement it, therefore the correct answer is E. B, C, and D are incorrect as they compile for various reasons. Line 2 compiles, as non-<span class=\"dCode dNoWrap\">static<\/span> and non-<span class=\"dCode dNoWrap\">default<\/span> interface methods are assumed to have the <span class=\"dCode dNoWrap\">abstract<\/span> modifier. Line 4 compiles without issue as an interface can extend another interface. Line 5 compiles without issue as an <span class=\"dCode dNoWrap\">abstract<\/span> class can implement an interface without implementing any of the <span class=\"dCode dNoWrap\">abstract<\/span> methods. F is incorrect, as Line 8 does not compile.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34118",
+      "attempts_id": "392273",
+      "question_id": "34118",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are valid functional interfaces? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;interface&#160;Climb&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;int&#160;climb();<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public&#160;abstract&#160;class&#160;Swim&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;abstract&#160;Object&#160;swim(double&#160;speed,&#160;int&#160;duration);<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public&#160;interface&#160;ArcticMountainClimb&#160;extends&#160;MountainClimb&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;default&#160;int&#160;getSpeed();<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;interface&#160;MountainClimb&#160;extends&#160;Climb&#160;{}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Climb<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Swim<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ArcticMountainClimb<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">MountainClimb<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None of these are valid functional interfaces.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A is correct as <span class=\"dCode dNoWrap\">Climb<\/span> defines an interface with exactly one abstract method. B is incorrect, as abstract classes are not functional interfaces despite having a single abstract method. While functional interfaces may have any number of default methods, <span class=\"dCode dNoWrap\">ArcticMountainClimb<\/span> will not compile due to the <span class=\"dCode dNoWrap\">default<\/span> method <span class=\"dCode dNoWrap\">getSpeed()<\/span> missing an implementation body, so C is incorrect. D is correct, as the interface <span class=\"dCode dNoWrap\">MountainClimb<\/span> has exactly one abstract method defined in <span class=\"dCode dNoWrap\">Climb<\/span>. Finally, E is incorrect because A and D are correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34119",
+      "attempts_id": "392273",
+      "question_id": "34119",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are valid lambda expressions? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;\"\"<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">x,y&#160;-&#62;&#160;x+y<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">(Coyote&#160;y)&#160;-&#62;&#160;return&#160;0;<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">(Camel&#160;c)&#160;-&#62;&#160;{return;}<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Wolf&#160;w&#160;-&#62;&#160;39<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">(Animal&#160;z,&#160;m)&#160;-&#62;&#160;a<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The first lambda expression is valid, taking no arguments and returning the empty string, so A is correct. B is incorrect, as more than one parameter requires parentheses <span class=\"dCode dNoWrap\">()<\/span>. C is incorrect, as brackets <span class=\"dCode dNoWrap\">{}<\/span> are required when using <span class=\"dCode dNoWrap\">return<\/span>. D is correct, as the expression takes one <span class=\"dCode dNoWrap\">Camel<\/span> input and returns void. E is incorrect, as parentheses are required when using the data type <span class=\"dCode dNoWrap\">Wolf<\/span>. F is incorrect, as it has no right-side expression. Finally, G is incorrect, as specifying the data type for one parameter in a lambda expression requires you to specify the data type for all parameters in the expression. In this case, <span class=\"dCode dNoWrap\">z<\/span> has a data type and <span class=\"dCode dNoWrap\">m<\/span> does not, therefore the expression is invalid.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34120",
+      "attempts_id": "392273",
+      "question_id": "34120",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;5;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What are some of the properties of using the singleton pattern? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Singleton object can be replaced with encapsulated setter method.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Requires constructor of singleton class to be <span class=\"dCode dNoWrap\">private<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Singleton object must be named <span class=\"dCode dNoWrap\">instance<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Singleton object may be <span class=\"dCode dNoWrap\">private<\/span> or <span class=\"dCode dNoWrap\">protected<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Ensures that there is only one instance of an object in memory.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Requires a <span class=\"dCode dNoWrap\">public&#160;static<\/span> method to retrieve the instance of the singleton.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A is incorrect, as any method that changes the singleton breaks the singleton pattern. B is correct, as the constructor of the singleton class must be <span class=\"dCode dNoWrap\">private<\/span>, else other classes would be able to instantiate it, breaking the singleton pattern. C is incorrect, as the name of the object itself, as well as the method to retrieve the singleton, is not defined in the pattern. D is incorrect, as the object must be marked <span class=\"dCode dNoWrap\">private<\/span>. If it was marked <span class=\"dCode dNoWrap\">protected<\/span>, it would not be properly encapsulated and other classes would have access to it. E is correct, as the purpose of a singleton is to ensure that all threads share the same instance of the object in memory. F is correct, as a <span class=\"dCode dNoWrap\">public&#160;static<\/span> method is required for all threads to access the same singleton.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34121",
+      "attempts_id": "392273",
+      "question_id": "34121",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "1",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of the following class?<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">import&#160;java.util.function.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;Panda&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;int&#160;age;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Panda&#160;p1&#160;=&#160;new&#160;Panda();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;p1.age&#160;=&#160;1;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;check(p1,&#160;p&#160;-&#62;&#160;p.age&#160;&#60;&#160;5);&#160;&#160;\/\/&#160;h1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;static&#160;void&#160;check(Panda&#160;panda,&#160;Predicate&#60;Panda&#62;&#160;pred)&#160;{&#160;\/\/&#160;h2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;String&#160;result&#160;=&#160;pred.test(panda)&#160;?&#160;\"match\":&#160;\"not&#160;match\";&#160;&#160;\/\/&#160;h3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(result);<\/span><br><span class=\"dCode dNoWrap\">}&#160;}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">match<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">not&#160;match<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Compiler error on line h1.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Compiler error on line h2.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Compile error on line h3.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A runtime exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "This code compiles and runs without issue so C, D, E, and F are incorrect. Line <span class=\"dCode dNoWrap\">h1<\/span> creates a lambda expression that checks if the age is less than 5. Since there is only one parameter and it does not specify a type, the parentheses around the type parameter are optional. Line <span class=\"dCode dNoWrap\">h2<\/span> uses the <span class=\"dCode dNoWrap\">Predicate<\/span> interface, which declares a <span class=\"dCode dNoWrap\">test()<\/span> method. Since <span class=\"dCode dNoWrap\">test()<\/span> returns <span class=\"dCode dNoWrap\">true<\/span> on the expression, match is output and A is correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34122",
+      "attempts_id": "392273",
+      "question_id": "34122",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;5;7;8",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What changes need to be made to make the following immutable object pattern correct? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">import&#160;java.util.List;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;Seal&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;String&#160;name;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;final&#160;List&#60;Seal&#62;&#160;friends;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;Seal(String&#160;name,&#160;List&#60;Seal&#62;&#160;friends)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.name&#160;=&#160;name;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.friends&#160;=&#160;friends;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;String&#160;getName()&#160;{&#160;return&#160;name;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;List&#60;Seal&#62;&#160;getFriends()&#160;{&#160;return&#160;friends;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None; the immutable object pattern is properly implemented.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Have <span class=\"dCode dNoWrap\">Seal<\/span> implement the <span class=\"dCode dNoWrap\">Immutable<\/span> interface.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Mark <span class=\"dCode dNoWrap\">name<\/span> <span class=\"dCode dNoWrap\">final<\/span> and <span class=\"dCode dNoWrap\">private<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Add setters for <span class=\"dCode dNoWrap\">name<\/span> and <span class=\"dCode dNoWrap\">List&#60;Seal&#62;<\/span> <span class=\"dCode dNoWrap\">friends<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Replace the <span class=\"dCode dNoWrap\">getFriends()<\/span> method with methods that do not give the caller direct access to the <span class=\"dCode dNoWrap\">List&#60;Seal&#62;<\/span> <span class=\"dCode dNoWrap\">friends<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Change the type of <span class=\"dCode dNoWrap\">List&#60;Seal&#62;<\/span> to <span class=\"dCode dNoWrap\">List&#60;Object&#62;<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Make a copy of the <span class=\"dCode dNoWrap\">List&#60;Seal&#62;<\/span> <span class=\"dCode dNoWrap\">friends<\/span> in the constructor.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "8",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Mark the <span class=\"dCode dNoWrap\">Seal<\/span> class <span class=\"dCode dNoWrap\">final<\/span>.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A is incorrect, as there are definitely some problems with the immutable objects implementation. B is incorrect, as there is no such thing as the <span class=\"dCode dNoWrap\">Immutable<\/span> interface defined in the Java API. C is correct, as all instance variables should be <span class=\"dCode dNoWrap\">private<\/span> and <span class=\"dCode dNoWrap\">final<\/span> to prevent them from being changed by a caller. D is incorrect, as adding settings is the opposite of what you do with the immutable object pattern. E is correct, since <span class=\"dCode dNoWrap\">List&#60;Seal&#62;<\/span> is mutable, all direct access should be removed. F is incorrect, as this has nothing to do with immutability. G is correct, as we need to copy the mutable <span class=\"dCode dNoWrap\">List&#60;Seal&#62;<\/span> to prevent the caller of the constructor from maintaining access to a mutable structure within our class. H is also correct, as it prevents the methods of the class from being overridden.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34123",
+      "attempts_id": "392273",
+      "question_id": "34123",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are true of interfaces? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "They can extend other classes.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "They cannot be extended.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "They enable classes to have multiple inheritance.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "They can only contain <span class=\"dCode dNoWrap\">abstract<\/span> methods.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "They can be declared <span class=\"dCode dNoWrap\">final<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All members of an interface are <span class=\"dCode dNoWrap\">public<\/span>.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A and B are both incorrect as interfaces can extend other interfaces, although not classes. C is correct since a class may implement multiple interfaces. D is incorrect as interfaces have <span class=\"dCode dNoWrap\">static<\/span> and <span class=\"dCode dNoWrap\">default<\/span> methods, as well as <span class=\"dCode dNoWrap\">static&#160;final<\/span> variables. E is incorrect as interfaces are assumed to be <span class=\"dCode dNoWrap\">abstract<\/span>, and <span class=\"dCode dNoWrap\">abstract<\/span> and <span class=\"dCode dNoWrap\">final<\/span> can never be used together. F is correct as interface methods and variables are each assumed <span class=\"dCode dNoWrap\">public<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34124",
+      "attempts_id": "392273",
+      "question_id": "34124",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "4;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What changes need to be made to make the following singleton pattern correct? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;CheetahManager&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;CheetahManager&#160;cheetahManager;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;CheetahManager()&#160;{}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;CheetahManager&#160;getCheetahManager()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;if(cheetahManager&#160;==&#160;null)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cheetahManager&#160;=&#160;new&#160;CheetahManager();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;return&#160;cheetahManager;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None; the singleton pattern is properly implemented.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Rename <span class=\"dCode dNoWrap\">cheetahManager<\/span> to <span class=\"dCode dNoWrap\">instance<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Rename <span class=\"dCode dNoWrap\">getCheetahManager()<\/span> to <span class=\"dCode dNoWrap\">getInstance()<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Change the access modifier of <span class=\"dCode dNoWrap\">cheetahManager<\/span> from <span class=\"dCode dNoWrap\">public<\/span> to <span class=\"dCode dNoWrap\">private<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Mark <span class=\"dCode dNoWrap\">cheetahManager<\/span> <span class=\"dCode dNoWrap\">final<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Add <span class=\"dCode dNoWrap\">synchronized<\/span> to <span class=\"dCode dNoWrap\">getCheetahManager()<\/span>.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A is incorrect, as there are definitely some problems with the singleton implementation. B and C are incorrect, as naming of the instance variable and access method are not required as part of the pattern. The <span class=\"dCode dNoWrap\">public<\/span> modifier on the <span class=\"dCode dNoWrap\">cheetahManager<\/span> instance means that any class can access or even replace the instance, which breaks the singleton pattern; hence D is required to fix the implementation. E is incorrect, as marking the instance final would prevent lazy instantiation and as the code would not compile. F is also required, since without this step two threads could create two distinct instances of the singleton at the same time, which would violate the singleton pattern.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34125",
+      "attempts_id": "392273",
+      "question_id": "34125",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">1:&#160;public&#160;interface&#160;CanWalk&#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;&#160;default&#160;void&#160;walk()&#160;{&#160;System.out.println(\"Walking\");&#160;}<\/span><br><span class=\"dCode dNoWrap\">3:&#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&#160;public&#160;interface&#160;CanRun&#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;public&#160;default&#160;void&#160;walk()&#160;{&#160;System.out.println(\"Walking\");&#160;}<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;public&#160;abstract&#160;void&#160;run();<\/span><br><span class=\"dCode dNoWrap\">7:&#160;}<\/span><br><span class=\"dCode dNoWrap\">8:&#160;public&#160;interface&#160;CanSprint&#160;extends&#160;CanWalk,&#160;CanRun&#160;{<\/span><br><span class=\"dCode dNoWrap\">9:&#160;&#160;&#160;&#160;void&#160;sprint();<\/span><br><span class=\"dCode dNoWrap\">10:&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code compiles without issue.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 5.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 6.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 8.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 9.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "While Java supports multiple inheritance through interfaces, it does not support method overriding in interfaces, since it's not clear which parent method should be used. In this example, <span class=\"dCode dNoWrap\">CanWalk<\/span> and <span class=\"dCode dNoWrap\">CanRun<\/span> both implement a <span class=\"dCode dNoWrap\">default<\/span> <span class=\"dCode dNoWrap\">walk()<\/span> method. The definition of <span class=\"dCode dNoWrap\">CanSprint<\/span> extends these two interfaces and therefore won't compile as two <span class=\"dCode dNoWrap\">default<\/span> methods with the same signature from parent classes are detected, therefore the answer is D. None of the other lines of code cause problems, so the rest of the answers are not correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34126",
+      "attempts_id": "392273",
+      "question_id": "34126",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which lambda can replace the <span class=\"dCode dNoWrap\">MySecret<\/span> class to return the same value? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;interface&#160;Secret&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;String&#160;magic(double&#160;d);<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;MySecret&#160;implements&#160;Secret&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;String&#160;magic(double&#160;d)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;return&#160;\"Poof\";<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">caller((e)&#160;-&#62;&#160;\"Poof\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">caller((e)&#160;-&#62;&#160;{\"Poof\"});<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">caller((e)&#160;-&#62;&#160;{&#160;String&#160;e&#160;=&#160;\"\";&#160;\"Poof\"&#160;});<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">caller((e)&#160;-&#62;&#160;{&#160;String&#160;e&#160;=&#160;\"\";&#160;return&#160;\"Poof\";&#160;});<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">caller((e)&#160;-&#62;&#160;{&#160;String&#160;e&#160;=&#160;\"\";&#160;return&#160;\"Poof\"&#160;});<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">caller((e)&#160;-&#62;&#160;{&#160;String&#160;f&#160;=&#160;\"\";&#160;return&#160;\"Poof\";&#160;});<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "B is incorrect because it does not use the return keyword. C, D, and E are incorrect because the variable <span class=\"dCode dNoWrap\">e<\/span> is already in use from the lambda and cannot be redefined. Additionally, C is missing the return keyword and E is missing the semicolon. A and F are the only correct lambda expressions that match the functional interface.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34127",
+      "attempts_id": "392273",
+      "question_id": "34127",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">public&#160;interface&#160;Climb&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;boolean&#160;isTooHigh(int&#160;height,&#160;int&#160;limit);<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;Climber&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;check((h,&#160;l)&#160;-&#62;&#160;h.toString(),&#160;5);&#160;&#160;\/\/&#160;x1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;static&#160;void&#160;check(Climb&#160;climb,&#160;int&#160;height)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;if&#160;(climb.isTooHigh(height,&#160;10))&#160;&#160;\/\/&#160;x2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(\"too&#160;high\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;else&#160;System.out.println(\"ok\");<\/span><br><span class=\"dCode dNoWrap\">}&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ok<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">too&#160;high<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Compiler error on line x1.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Compiler error on line x2.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Compiler error on a different line.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A runtime exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The functional interface takes two <span class=\"dCode dNoWrap\">int<\/span> parameters. The code on line <span class=\"dCode dNoWrap\">x1<\/span> attempts to use them as if one is an <span class=\"dCode dNoWrap\">Object<\/span>, resulting in a compiler error making C the correct answer. It also tries to return String even though the data type for the functional interface method is boolean. It is tricky to use types in a lambda when they are implicitly specified. Remember to check the interface for the real type.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34128",
+      "attempts_id": "392273",
+      "question_id": "34128",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are properties of classes that define immutable objects? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "They don't define any getter methods.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All of the instance variables marked <span class=\"dCode dNoWrap\">private<\/span> and <span class=\"dCode dNoWrap\">final<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "They don't define any setter methods.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "They mark all instance variables <span class=\"dCode dNoWrap\">static<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "They prevent methods from being overridden.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All getter methods are marked <span class=\"dCode dNoWrap\">synchronized<\/span>.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Immutable objects may not be modified after creation. B, C, and E are correct statements that support this property. A is incorrect, as immutable objects may have getter methods, just not setter methods. D is incorrect, as static methods are not part of the immutable object pattern. F is also incorrect, as the getter methods are not required to be marked <span class=\"dCode dNoWrap\">synchronized<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34129",
+      "attempts_id": "392273",
+      "question_id": "34129",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;2;4;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following statements can be inserted in the blank line so that the code will compile successfully? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;interface&#160;CanHop&#160;{}<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;Frog&#160;implements&#160;CanHop&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;___________&#160;frog&#160;=&#160;new&#160;TurtleFrog();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;BrazilianHornedFrog&#160;extends&#160;Frog&#160;{}<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;TurtleFrog&#160;extends&#160;Frog&#160;{}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Frog<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TurtleFrog<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">BrazilianHornedFrog<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">CanHop<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Object<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Long<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The blank can be filled with any class or interface that is a supertype of <span class=\"dCode dNoWrap\">TurtleFrog<\/span>. A is a superclass of <span class=\"dCode dNoWrap\">TurtleFrog<\/span>, and B is the same class, so both are correct. <span class=\"dCode dNoWrap\">BrazilianHornedFrog<\/span> is not a superclass of <span class=\"dCode dNoWrap\">TurtleFrog<\/span>, so C is incorrect. <span class=\"dCode dNoWrap\">TurtleFrog<\/span> inherits the <span class=\"dCode dNoWrap\">CanHop<\/span> interface, so D is correct. All classes inherit <span class=\"dCode dNoWrap\">Object<\/span>, so E is correct. Finally, <span class=\"dCode dNoWrap\">Long<\/span> is an unrelated class that is not a superclass of <span class=\"dCode dNoWrap\">TurtleFrog<\/span>, and it is therefore incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34130",
+      "attempts_id": "392273",
+      "question_id": "34130",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following statements about polymorphism are true? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A reference to an object may be cast to a subclass of the object without an explicit cast.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "If a method takes a class that is the superclass of three different object references, then any of those objects may be passed as a parameter to the method.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A reference to an object may be cast to a superclass of the object without an explicit cast.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All cast exceptions can be detected at compile time.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "By defining a <span class=\"dCode dNoWrap\">public<\/span> instance method in the superclass, you guarantee that the specific method will be called in the parent class at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A reference to an object requires an explicit cast if referenced with a subclass, so A is incorrect. If the cast is to a superclass reference, then an explicit cast is not required, so C is correct. If a method takes the superclass of an object as a parameter, then any subclass references may be used without a cast, so B is correct. Some cast exceptions can be detected as errors at compile-time, but others can only be detected at runtime, so D is incorrect. Due to the nature of polymorphism, a <span class=\"dCode dNoWrap\">public<\/span> instance method can be overridden in a subclass and calls to it will be replaced even in the superclass in which it was defined, so E is incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34131",
+      "attempts_id": "392273",
+      "question_id": "34131",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Choose the correct statement about the following code:<br><br><span class=\"dCode dNoWrap\">1:&#160;public&#160;interface&#160;Herbivore&#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;&#160;int&#160;amount&#160;=&#160;10;<\/span><br><span class=\"dCode dNoWrap\">3:&#160;&#160;&#160;&#160;public&#160;static&#160;void&#160;eatGrass();<\/span><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;&#160;public&#160;int&#160;chew()&#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;13;<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles and runs without issue.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 2.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 3.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 4.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of lines 2 and 3.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of lines 3 and 4.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The interface variable <span class=\"dCode dNoWrap\">amount<\/span> is correctly declared, with <span class=\"dCode dNoWrap\">public<\/span>, <span class=\"dCode dNoWrap\">static<\/span>, and <span class=\"dCode dNoWrap\">final<\/span> being assumed and automatically inserted by the compiler, so B is incorrect. The method declaration for <span class=\"dCode dNoWrap\">eatGrass()<\/span> on line 3 is incorrect because the method has been marked as <span class=\"dCode dNoWrap\">static<\/span> but no method body has been provided. The method declaration for <span class=\"dCode dNoWrap\">chew()<\/span> on line 4 is also incorrect, since an interface method that provides a body must be marked as <span class=\"dCode dNoWrap\">default<\/span> or <span class=\"dCode dNoWrap\">static<\/span> explicitly. Therefore, F is the correct answer since this code contains two compile-time errors.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34132",
+      "attempts_id": "392273",
+      "question_id": "34132",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are properties of classes that are properly encapsulated as a JavaBean? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All instance variables are marked <span class=\"dCode dNoWrap\">final<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">boolean<\/span> instance variables are accessed with <span class=\"dCode dNoWrap\">is<\/span> or <span class=\"dCode dNoWrap\">get<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All instance variables are marked <span class=\"dCode dNoWrap\">private<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "They implement the <span class=\"dCode dNoWrap\">JavaBean<\/span> interface.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Variables are created using lazy instantiation.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The first letter of the any getter\/setter, after the <span class=\"dCode dNoWrap\">get<\/span>, <span class=\"dCode dNoWrap\">set<\/span>, or <span class=\"dCode dNoWrap\">is<\/span> prefix, must be uppercase.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Options B, C, and F are each correct statements about JavaBean encapsulation. A is incorrect, as that is a property of the immutable object pattern, not encapsulation. D is incorrect, as there is no such <span class=\"dCode dNoWrap\">JavaBean<\/span> interface defined in the Java API. <span class=\"dCode dNoWrap\">Enums<\/span> are not allowed to have a public constructor.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34133",
+      "attempts_id": "392273",
+      "question_id": "34133",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;2;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following statements about inheritance and object composition are correct? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Inheritance supports access to <span class=\"dCode dNoWrap\">protected<\/span> variables.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Object composition tends to promote greater code reuse than inheritance.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Inheritance relies on the has-a principle.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Object composition supports method overriding at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Object composition requires a class variable to be declared <span class=\"dCode dNoWrap\">public<\/span> or accessible from a <span class=\"dCode dNoWrap\">public<\/span> method to be used by a class in a different package.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Object composition is always preferred to inheritance.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A is correct, and it is one of the reasons to prefer class inheritance over object composition. B is also correct, since object composition tends to lead to classes that are easier to reference, as they don't require knowledge of any parent classes. C is incorrect, as inheritance tends to use the is-a principle, whereas object composition relies on the has-a principle. D is incorrect, as this is a statement about inheritance, not object composition. E is correct, as object composition has no notion of inheritance and variables must be exposed publically if they are to be used by other classes in different packages. F is incorrect, as neither are always the right answer. There are situations where inheritance is more appropriate, and situations where object composition is more appropriate.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34134",
+      "attempts_id": "392273",
+      "question_id": "34134",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;4;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which three scenarios would best benefit from using a singleton pattern? (Choose all three.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Create read-only objects that are thread-safe.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Manage a reusable cache of objects.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Ensure that all objects are lazily instantiated.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Manage write access to a log file.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Provide central access to application configuration data.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Allow multiple instances of a <span class=\"dCode dNoWrap\">static<\/span> object to be managed in memory.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A is incorrect, as that is a property of the immutable object pattern. B is correct, as caching data is one of the most common uses of the singleton pattern. While the singleton pattern may use lazy instantiation, it is not used to ensure that objects are lazily instantiated, so C is incorrect. D is correct, as we only want one class writing to a log file at once. E is also correct, as managing application-wide configuration data is another very common use of the singleton pattern. F is incorrect, as we only want one instance of a <span class=\"dCode dNoWrap\">static<\/span> object created when using the singleton pattern.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34135",
+      "attempts_id": "392273",
+      "question_id": "34135",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "985",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "1",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Choose the correct statement about the following code:<br><br><span class=\"dCode dNoWrap\">1:&#160;public&#160;interface&#160;CanFly&#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;&#160;void&#160;fly();<\/span><br><span class=\"dCode dNoWrap\">3:&#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&#160;interface&#160;HasWings&#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;&#160;&#160;&#160;public&#160;abstract&#160;Object&#160;getWingSpan();<\/span><br><span class=\"dCode dNoWrap\">6:&#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&#160;abstract&#160;class&#160;Falcon&#160;implements&#160;CanFly,&#160;HasWings&#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles without issue.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 2.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 4.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 5.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of lines 2 and 5.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because the class <span class=\"dCode dNoWrap\">Falcon<\/span> doesn't implement the interface methods.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Although the definition of methods on lines 2 and 5 vary, both will be converted to <span class=\"dCode dNoWrap\">public&#160;abstract<\/span> by the compiler. Line 4 is fine, because an interface can have <span class=\"dCode dNoWrap\">public<\/span> or default access. Finally, the class <span class=\"dCode dNoWrap\">Falcon<\/span> doesn't need to implement the interface methods because it is marked as <span class=\"dCode dNoWrap\">abstract<\/span>. Therefore, the code will compile without issue.",
+        "display_order": "1"
+      }]
+    }]
+  }
+}

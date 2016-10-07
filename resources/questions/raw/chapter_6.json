@@ -1,0 +1,1524 @@
+{
+  "id": "392278",
+  "title": null,
+  "user_id": "14161",
+  "course_id": "823",
+  "test_id": "123",
+  "section_id": null,
+  "mode": "practice",
+  "date_created": "2016-10-07 02:45:43",
+  "lesson_location": "0",
+  "status": "1",
+  "category": "Book 9781119067900",
+  "course_name": "OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide: <br\/>Exam 1Z0-809",
+  "global_time": 0,
+  "sections": {
+    "directions": [{
+      "id": "989",
+      "test_id": "123",
+      "description": "Chapter 6",
+      "time": "20",
+      "direction": [{
+        "id": "979",
+        "reference_id": "989",
+        "direction_for": "section",
+        "data_type_id": "2",
+        "data": "Section level Directions Text appears here.",
+        "display_order": "0"
+      }]
+    }],
+    "question": [{
+      "id": "34201",
+      "attempts_id": "392278",
+      "question_id": "34201",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following pairs fills in the blanks to make this code compile?<br><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;public&#160;void&#160;read()&#160;_______&#160;SQLException&#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;&#160;&#160;&#160;______&#160;new&#160;SQLException();<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">throw<\/span> on line 5 and <span class=\"dCode dNoWrap\">throw<\/span> on line 6",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">throw<\/span> on line 5 and <span class=\"dCode dNoWrap\">throws<\/span> on line 6",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">throws<\/span> on line 5 and <span class=\"dCode dNoWrap\">throw<\/span> on line 6",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">throws<\/span> on line 5 and <span class=\"dCode dNoWrap\">throws<\/span> on line 6",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None of the above. <span class=\"dCode dNoWrap\">SQLException<\/span> is a checked exception and cannot be thrown.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None of the above. <span class=\"dCode dNoWrap\">SQLException<\/span> is a runtime exception and cannot be thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The method should declare that it <span class=\"dCode dNoWrap\">throws<\/span> an exception and the body of the method actually would <span class=\"dCode dNoWrap\">throw<\/span> it. Options E and F are incorrect because both checked and unchecked (runtime) exceptions can be declared in a method signature. Also, option F is incorrect because <span class=\"dCode dNoWrap\">SQLException<\/span> is a checked exception.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34202",
+      "attempts_id": "392278",
+      "question_id": "34202",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following changes when made independently would make this code compile? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">1:&#160;&#160;&#160;&#160;public&#160;class&#160;StuckTurkeyCage&#160;implements&#160;AutoCloseable&#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;&#160;&#160;&#160;&#160;public&#160;void&#160;close()&#160;throws&#160;Exception&#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;Exception(\"Cage&#160;door&#160;does&#160;not&#160;close\");<\/span><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try&#160;(StuckTurkeyCage&#160;t&#160;=&#160;new&#160;StuckTurkeyCage())&#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(\"put&#160;turkeys&#160;in\");<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">9:&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&#160;&#160;&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Remove <span class=\"dCode dNoWrap\">throws&#160;Exception<\/span> from the declaration on line 2.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Add <span class=\"dCode dNoWrap\">throws&#160;Exception<\/span> to the declaration on line 5.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Change line 8 to <span class=\"dCode dNoWrap\">}&#160;catch&#160;(Exception&#160;e)&#160;{}<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Change line 8 to <span class=\"dCode dNoWrap\">}&#160;finally&#160;{}<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None of the above will make the code compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code already compiles as is.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Option A is incorrect because it will move the compilation error to the <span class=\"dCode dNoWrap\">close()<\/span> method since it does throw an exception that must be handled or declared. Option B is correct because the unhandled exception becomes declared. Option C is correct because the exception becomes handled. Option D is incorrect because the exception remains unhandled.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34203",
+      "attempts_id": "392278",
+      "question_id": "34203",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following fills in the blank to make the code compile? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;try&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;IOException();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}&#160;catch&#160;(__________________)&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileNotFoundException&#160;|&#160;IOException&#160;e<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileNotFoundException&#160;e&#160;|&#160;IOException&#160;e<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileNotFoundException&#160;|&#160;RuntimeException&#160;e<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileNotFoundException&#160;e&#160;|&#160;RuntimeException&#160;e<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">IOException&#160;|&#160;RuntimeException&#160;e<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">IOException&#160;e&#160;|&#160;RuntimeException&#160;e<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Options B, D, and F are incorrect because only one variable name is allowed in a multi-catch block. Option A is incorrect because <span class=\"dCode dNoWrap\">FileNotFoundException<\/span> is a subclass of <span class=\"dCode dNoWrap\">IOException<\/span>. A multi-catch statement does not allow redundancy, and just catching <span class=\"dCode dNoWrap\">IOException<\/span> would have been equivalent. Option C is incorrect because the <span class=\"dCode dNoWrap\">IOException<\/span> that is thrown is not handled.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34204",
+      "attempts_id": "392278",
+      "question_id": "34204",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are true statements? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A traditional <span class=\"dCode dNoWrap\">try<\/span> statement without a <span class=\"dCode dNoWrap\">catch<\/span> block requires a <span class=\"dCode dNoWrap\">finally<\/span> block.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A traditional <span class=\"dCode dNoWrap\">try<\/span> statement without a <span class=\"dCode dNoWrap\">finally<\/span> block requires a <span class=\"dCode dNoWrap\">catch<\/span> block.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A traditional <span class=\"dCode dNoWrap\">try<\/span> statement with only one statement can omit the <span class=\"dCode dNoWrap\">{}<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A try-with-resources statement without a <span class=\"dCode dNoWrap\">catch<\/span> block requires a <span class=\"dCode dNoWrap\">finally<\/span> block.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A try-with-resources statement without a <span class=\"dCode dNoWrap\">finally<\/span> block requires a <span class=\"dCode dNoWrap\">catch<\/span> block.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A try-with-resources statement with only one statement can omit the <span class=\"dCode dNoWrap\">{}<\/span>.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A try-with-resources statement does not require a <span class=\"dCode dNoWrap\">catch<\/span> or <span class=\"dCode dNoWrap\">finally<\/span> block. A traditional <span class=\"dCode dNoWrap\">try<\/span> statement requires at least one of the two.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34205",
+      "attempts_id": "392278",
+      "question_id": "34205",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">import&#160;java.io.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;AutocloseableFlow&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;Door&#160;implements&#160;AutoCloseable&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;public&#160;void&#160;close()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"D\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;Window&#160;implements&#160;Closeable&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;public&#160;void&#160;close()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"W\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;RuntimeException();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;(Door&#160;d&#160;=&#160;new&#160;Door();&#160;Window&#160;w&#160;=&#160;new&#160;Window())&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"T\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;catch&#160;(Exception&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"E\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;finally&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"F\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWF<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWDF<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWDEF<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWF<\/span> followed by an exception",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWDF<\/span> followed by an exception",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWEF<\/span> followed by an exception",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "After opening both resources in the try-with-resources statement, <span class=\"dCode dNoWrap\">T<\/span> is printed. Then the try-with-resource completes and closes the resources in reverse order from which they were opened. After <span class=\"dCode dNoWrap\">W<\/span> is printed, an exception is thrown. However, the remaining resource is still closed and <span class=\"dCode dNoWrap\">D<\/span> is printed. The exception thrown is then caught and <span class=\"dCode dNoWrap\">E<\/span> is printed. Last, the <span class=\"dCode dNoWrap\">finally<\/span> block is run, printing <span class=\"dCode dNoWrap\">F<\/span>. Therefore the answer is <span class=\"dCode dNoWrap\">TWDEF<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34206",
+      "attempts_id": "392278",
+      "question_id": "34206",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "7",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">import&#160;java.io.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;AutocloseableFlow&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;Door&#160;implements&#160;AutoCloseable&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;public&#160;void&#160;close()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"D\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;RuntimeException();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;Window&#160;implements&#160;Closeable&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;public&#160;void&#160;close()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"W\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;RuntimeException();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Door&#160;d&#160;=&#160;new&#160;Door();&#160;Window&#160;w&#160;=&#160;new&#160;Window()<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"T\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;catch&#160;(Exception&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"E\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;finally&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(\"F\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWF<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWDF<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWDEF<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWF<\/span> followed by an exception",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWDF<\/span> followed by an exception",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">TWEF<\/span> followed by an exception",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A try-with-resources statement uses parentheses rather than brackets for the <span class=\"dCode dNoWrap\">try<\/span> section. This is likely subtler than a question that you'll get on the exam, but it is still important to be on alert for details.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34207",
+      "attempts_id": "392278",
+      "question_id": "34207",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of running <span class=\"dCode dNoWrap\">java&#160;EchoInput&#160;hi&#160;there<\/span> with the following code?<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;EchoInput&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String&#160;[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;if(args.length&#160;&#60;=&#160;3)&#160;assert&#160;false;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(args[0]&#160;+&#160;args[1]&#160;+&#160;args[2]);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">hithere<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The <span class=\"dCode dNoWrap\">assert<\/span> statement throws an <span class=\"dCode dNoWrap\">AssertionError<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code throws an <span class=\"dCode dNoWrap\">ArrayIndexOutOfBoundsException<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code compiles and runs successfully, but there is no output.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles fine, so option E is incorrect. The command line has only two arguments, so <span class=\"dCode dNoWrap\">args.length<\/span> is <span class=\"dCode dNoWrap\">2<\/span> and the <span class=\"dCode dNoWrap\">if<\/span> statement is <span class=\"dCode dNoWrap\">true<\/span>. However, because assertions are not enabled, it does not throw an <span class=\"dCode dNoWrap\">AssertionError<\/span>, so option B is incorrect. The <span class=\"dCode dNoWrap\">println<\/span> attempts to print <span class=\"dCode dNoWrap\">args[2]<\/span>, which generates an <span class=\"dCode dNoWrap\">ArrayIndexOutOfBoundsException<\/span>, so the answer is option C.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34208",
+      "attempts_id": "392278",
+      "question_id": "34208",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following command lines cause this program to fail on the assertion? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;On&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;String&#160;s&#160;=&#160;null;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;assert&#160;s&#160;!=&#160;null;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">java&#160;&#8211;da&#160;On<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">java&#160;&#8211;ea&#160;On<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">java&#160;-da&#160;-ea:On&#160;On<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">java&#160;-ea&#160;-da:On&#160;On<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Java uses the flags <span class=\"dCode dNoWrap\">&#8211;ea<\/span> or <span class=\"dCode dNoWrap\">&#8211;enableassertions<\/span> to turn on assertions. <span class=\"dCode dNoWrap\">&#8211;da<\/span> or <span class=\"dCode dNoWrap\">&#8211;disableassertions<\/span> turns off assertions. The colon indicates for a specific class. Choice B is correct because it turns on assertions for all code. Choice C is correct because it disables assertions but then turns them back on for this class.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34209",
+      "attempts_id": "392278",
+      "question_id": "34209",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following prints <span class=\"dCode dNoWrap\">OhNo<\/span> with the assertion failure when the number is negative? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">assert&#160;n&#160;&#60;&#160;0:&#160;\"OhNo\";<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">assert&#160;n&#160;&#60;&#160;0,&#160;\"OhNo\";<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">assert&#160;n&#160;&#60;&#160;0&#160;(\"OhNo\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">assert(n&#160;&#60;&#160;0):&#160;\"OhNo\";<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">assert(n&#160;&#60;&#160;0,&#160;\"OhNo\");<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "An assertion consists of a <span class=\"dCode dNoWrap\">boolean<\/span> expression followed by an optional colon and message. The <span class=\"dCode dNoWrap\">boolean<\/span> expression is allowed to be in parenthesis, but this is not required. Therefore A and D are correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34210",
+      "attempts_id": "392278",
+      "question_id": "34210",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are true of the code? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;&#160;private&#160;int&#160;addPlusOne(int&#160;a,&#160;int&#160;b)&#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;&#160;&#160;&#160;boolean&#160;assert&#160;=&#160;false<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;&#160;&#160;&#160;assert&#160;a++&#160;&#62;&#160;0;<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;&#160;&#160;&#160;assert&#160;b&#160;&#62;&#160;0;<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;a&#160;+&#160;b;<\/span><br><span class=\"dCode dNoWrap\">9:&#160;&#160;&#160;&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Line 5 does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Lines 6 and 7 do not compile because they are missing the <span class=\"dCode dNoWrap\">String<\/span> message.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Lines 6 and 7 do not compile because they are missing parentheses.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Line 6 is an appropriate use of an assertion.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Line 7 is an appropriate use of an assertion.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Line 5 does not compile because <span class=\"dCode dNoWrap\">assert<\/span> is a reserved word making Choice A correct. B and C are incorrect because the parenthesis and message are both optional. D is incorrect because assertions should not have side effects. E is correct because checking an argument passed from elsewhere in the program is an appropriate use of an assertion.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34211",
+      "attempts_id": "392278",
+      "question_id": "34211",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;4;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are runtime exceptions? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">IllegalFormatException<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">IllegalStateException<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">IOException<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">MissingResourceException<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">DateTimeParseException<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">SQLException<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "You need to memorize the contents of Table 6.2 and Table 6.3 before the exam.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34212",
+      "attempts_id": "392278",
+      "question_id": "34212",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;4;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following can legally fill in the blank? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;AhChoo&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;SneezeException&#160;extends&#160;Exception&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;SniffleException&#160;extends&#160;SneezeException&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;throws&#160;SneezeException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;SneezeException();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;catch&#160;(SneezeException&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;____________<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;e;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/\/&#160;leave&#160;line&#160;blank<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;Exception();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;RuntimeException();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;SneezeException();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;SniffleException();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None of the above; the code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Since a single exception type is caught, only the same type of exception or a subclass is allowed to be assigned to the variable in the <span class=\"dCode dNoWrap\">catch<\/span> block. Therefore D and E are correct. Additionally A is correct because there are no changes to the variable.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34213",
+      "attempts_id": "392278",
+      "question_id": "34213",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following can legally fill in the blank? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;AhChoo&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;SneezeException&#160;extends&#160;Exception&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;SniffleException&#160;extends&#160;SneezeException&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;throws&#160;SneezeException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;SneezeException();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;catch&#160;(SneezeException&#160;|&#160;RuntimeException&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;____________<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;e;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/\/&#160;leave&#160;line&#160;blank<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;Exception();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;RuntimeException();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;SneezeException();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;SniffleException();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None of the above; the code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Since a multi-catch is used, the variable in the <span class=\"dCode dNoWrap\">catch<\/span> block is effectively final and cannot be reassigned.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34214",
+      "attempts_id": "392278",
+      "question_id": "34214",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following can legally fill in the blank? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;AhChoo&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;SneezeException&#160;extends&#160;Exception&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;SniffleException&#160;extends&#160;SneezeException&#160;{&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;throws&#160;SneezeException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;SneezeException();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;catch&#160;(SneezeException&#160;|&#160;SniffleException&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;____________<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;e;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;}&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/\/&#160;leave&#160;line&#160;blank<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;Exception();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;RuntimeException();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;SneezeException();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">e&#160;=&#160;new&#160;SniffleException();<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None of the above; the code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A multi-catch cannot catch both a superclass and subclass. Notice how similar questions can be while testing something that is entirely different.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34215",
+      "attempts_id": "392278",
+      "question_id": "34215",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are checked exceptions? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">class&#160;One&#160;extends&#160;RuntimeException{}<\/span><br><span class=\"dCode dNoWrap\">class&#160;Two&#160;extends&#160;Exception{}<\/span><br><span class=\"dCode dNoWrap\">class&#160;Three&#160;extends&#160;Error{}<\/span><br><span class=\"dCode dNoWrap\">class&#160;Four&#160;extends&#160;One{}<\/span><br><span class=\"dCode dNoWrap\">class&#160;Five&#160;extends&#160;Two{}<\/span><br><span class=\"dCode dNoWrap\">class&#160;Six&#160;extends&#160;Three{}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">One<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Two<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Three<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Four<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Five<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Six<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A checked exception extends <span class=\"dCode dNoWrap\">Exception<\/span> but not <span class=\"dCode dNoWrap\">RuntimeException<\/span>. The entire hierarchy counts, so B and E are both correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34216",
+      "attempts_id": "392278",
+      "question_id": "34216",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the output of the following?<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;SnowStorm&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;class&#160;Walk&#160;implements&#160;AutoCloseable&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;void&#160;close()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;RuntimeException(\"snow\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;try&#160;(Walk&#160;walk1&#160;=&#160;new&#160;Walk();&#160;Walk&#160;walk2&#160;=&#160;new&#160;Walk();)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;throw&#160;new&#160;RuntimeException(\"rain\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}&#160;catch(Exception&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;System.out.println(e.getMessage()<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+&#160;\"&#160;\"&#160;+&#160;e.getSuppressed().length);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;}&#160;}&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">rain&#160;0<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">rain&#160;1<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">rain&#160;2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">show&#160;0<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">snow&#160;1<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">snow&#160;2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The exception inside the <span class=\"dCode dNoWrap\">try<\/span> block becomes the primary exception since it is thrown first. Then two suppressed exceptions are added to it when trying to close the <span class=\"dCode dNoWrap\">AutoCloseable<\/span> resources.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34217",
+      "attempts_id": "392278",
+      "question_id": "34217",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Fill in the blank: A class that implements _____________ may be in a try-with-resource statement. (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">AutoCloseable<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Closeable<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Exception<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">RuntimeException<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Serializable<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "<span class=\"dCode dNoWrap\">Closeable<\/span> was the original interface for IO classes. <span class=\"dCode dNoWrap\">AutoCloseable<\/span> was added in Java 7 along with try-with-resources. <span class=\"dCode dNoWrap\">Closeable<\/span> extends <span class=\"dCode dNoWrap\">AutoCloseable<\/span> for backward compatibility.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34218",
+      "attempts_id": "392278",
+      "question_id": "34218",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which pairs fill in the blanks? The <span class=\"dCode dNoWrap\">close()<\/span> method is <i>not<\/i> allowed to throw a(n) ___________ in a class that implements ___________. (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Exception<\/span>, <span class=\"dCode dNoWrap\">AutoCloseable<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Exception<\/span>, <span class=\"dCode dNoWrap\">Closeable<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">IllegalStateException<\/span>, <span class=\"dCode dNoWrap\">AutoCloseable<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">IllegalStateException<\/span>, <span class=\"dCode dNoWrap\">Closeable<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">IOException<\/span>, <span class=\"dCode dNoWrap\">AutoCloseable<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">IOException<\/span>, <span class=\"dCode dNoWrap\">Closeable<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The main difference between <span class=\"dCode dNoWrap\">AutoCloseable<\/span> and <span class=\"dCode dNoWrap\">Closeable<\/span> is that <span class=\"dCode dNoWrap\">AutoCloseable<\/span> has <span class=\"dCode dNoWrap\">Exception<\/span> in the signature and <span class=\"dCode dNoWrap\">Closeable<\/span> has only <span class=\"dCode dNoWrap\">IOException<\/span> in the signature. Since <span class=\"dCode dNoWrap\">IllegalStateException<\/span> is a runtime exception, it can be thrown by any method.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34219",
+      "attempts_id": "392278",
+      "question_id": "34219",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following <i>cannot<\/i> fill in the blank? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&#160;void&#160;read()&#160;throws&#160;SQLException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;try&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;readFromDatabase();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}&#160;catch&#160;(_________&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;throw&#160;e;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">private&#160;void&#160;readFromDatabase()&#160;throws&#160;SQLException&#160;{&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Exception<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">RuntimeException<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">SQLException<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">SQLException&#160;|&#160;IOException<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">SQLException&#160;|&#160;RuntimeException<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Choice A is allowed because Java 7 and later \"translates\" <span class=\"dCode dNoWrap\">Exception<\/span> in a <span class=\"dCode dNoWrap\">catch<\/span> block to the correct one. Choices C and E are allowed because they actually catch a <span class=\"dCode dNoWrap\">SQLException<\/span>. Choice D is not allowed because there is no <span class=\"dCode dNoWrap\">IOException<\/span> declared. Choice B is allowed because a method does not have to handle an exception if it declares it.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34220",
+      "attempts_id": "392278",
+      "question_id": "34220",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "989",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following is true when creating your own exception class?",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "One or more constructors must be coded.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Only checked exceptions may be created.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Only unchecked exceptions may be created.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The <span class=\"dCode dNoWrap\">toString()<\/span> method must be coded.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None of the above.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "You can create checked or unchecked exceptions. The default constructor is used if one is not supplied. There is no requirement to implement specific methods.",
+        "display_order": "1"
+      }]
+    }]
+  }
+}

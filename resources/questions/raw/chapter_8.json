@@ -1,0 +1,1794 @@
+{
+  "id": "392281",
+  "title": null,
+  "user_id": "14161",
+  "course_id": "823",
+  "test_id": "123",
+  "section_id": null,
+  "mode": "practice",
+  "date_created": "2016-10-07 02:47:41",
+  "lesson_location": "0",
+  "status": "1",
+  "category": "Book 9781119067900",
+  "course_name": "OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide: <br\/>Exam 1Z0-809",
+  "global_time": 0,
+  "sections": {
+    "directions": [{
+      "id": "991",
+      "test_id": "123",
+      "description": "Chapter 8",
+      "time": "23",
+      "direction": [{
+        "id": "981",
+        "reference_id": "991",
+        "direction_for": "section",
+        "data_type_id": "2",
+        "data": "Section level Directions Text appears here.",
+        "display_order": "0"
+      }]
+    }],
+    "question": [{
+      "id": "34243",
+      "attempts_id": "392281",
+      "question_id": "34243",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which classes will allow the following to compile? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">InputStream&#160;is&#160;=&#160;new&#160;BufferedInputStream(new&#160;FileInputStream(\"zoo.txt\"));<\/span><br><span class=\"dCode dNoWrap\">InputStream&#160;wrapper&#160;=&#160;new&#160;_____________(is);<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">BufferedInputStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileInputStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">BufferedWriter<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ObjectInputStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ObjectOutputStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">BufferedReader<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The reference is for an <span class=\"dCode dNoWrap\">InputStream<\/span> object, so only a high-level input <span class=\"dCode dNoWrap\">Stream<\/span> class is permitted. B is incorrect because <span class=\"dCode dNoWrap\">FileInputStream<\/span> is a low-level stream that interacts directly with a file resource, not a stream resource. C and F are incorrect because you cannot use <span class=\"dCode dNoWrap\">BufferedReader<\/span>\/<span class=\"dCode dNoWrap\">BufferedWriter<\/span> directly on a stream. E is incorrect because the reference is to an <span class=\"dCode dNoWrap\">InputStream<\/span>, not an <span class=\"dCode dNoWrap\">OutputStream<\/span>. A and D are the only correct options. Note that a <span class=\"dCode dNoWrap\">BufferedInputStream<\/span> can be wrapped twice, since high-level streams can take other high-level streams.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34244",
+      "attempts_id": "392281",
+      "question_id": "34244",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;5;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Why does <span class=\"dCode dNoWrap\">Console.readPassword()<\/span> return a <span class=\"dCode dNoWrap\">char[]<\/span> array instead of a <span class=\"dCode dNoWrap\">String<\/span> object? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It improves performance.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It is more secure.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "To encrypt the password data.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "To support all character encodings.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Because Java puts all <span class=\"dCode dNoWrap\">String<\/span> values in a reusable pool.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "So that the value can be removed from memory immediately after use.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The method returns a <span class=\"dCode dNoWrap\">char[]<\/span> array so that the password value never enters the reusable <span class=\"dCode dNoWrap\">String<\/span> pool in memory, and the value can be immediately erased from memory after use. E and F support this principle. The result is that the value is more secure, so B is also correct. If the value did enter the reusable <span class=\"dCode dNoWrap\">String<\/span> pool, it might stay in memory long after the method using it completed, meaning that a memory dump of the application could retrieve it. A, C, and D are incorrect and not features of the <span class=\"dCode dNoWrap\">readPassword()<\/span> method.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34245",
+      "attempts_id": "392281",
+      "question_id": "34245",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are true? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A new <span class=\"dCode dNoWrap\">Console<\/span> object is created every time <span class=\"dCode dNoWrap\">System.console()<\/span> is called.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Console<\/span> can only be used for reading input and not writing output.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Console<\/span> is obtained using the singleton pattern.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "When getting a <span class=\"dCode dNoWrap\">Console<\/span> object, it might be <span class=\"dCode dNoWrap\">null<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "When getting a <span class=\"dCode dNoWrap\">Console<\/span> object, it will never be <span class=\"dCode dNoWrap\">null<\/span>.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A <span class=\"dCode dNoWrap\">Console<\/span> object is created by the JVM. Since only one exists, it is a singleton, making option C correct. If the program is run in an environment without a console, <span class=\"dCode dNoWrap\">System.console()<\/span> returns <span class=\"dCode dNoWrap\">null<\/span>, making D also correct. The other statements about <span class=\"dCode dNoWrap\">Console<\/span> are incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34246",
+      "attempts_id": "392281",
+      "question_id": "34246",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following can fill in the blank to make the code compile? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Console&#160;c&#160;=&#160;System.console();<\/span><br><span class=\"dCode dNoWrap\">String&#160;s&#160;=&#160;_______________;<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">c.input()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">c.read()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">c.readLine()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">c.readPassword()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">c.readString()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None of the above",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The <span class=\"dCode dNoWrap\">readLine()<\/span> method returns a <span class=\"dCode dNoWrap\">String<\/span> and reads a line of input from the console. <span class=\"dCode dNoWrap\">readPassword()<\/span> returns a <span class=\"dCode dNoWrap\">char[]<\/span>. The others do not exist.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34247",
+      "attempts_id": "392281",
+      "question_id": "34247",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;4;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of executing the following code? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">String&#160;line;<\/span><br><span class=\"dCode dNoWrap\">Console&#160;c&#160;=&#160;System.console();<\/span><br><span class=\"dCode dNoWrap\">Writer&#160;w&#160;=&#160;c.writer();<\/span><br><span class=\"dCode dNoWrap\">if&#160;((line&#160;=&#160;c.readLine())&#160;!=&#160;null)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;w.append(line);<\/span><br><span class=\"dCode dNoWrap\">w.flush();<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code runs without error but prints nothing.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code prints what was entered by the user.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "An <span class=\"dCode dNoWrap\">ArrayIndexOutOfBoundsException<\/span> might be thrown.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A <span class=\"dCode dNoWrap\">NullPointerException<\/span> might be thrown.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "An <span class=\"dCode dNoWrap\">IOException<\/span> might be thrown.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "This is correct code for reading a line from the console and writing it back out to the console, making option B correct. Options D and E are also correct. If no console is available, a <span class=\"dCode dNoWrap\">NullPointerException<\/span> is thrown. The <span class=\"dCode dNoWrap\">append()<\/span> method throws an <span class=\"dCode dNoWrap\">IOException<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34248",
+      "attempts_id": "392281",
+      "question_id": "34248",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are true statements about serialization in Java? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The process of converting serialized data back into memory is called deserialization.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All non-thread classes should be marked <span class=\"dCode dNoWrap\">Serializable<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The <span class=\"dCode dNoWrap\">Serializable<\/span> interface requires implementing <span class=\"dCode dNoWrap\">serialize()<\/span> and <span class=\"dCode dNoWrap\">deserialize()<\/span> methods.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The <span class=\"dCode dNoWrap\">Serializable<\/span> interface is marked <span class=\"dCode dNoWrap\">final<\/span> and cannot be extended.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The <span class=\"dCode dNoWrap\">readObject()<\/span> method of <span class=\"dCode dNoWrap\">ObjectInputStream<\/span> may throw a <span class=\"dCode dNoWrap\">ClassNotFoundException<\/span> even if the return object is not explicitly cast.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The first statement is the definition of deserialization, so A is correct. B is incorrect, because you may mark (or not mark) a class as serializable for a variety of reasons. C is incorrect because the <span class=\"dCode dNoWrap\">Serializable<\/span> interface has no method requirements, and any class can implement the interface. D is also incorrect, because the <span class=\"dCode dNoWrap\">Serializable<\/span> interface may be extended by your own interface. Finally, E is correct, because the exception may be thrown within the <span class=\"dCode dNoWrap\">readObject()<\/span> even if the result is not cast.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34249",
+      "attempts_id": "392281",
+      "question_id": "34249",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Fill in the blank: ______ is the topmost directory on a file system.",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Absolute",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Directory",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Parent",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Root",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Top",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The root directory is the top-level directory; therefore D is correct. The rest of the statements are invalid or incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34250",
+      "attempts_id": "392281",
+      "question_id": "34250",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assuming <span class=\"dCode dNoWrap\">\/<\/span> is the root directory, which of the following are true statements? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/home\/parrot<\/span> is an absolute path.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/home\/parrot<\/span> is a directory.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">\/home\/parrot<\/span> is a relative path.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The path pointed to from a <span class=\"dCode dNoWrap\">File<\/span> object must exist.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The parent of the path pointed to by a <span class=\"dCode dNoWrap\">File<\/span> object must exist.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Paths that begin with the root directory are absolute paths, so A is correct and C is incorrect. B is incorrect because the path could be a file or directory within the file system. A <span class=\"dCode dNoWrap\">File<\/span> object may refer to a path that does not exist within the file system, so D and E are incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34251",
+      "attempts_id": "392281",
+      "question_id": "34251",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What are the requirements for a class that you want to serialize with <span class=\"dCode dNoWrap\">ObjectOutputStream<\/span>? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The class must implement the <span class=\"dCode dNoWrap\">Serializable<\/span> interface.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The class must extend the <span class=\"dCode dNoWrap\">Serializable<\/span> class.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The class must declare a <span class=\"dCode dNoWrap\">static<\/span> <span class=\"dCode dNoWrap\">serialVersionUID<\/span> variable.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All instance members of the class must be <span class=\"dCode dNoWrap\">Serializable<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All instance members of the class must be marked <span class=\"dCode dNoWrap\">transient<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Any class can be serialized with <span class=\"dCode dNoWrap\">ObjectOutputStream<\/span>.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "First, the class must implement the <span class=\"dCode dNoWrap\">Serializable<\/span> interface, so A is correct. <span class=\"dCode dNoWrap\">Serializable<\/span> is not a class; therefore B is incorrect. Creating a <span class=\"dCode dNoWrap\">static<\/span> <span class=\"dCode dNoWrap\">serialVersionUID<\/span> variable is optional and recommended, but it is not required for use with the <span class=\"dCode dNoWrap\">ObjectOutputStream<\/span>, so C is incorrect. Every instance variable must either be <span class=\"dCode dNoWrap\">Serializable<\/span> or be marked <span class=\"dCode dNoWrap\">transient<\/span>, but all variables are not required to be either, so D and E are incorrect. F is incorrect, because the class must be <span class=\"dCode dNoWrap\">Serializable<\/span> and have instance members that are <span class=\"dCode dNoWrap\">Serializable<\/span> or marked <span class=\"dCode dNoWrap\">transient<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34252",
+      "attempts_id": "392281",
+      "question_id": "34252",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "The following method is designed to delete a directory tree recursively. Which of the following properties reflect the method definition? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">1:&#160;public&#160;static&#160;void&#160;deleteTree(File&#160;file)&#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&#160;&#160;&#160;&#160;if(!file.isFile())<\/span><br><span class=\"dCode dNoWrap\">3:&#160;&#160;&#160;&#160;&#160;&#160;&#160;for(File&#160;entry:&#160;file.listFiles())<\/span><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;deleteTree(entry);<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;else&#160;file.delete();<\/span><br><span class=\"dCode dNoWrap\">6:&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It can delete a directory that contains only files.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It can delete a directory tree of arbitrary length.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It can delete a single file.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 2.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 3.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but may throw an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles, so D and E are incorrect. There is a bug in the method in that <span class=\"dCode dNoWrap\">file.delete()<\/span> should be executed at the end of the method for both files and directories alike. As written, the method will delete all files within a directory but none of the directories themselves. Therefore, A and B are incorrect and C is correct. F is correct, because most methods in the <span class=\"dCode dNoWrap\">File<\/span> class that interact with the file system are capable of throwing an exception at runtime, such as when the directory does not exist.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34253",
+      "attempts_id": "392281",
+      "question_id": "34253",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;5;7",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are methods available to instances of the <span class=\"dCode dNoWrap\">java.io.File<\/span> class? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">mv()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">createDirectory()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">mkdirs()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">move()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">renameTo()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">copy()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">mkdir()<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "To move a file using <span class=\"dCode dNoWrap\">java.io.File<\/span>, you should use the <span class=\"dCode dNoWrap\">renameTo()<\/span> method, since there are no <span class=\"dCode dNoWrap\">move()<\/span> or <span class=\"dCode dNoWrap\">mv()<\/span> methods. Therefore, E is correct, and A and D are incorrect. To create a directory or chain of directories using <span class=\"dCode dNoWrap\">java.io.File<\/span>, you should use <span class=\"dCode dNoWrap\">mkdir()<\/span> or <span class=\"dCode dNoWrap\">mkdirs()<\/span>, respectively, because there is no <span class=\"dCode dNoWrap\">createDirectory()<\/span> method. Therefore, C and G are correct, and B is incorrect. Finally, there is no <span class=\"dCode dNoWrap\">copy()<\/span> method in the <span class=\"dCode dNoWrap\">java.io.File<\/span> class, so F is incorrect. Copying a file with <span class=\"dCode dNoWrap\">java.io<\/span> would require reading the contents using a stream.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34254",
+      "attempts_id": "392281",
+      "question_id": "34254",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Suppose that the file <span class=\"dCode dNoWrap\">c:\\book\\java<\/span> exists. Which of the following lines of code creates an object that represents the file? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;File(\"c:\\book\\java\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;File(\"c:\\\\book\\\\java\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;File(\"c:\/book\/java\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;File(\"c:\/\/book\/\/java\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "None of the above",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Option B is correct because Java requires a backslash to be escaped with another backslash. Option C is also correct because Java will convert the slashes to the right one when working with paths.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34255",
+      "attempts_id": "392281",
+      "question_id": "34255",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;3;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are built-in streams in Java? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">System.err<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">System.error<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">System.in<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">System.input<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">System.out<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">System.output<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The <span class=\"dCode dNoWrap\">System<\/span> class has three streams: <span class=\"dCode dNoWrap\">in<\/span> is for input, <span class=\"dCode dNoWrap\">err<\/span> is for error, and <span class=\"dCode dNoWrap\">out<\/span> is for output. Therefore A, C, and E are correct. The others do not exist.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34256",
+      "attempts_id": "392281",
+      "question_id": "34256",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are not <span class=\"dCode dNoWrap\">java.io<\/span> classes? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">BufferedReader<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">BufferedWriter<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileReader<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileWriter<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">PrintReader<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">PrintWriter<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "<span class=\"dCode dNoWrap\">PrintWriter<\/span> is the only <span class=\"dCode dNoWrap\">Writer<\/span> class that you need to know that doesn't have a complementary <span class=\"dCode dNoWrap\">Reader<\/span> class, so E is correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34257",
+      "attempts_id": "392281",
+      "question_id": "34257",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "1",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assuming <span class=\"dCode dNoWrap\">zoo-data.txt<\/span> is a multiline text file, what is true of the following method?<br><br><span class=\"dCode dNoWrap\">private&#160;void&#160;echo()&#160;throws&#160;IOException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;try&#160;(FileReader&#160;fileReader&#160;=&#160;new&#160;FileReader(\"zoo-data.txt\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;BufferedReader&#160;bufferedReader&#160;=&#160;new&#160;BufferedReader(fileReader))&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(bufferedReader.readLine());<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It prints the first line of the file to the console.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It prints the entire contents of the file.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile because the reader is not closed.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does compile, but the reader is not closed.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile for another reason.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "This code compiles and runs without issue, so C and E are incorrect. It uses a try-with-resource block to open the <span class=\"dCode dNoWrap\">FileReader<\/span> and <span class=\"dCode dNoWrap\">BufferedReader<\/span> objects. Therefore, both get closed automatically, and D is incorrect. The body of the <span class=\"dCode dNoWrap\">try<\/span> block reads in the first line of the file and outputs it to the user. Therefore, A is correct. Since the rest of the file is not read, B is incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34258",
+      "attempts_id": "392281",
+      "question_id": "34258",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "4;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Why shouldn't every class be marked <span class=\"dCode dNoWrap\">Serializable<\/span>? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The compiler will throw an exception if certain classes are marked <span class=\"dCode dNoWrap\">Serializable<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Only <span class=\"dCode dNoWrap\">final<\/span> classes can be marked <span class=\"dCode dNoWrap\">Serializable<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Classes can implement only one interface, so marking them <span class=\"dCode dNoWrap\">Serializable<\/span> would prevent them from using any other interface.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The data of some classes cannot be easily serialized, such as those managing threads or processes.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Only concrete classes can be marked <span class=\"dCode dNoWrap\">Serializable<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Classes that store most of their data in <span class=\"dCode dNoWrap\">static<\/span> fields would not be easily serialized.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Any class, abstract, concrete, or <span class=\"dCode dNoWrap\">final<\/span>, can be marked <span class=\"dCode dNoWrap\">Serializable<\/span>, so A, B, and E are incorrect. Classes can implement multiple interfaces, so C is also incorrect. D is correct, because process-heavy classes would be difficult to serialize since it may involve managing multiple threads. F is also correct because serialization of an object stores only the instance variable data, not the <span class=\"dCode dNoWrap\">static<\/span> class data. In other words, serializing an object throws away the <span class=\"dCode dNoWrap\">static<\/span> class data.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34259",
+      "attempts_id": "392281",
+      "question_id": "34259",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;2;4;7",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following stream classes are high-level? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ObjectInputStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">PrintStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileWriter<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">PrintWriter<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">OutputStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileInputStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ObjectOutputStream<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "<span class=\"dCode dNoWrap\">ObjectOutputStream<\/span> and <span class=\"dCode dNoWrap\">ObjectInputStream<\/span> perform serialization and deserialization on a low-level stream, respectively, so A and G are correct. <span class=\"dCode dNoWrap\">PrintStream<\/span> and <span class=\"dCode dNoWrap\">PrintWriter<\/span> format text for a low-level <span class=\"dCode dNoWrap\">OutputStream<\/span> and <span class=\"dCode dNoWrap\">Writer<\/span>, respectively, so B and D are also correct. <span class=\"dCode dNoWrap\">FileWriter<\/span> and <span class=\"dCode dNoWrap\">FileInputStream<\/span> operate on a file directly and are low-level streams, so C and F are incorrect. Finally, <span class=\"dCode dNoWrap\">OutputStream<\/span> is an abstract parent class and is neither high-level nor low-level, so E is incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34260",
+      "attempts_id": "392281",
+      "question_id": "34260",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;4;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which values when inserted into the blank would allow the code to compile? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">1:&#160;Console&#160;console&#160;=&#160;System.console();<\/span><br><span class=\"dCode dNoWrap\">2:&#160;String&#160;color&#160;=&#160;console.readLine(\"What&#160;is&#160;your&#160;favorite&#160;color?&#160;\");<\/span><br><span class=\"dCode dNoWrap\">3:&#160;console.____________(\"Your&#160;favorite&#160;color&#160;is&#160;\"+color);<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">print<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">printf<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">println<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">format<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">writer().println<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">out<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "<span class=\"dCode dNoWrap\">Console<\/span> defines two output methods, <span class=\"dCode dNoWrap\">format()<\/span> and <span class=\"dCode dNoWrap\">printf()<\/span>, that are identical in function, so B and D are correct. A, C, and F are each incorrect, because there is no such method with that name defined in the <span class=\"dCode dNoWrap\">Console<\/span> class. You can also use the <span class=\"dCode dNoWrap\">writer()<\/span> method to gain access to the <span class=\"dCode dNoWrap\">Console<\/span>'s <span class=\"dCode dNoWrap\">PrintWriter<\/span> object, so E is correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34261",
+      "attempts_id": "392281",
+      "question_id": "34261",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3;4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Suppose that you need to write data that consists of <span class=\"dCode dNoWrap\">int<\/span>, <span class=\"dCode dNoWrap\">double<\/span>, <span class=\"dCode dNoWrap\">boolean<\/span>, and <span class=\"dCode dNoWrap\">String<\/span> values to a file that maintains the format of the original data. For performance reasons, you also want to buffer the data. Which three <span class=\"dCode dNoWrap\">java.io<\/span> classes can be chained together to best achieve this result?",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileWriter<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">FileOutputStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">BufferedOutputStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ObjectOutputStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">DirectoryStream<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">PrintWriter<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">PipedOutputStream<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Since you need to write primitives and <span class=\"dCode dNoWrap\">String<\/span> values, the <span class=\"dCode dNoWrap\">OutputStream<\/span> classes are appropriate. Therefore, you can eliminate A and F since they are not <span class=\"dCode dNoWrap\">OutputStream<\/span> classes. Next, <span class=\"dCode dNoWrap\">DirectoryStream<\/span> is not a <span class=\"dCode dNoWrap\">java.io<\/span> class, so E is incorrect. As you shall see in the next chapter, <span class=\"dCode dNoWrap\">DirectoryStream<\/span> is an NIO.2 class. The data should be written to the file directly using the <span class=\"dCode dNoWrap\">FileOutputStream<\/span> class, buffered with the <span class=\"dCode dNoWrap\">BufferedOutputStream<\/span> class and automatically serialized with the <span class=\"dCode dNoWrap\">ObjectOutputStream<\/span> class, so B, C, and D are correct. G is incorrect because it is not related to this task. We include it as an option to help you adapt to situations on the exam where you may come across a class with which you are not familiar. Just answer as best you can, based on what you know.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34262",
+      "attempts_id": "392281",
+      "question_id": "34262",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What are some reasons to use a character stream, such as <span class=\"dCode dNoWrap\">Reader<\/span>\/<span class=\"dCode dNoWrap\">Writer<\/span>, over a byte stream, such as <span class=\"dCode dNoWrap\">InputStream<\/span>\/<span class=\"dCode dNoWrap\">OutputStream<\/span>? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "More convenient code syntax when working with <span class=\"dCode dNoWrap\">String<\/span> data",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Improved performance",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Automatic character encoding",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Built-in serialization and deserialization",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Character streams are high-level streams",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Multi-threading support",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Character stream classes often include built-in convenience methods for working with <span class=\"dCode dNoWrap\">String<\/span> data, so A is correct. They also handle character encoding automatically, so C is also correct. The rest of the statements are irrelevant or incorrect and are not properties of all character streams.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34263",
+      "attempts_id": "392281",
+      "question_id": "34263",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assuming the following class has proper <span class=\"dCode dNoWrap\">public<\/span> getter\/setter methods for all of its <span class=\"dCode dNoWrap\">private<\/span> fields, which of the following fields will always be <span class=\"dCode dNoWrap\">null<\/span> after an instance of the class is serialized and then deserialized? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">public&#160;class&#160;Zebra&#160;implements&#160;Serializable&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;static&#160;final&#160;long&#160;serialUID&#160;=&#160;1L;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;transient&#160;String&#160;name&#160;=&#160;\"George\";<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;static&#160;String&#160;birthPlace&#160;=&#160;\"Africa\";<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;transient&#160;Integer&#160;age;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;java.util.List&#60;Zebra&#62;&#160;friends&#160;=&#160;new&#160;java.util.ArrayList&#60;&#62;();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;Object&#160;tail&#160;=&#160;null;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;{&#160;age&#160;=&#160;10;}<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;Zebra()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.name&#160;=&#160;\"Sophia\";<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">name<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">tail<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">age<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">friends<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">birthPlace<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles and runs without issue, so F and G are incorrect. Note that <span class=\"dCode dNoWrap\">serialUID<\/span> is not the same as <span class=\"dCode dNoWrap\">serialVersionUID<\/span>, although since <span class=\"dCode dNoWrap\">serialVersionUID<\/span> is recommended but not required, this does not pose any compilation issues. Just be aware that <span class=\"dCode dNoWrap\">serialUID<\/span> will not be used by the serialization process for version control. The <span class=\"dCode dNoWrap\">name<\/span> variable and <span class=\"dCode dNoWrap\">age<\/span> variable are both <span class=\"dCode dNoWrap\">transient<\/span>, which means that their values will not be saved upon serialization. Upon deserialization, the default initializations and constructor will be skipped, and they will both be <span class=\"dCode dNoWrap\">null<\/span>; therefore A and C are correct. B is incorrect because <span class=\"dCode dNoWrap\">tail<\/span> is not <span class=\"dCode dNoWrap\">transient<\/span> and could be set by a caller before being serialized. D is also incorrect because a serialized empty array is not the same as a <span class=\"dCode dNoWrap\">null<\/span> pointer. Even though these non-<span class=\"dCode dNoWrap\">transient<\/span> fields could be set to <span class=\"dCode dNoWrap\">null<\/span>, they are not guaranteed to be <span class=\"dCode dNoWrap\">null<\/span> after deserialization. E is incorrect because the <span class=\"dCode dNoWrap\">static<\/span> value will not be serialized; it will be available on the class after deserialization.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34264",
+      "attempts_id": "392281",
+      "question_id": "34264",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the value of <span class=\"dCode dNoWrap\">name<\/span> after an instance of <span class=\"dCode dNoWrap\">Eagle<\/span> is serialized and then deserialized?<br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;Bird&#160;implements&#160;Serializable&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;protected&#160;transient&#160;String&#160;name&#160;=&#160;\"Bridget\";<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;void&#160;setName(String&#160;name)&#160;{&#160;this.name&#160;=&#160;name;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;String&#160;getName()&#160;{&#160;return&#160;name;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;Bird()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.name&#160;=&#160;\"Matt\";<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;Eagle&#160;extends&#160;Bird&#160;implements&#160;Serializable&#160;{<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;{&#160;this.name&#160;=&#160;\"Janette\";&#160;}<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;Eagle()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.name&#160;=&#160;\"Daniel\";<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Bridget<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Matt<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Janette<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Daniel<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">null<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "8",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The value may not be known until runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "First off, even though the <span class=\"dCode dNoWrap\">Bird<\/span> class implements <span class=\"dCode dNoWrap\">Serializable<\/span>, it does not define a <span class=\"dCode dNoWrap\">static<\/span> <span class=\"dCode dNoWrap\">serialVersionUID<\/span> variable, which is recommended but not required; therefore it compiles without issue and F is incorrect. The code also runs without issue, so G is incorrect. The key here is that Java will call the constructor for the first non-serializable no-argument parent class during deserialization, skipping any constructors and default initializations for serializable classes in between, including <span class=\"dCode dNoWrap\">Eagle<\/span> and <span class=\"dCode dNoWrap\">Bird<\/span> itself. Therefore, <span class=\"dCode dNoWrap\">Object()<\/span> is the first constructor called. All default initializations are skipped, so A, B, C, and D are all incorrect. Since the <span class=\"dCode dNoWrap\">name<\/span> is marked <span class=\"dCode dNoWrap\">transient<\/span>, the deserialized value is <span class=\"dCode dNoWrap\">null<\/span> and E is correct. H is also incorrect, because the caller cannot change the serialized value of <span class=\"dCode dNoWrap\">name<\/span> with <span class=\"dCode dNoWrap\">setName()<\/span>, since <span class=\"dCode dNoWrap\">name<\/span> is marked <span class=\"dCode dNoWrap\">transient<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34265",
+      "attempts_id": "392281",
+      "question_id": "34265",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "991",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "8",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assume that you have an <span class=\"dCode dNoWrap\">InputStream<\/span> whose next bytes are <span class=\"dCode dNoWrap\">XYZABC<\/span>. What is the result of calling the following method on the stream, using a <span class=\"dCode dNoWrap\">count<\/span> value of <span class=\"dCode dNoWrap\">3<\/span>?<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">public&#160;static&#160;String&#160;pullBytes(InputStream&#160;is,&#160;int&#160;count)&#160;throws&#160;IOException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;is.mark(count);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;final&#160;StringBuilder&#160;sb&#160;=&#160;new&#160;StringBuilder();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;for(int&#160;i=0;&#160;i&#60;count;&#160;i++)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;sb.append((char)is.read());<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;is.reset();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;is.skip(1);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;sb.append((char)is.read());<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;return&#160;sb.toString();<\/span><br><span class=\"dCode dNoWrap\">}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It will return a <span class=\"dCode dNoWrap\">String<\/span> value of <span class=\"dCode dNoWrap\">XYZ<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It will return a <span class=\"dCode dNoWrap\">String<\/span> value of <span class=\"dCode dNoWrap\">XYZA<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It will return a <span class=\"dCode dNoWrap\">String<\/span> value of <span class=\"dCode dNoWrap\">XYZX<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It will return a <span class=\"dCode dNoWrap\">String<\/span> value of <span class=\"dCode dNoWrap\">XYZB<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It will return a <span class=\"dCode dNoWrap\">String<\/span> value of <span class=\"dCode dNoWrap\">XYZY<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "8",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The result cannot be determined with the information given.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Not all <span class=\"dCode dNoWrap\">java.io<\/span> streams support the <span class=\"dCode dNoWrap\">mark()<\/span> operation; therefore, without calling <span class=\"dCode dNoWrap\">markSupported()<\/span> on the stream, the result is unknown until runtime. If the stream does support the <span class=\"dCode dNoWrap\">mark()<\/span> operation, then the result would be <span class=\"dCode dNoWrap\">XYZY<\/span>, because the <span class=\"dCode dNoWrap\">reset()<\/span> operation puts the stream back in the position before the <span class=\"dCode dNoWrap\">mark()<\/span> was called, and <span class=\"dCode dNoWrap\">skip(1)<\/span> will skip <span class=\"dCode dNoWrap\">X<\/span>, and E would be correct. If the stream does not support the <span class=\"dCode dNoWrap\">mark()<\/span> operation, a runtime exception would likely be thrown, and G would be correct. Since you don't know if the input stream supports the <span class=\"dCode dNoWrap\">mark()<\/span> operation, H is the only correct choice.",
+        "display_order": "1"
+      }]
+    }]
+  }
+}

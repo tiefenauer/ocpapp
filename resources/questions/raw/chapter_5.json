@@ -1,0 +1,1531 @@
+{
+  "id": "392277",
+  "title": null,
+  "user_id": "14161",
+  "course_id": "823",
+  "test_id": "123",
+  "section_id": null,
+  "mode": "practice",
+  "date_created": "2016-10-07 02:44:35",
+  "lesson_location": "0",
+  "status": "1",
+  "category": "Book 9781119067900",
+  "course_name": "OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide: <br\/>Exam 1Z0-809",
+  "global_time": 0,
+  "sections": {
+    "directions": [{
+      "id": "988",
+      "test_id": "123",
+      "description": "Chapter 5",
+      "time": "20",
+      "direction": [{
+        "id": "978",
+        "reference_id": "988",
+        "direction_for": "section",
+        "data_type_id": "2",
+        "data": "Section level Directions Text appears here.",
+        "display_order": "0"
+      }]
+    }],
+    "question": [{
+      "id": "34181",
+      "attempts_id": "392277",
+      "question_id": "34181",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following creates valid locales, assuming that the language and country codes follow standard conventions? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;Locale(\"hi\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;Locale(\"hi\",&#160;\"IN\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;Locale(\"IN\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;Locale(\"IN\",&#160;\"hi\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Locale.create(\"hi\");<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Locale.create(\"IN\");<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Choices E and F are incorrect because a <span class=\"dCode dNoWrap\">Locale<\/span> is created using a constructor. The convention is to use lowercase for a language code and uppercase for a country code. The language is mandatory when using a constructor, which makes choices A and B correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34182",
+      "attempts_id": "392277",
+      "question_id": "34182",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;4;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are common types to localize? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Booleans",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Class names",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Currency",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Dates",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Numbers",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Variable names",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Localization refers to user-facing elements that a user sees. Currency, dates, and numbers are commonly used in different formats for different countries. Class and variable names are internal to the application, so there is no need to translate them for users. Booleans are true\/false values with standard names.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34183",
+      "attempts_id": "392277",
+      "question_id": "34183",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are true? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All keys must be in the same resource bundle file to be used.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All resource bundles defined as Java classes can be expressed using the property file format instead.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "All resource bundles defined as property files can be expressed using the Java class list bundle format instead.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Changing the default locale lasts for only a single run of the program.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It is forbidden to have both <span class=\"dCode dNoWrap\">Props_en.java<\/span> and <span class=\"dCode dNoWrap\">Props_en.properties<\/span> in the classpath of an application.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Choice A is incorrect because Java will look at parent bundles. For example, Java will look at <span class=\"dCode dNoWrap\">Props.properties<\/span> if <span class=\"dCode dNoWrap\">Props_en.properties<\/span> does not contain the requested key. Java class resource bundles can have non-String values while property files are limited to strings. Therefore, choice B is incorrect and choice C is correct. Choice D is correct because the locale is only changed in memory. Choice E is incorrect because Java specifies that it will look for a Java class resource bundle before a property file of the same name.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34184",
+      "attempts_id": "392277",
+      "question_id": "34184",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assume that all bundles mentioned in the answers exist and define the same keys. Which one will be used to find the key in line 8?<br><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;Locale.setDefault(new&#160;Locale(\"en\",&#160;\"US\"));<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;ResourceBundle&#160;b&#160;=&#160;ResourceBundle.getBundle(\"Dolphins\");<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;&#160;b.getString(\"name\");<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Dolphins.properties<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Dolphins_en.java<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Dolphins_en.properties<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Whales.properties<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Whales_en_US.properties<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Java will first look for the most specific matches it can find, starting with <span class=\"dCode dNoWrap\">Dolphins_en_US.java<\/span> and then <span class=\"dCode dNoWrap\">Dolphins_en_US.properties<\/span>. Since neither is found, it drops the country and looks for <span class=\"dCode dNoWrap\">Dolphins_en.java<\/span>. Since a match is found, there is no reason to go on to the next one, which is <span class=\"dCode dNoWrap\">Dolphins_en.properties<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34185",
+      "attempts_id": "392277",
+      "question_id": "34185",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Suppose that we have the following property files and code. Which bundles are used on lines 8 and 9 respectively?<br><br><span class=\"dCode dNoWrap\"><b>Dolphins.properties<\/b><\/span><br><span class=\"dCode dNoWrap\">name=The&#160;Dolphin<\/span><br><span class=\"dCode dNoWrap\">age=0<\/span><br><br><span class=\"dCode dNoWrap\"><b>Dolphins_en.properties<\/b><\/span><br><span class=\"dCode dNoWrap\">name=Dolly<\/span><br><span class=\"dCode dNoWrap\">age=4<\/span><br><br><span class=\"dCode dNoWrap\"><b>Dolphins_fr.properties<\/b><\/span><br><span class=\"dCode dNoWrap\">name=Dolly<\/span><br><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;Locale&#160;fr&#160;=&#160;new&#160;Locale(\"fr\");<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;Locale.setDefault(new&#160;Locale(\"en\",&#160;\"US\"));<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;ResourceBundle&#160;b&#160;=&#160;ResourceBundle.getBundle(\"Dolphins\",&#160;fr);<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;&#160;b.getString(\"name\");<\/span><br><span class=\"dCode dNoWrap\">9:&#160;&#160;&#160;&#160;b.getString(\"age\");<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Dolphins.properties<\/span> and <span class=\"dCode dNoWrap\">Dolphins.properties<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Dolphins.properties<\/span> and <span class=\"dCode dNoWrap\">Dolphins_en.properties<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Dolphins_en.properties<\/span> and <span class=\"dCode dNoWrap\">Dolphins_en.properties<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Dolphins_fr.properties<\/span> and <span class=\"dCode dNoWrap\">Dolphins.properties<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Dolphins_fr.properties<\/span> and <span class=\"dCode dNoWrap\">Dolphins_en.properties<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Java will use <span class=\"dCode dNoWrap\">Dolphins_fr.properties<\/span> as the matching resource bundle on line 7 because it is an exact match on the language of the requested locale. Line 8 finds a matching key in this file. Line 9 does not find a match in that file, and therefore it has to look higher up in the hierarchy. Once a bundle is chosen, only resources in that hierarchy are allowed.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34186",
+      "attempts_id": "392277",
+      "question_id": "34186",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "4;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following can be inserted into the blank to create a date of June 21, 2014? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">import&#160;java.time.*;<\/span><br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;StartOfSummer&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;LocalDate&#160;date&#160;=&#160;____________________________<\/span><br><span class=\"dCode dNoWrap\">}&#160;}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;LocalDate(2014,&#160;5,&#160;21);<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;LocalDate(2014,&#160;6,&#160;21);<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalDate.of(2014,&#160;5,&#160;21);<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalDate.of(2014,&#160;6,&#160;21);<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalDate.of(2014,&#160;Calendar.JUNE,&#160;21);<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalDate.of(2014,&#160;Month.JUNE,&#160;21);<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Options A and B are incorrect because <span class=\"dCode dNoWrap\">LocalDate<\/span> does not have a public constructor. Option C is incorrect because months start counting with 1 rather than 0. Option E is incorrect because it uses the old <span class=\"dCode dNoWrap\">Calendar<\/span> constants for months, which begin with 0. Options D and F are both correct ways of specifying the desired date.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34187",
+      "attempts_id": "392277",
+      "question_id": "34187",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDate&#160;date&#160;=&#160;LocalDate.parse(<\/span><br><span class=\"dCode dNoWrap\">\"2018<\/span>&#8211;<span class=\"dCode dNoWrap\">04<\/span>&#8211;<span class=\"dCode dNoWrap\">30\",&#160;DateTimeFormatter.ISO_LOCAL_DATE);<\/span><br><span class=\"dCode dNoWrap\">date.plusDays(2);<\/span><br><span class=\"dCode dNoWrap\">date.plusHours(3);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(date.getYear()&#160;+&#160;\"&#160;\"<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;+&#160;date.getMonth()&#160;+&#160;\"&#160;\"+&#160;date.getDayOfMonth());<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2018&#160;APRIL&#160;2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2018&#160;APRIL&#160;30<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2018&#160;MAY&#160;2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A runtime exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A <span class=\"dCode dNoWrap\">LocalDate<\/span> does not have a time element. Therefore, it has no method to add hours, and the code does not compile.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34188",
+      "attempts_id": "392277",
+      "question_id": "34188",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDate&#160;date&#160;=&#160;LocalDate.of(2018,&#160;Month.APRIL,&#160;40);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(date.getYear()&#160;+&#160;\"&#160;\"&#160;+&#160;date.getMonth()<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;+&#160;\"&#160;\"+&#160;date.getDayOfMonth());<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2018&#160;APRIL&#160;4<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2018&#160;APRIL&#160;30<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2018&#160;MAY&#160;10<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Another date",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A runtime exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Java throws an exception if invalid date values are passed. There is no 40th day in April&#8212;or any other month for that matter.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34189",
+      "attempts_id": "392277",
+      "question_id": "34189",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDate&#160;date&#160;=&#160;LocalDate.of(2018,&#160;Month.APRIL,&#160;30);<\/span><br><span class=\"dCode dNoWrap\">date.plusDays(2);<\/span><br><span class=\"dCode dNoWrap\">date.plusYears(3);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(date.getYear()&#160;+&#160;\"&#160;\"<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;+&#160;date.getMonth()&#160;+&#160;\"&#160;\"+&#160;date.getDayOfMonth());<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2018&#160;APRIL&#160;2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2018&#160;APRIL&#160;30<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2018&#160;MAY&#160;2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2021&#160;APRIL&#160;2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2021&#160;APRIL&#160;30<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">2021&#160;MAY&#160;2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A runtime exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The date starts out as April 30, 2018. Since dates are immutable and the plus methods have their return values ignored, the result is unchanged. Therefore, Option B is correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34190",
+      "attempts_id": "392277",
+      "question_id": "34190",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDateTime&#160;d&#160;=&#160;LocalDateTime.of(2015,&#160;5,&#160;10,&#160;11,&#160;22,&#160;33);<\/span><br><span class=\"dCode dNoWrap\">Period&#160;p&#160;=&#160;Period.of(1,&#160;2,&#160;3);<\/span><br><span class=\"dCode dNoWrap\">d&#160;=&#160;d.minus(p);<\/span><br><span class=\"dCode dNoWrap\">DateTimeFormatter&#160;f&#160;=&#160;DateTimeFormatter.<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;ofLocalizedTime(FormatStyle.SHORT);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(d.format(f));<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">3\/7\/14&#160;11:22&#160;AM<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">5\/10\/15&#160;11:22&#160;AM<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">3\/7\/14<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">5\/10\/15<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">11:22&#160;AM<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A runtime exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Even though <span class=\"dCode dNoWrap\">d<\/span> has both date and time, the formatter only outputs time.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34191",
+      "attempts_id": "392277",
+      "question_id": "34191",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDateTime&#160;d&#160;=&#160;LocalDateTime.of(2015,&#160;5,&#160;10,&#160;11,&#160;22,&#160;33);<\/span><br><span class=\"dCode dNoWrap\">Period&#160;p&#160;=&#160;Period.ofDays(1).ofYears(2);<\/span><br><span class=\"dCode dNoWrap\">d&#160;=&#160;d.minus(p);<\/span><br><span class=\"dCode dNoWrap\">DateTimeFormatter&#160;f&#160;=&#160;DateTimeFormatter.<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;ofLocalizedDateTime(FormatStyle.SHORT);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(f.format(d));<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">5\/9\/13&#160;11:22&#160;AM<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">5\/10\/13&#160;11:22&#160;AM<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">5\/9\/14<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">5\/10\/14<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A runtime exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "<span class=\"dCode dNoWrap\">Period<\/span> does not allow chaining. Only the last <span class=\"dCode dNoWrap\">Period<\/span> method called counts, so only the two years are subtracted.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34192",
+      "attempts_id": "392277",
+      "question_id": "34192",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the answer choices is true given the following code? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">2016<\/span>&#8211;<span class=\"dCode dNoWrap\">08<\/span>&#8211;<span class=\"dCode dNoWrap\">28T05:00&#160;GMT-04:00<\/span><br><span class=\"dCode dNoWrap\">2016<\/span>&#8211;<span class=\"dCode dNoWrap\">08<\/span>&#8211;<span class=\"dCode dNoWrap\">28T09:00&#160;GMT-06:00<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The first date\/time is earlier.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The second date\/time is earlier.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Both date\/times are the same.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The date\/times are 2 hours apart.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The date\/times are 6 hours apart.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The date\/times are 10 hours apart.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "When dealing with time zones, it is best to convert to GMT first by subtracting the time zone. The first date\/time is 9:00 GMT, and the second is 15:00 GMT. Therefore, the first one is earlier by 6 hours.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34193",
+      "attempts_id": "392277",
+      "question_id": "34193",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Note that March 13, 2016, is the weekend that clocks spring ahead for daylight savings time. What is the output of the following?<br><br><span class=\"dCode dNoWrap\">LocalDate&#160;date&#160;=&#160;LocalDate.of(2016,&#160;Month.MARCH,&#160;13);<\/span><br><span class=\"dCode dNoWrap\">LocalTime&#160;time&#160;=&#160;LocalTime.of(1,&#160;30);<\/span><br><span class=\"dCode dNoWrap\">ZoneId&#160;zone&#160;=&#160;ZoneId.of(\"US\/Eastern\");<\/span><br><span class=\"dCode dNoWrap\">ZonedDateTime&#160;dateTime1&#160;=&#160;ZonedDateTime.of(date,&#160;time,&#160;zone);<\/span><br><span class=\"dCode dNoWrap\">ZonedDateTime&#160;dateTime2&#160;=&#160;dateTime1.plus(1,&#160;ChronoUnit.HOURS);<\/span><br><br><span class=\"dCode dNoWrap\">long&#160;hours&#160;=&#160;ChronoUnit.HOURS.between(dateTime1,&#160;dateTime2);<\/span><br><span class=\"dCode dNoWrap\">int&#160;clock1&#160;=&#160;dateTime1.getHour();<\/span><br><span class=\"dCode dNoWrap\">int&#160;clock2&#160;=&#160;dateTime2.getHour();<\/span><br><span class=\"dCode dNoWrap\">System.out.println(hours&#160;+&#160;\",\"&#160;+&#160;clock1&#160;+&#160;\",\"&#160;+&#160;clock2);<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "1,1,2",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "1,1,3",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "2,1,2",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "2,1,3",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A runtime exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "<span class=\"dCode dNoWrap\"><i>dateTime1<\/i><\/span> is <span class=\"dCode dNoWrap\">2016&#8211;03&#8211;13T01:30&#8211;05:00[US\/Eastern]<\/span> and <span class=\"dCode dNoWrap\"><i>dateTime2<\/i><\/span> is <span class=\"dCode dNoWrap\">2016&#8211;03&#8211;13T03:30&#8211;04:00[US\/Eastern]<\/span>. While the values are two hours apart, the time zone offset changes as well, making it only change from 6:30 GMT to 7:30 GMT.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34194",
+      "attempts_id": "392277",
+      "question_id": "34194",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;3;4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Note that March 13, 2016, is the weekend that we spring forward, and November 6, 2016, is when we fall back for daylight savings time. Which of the following can fill in the blank without the code throwing an exception?<br><br><span class=\"dCode dNoWrap\">ZoneId&#160;zone&#160;=&#160;ZoneId.of(\"US\/Eastern\");<\/span><br><span class=\"dCode dNoWrap\">LocalDate&#160;date&#160;=&#160;_____________________;<\/span><br><span class=\"dCode dNoWrap\">LocalTime&#160;time1&#160;=&#160;LocalTime.of(2,&#160;15);<\/span><br><span class=\"dCode dNoWrap\">ZonedDateTime&#160;a&#160;=&#160;ZonedDateTime.of(date4,&#160;time1,&#160;zone);<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalDate.of(2016,&#160;3,&#160;13)<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalDate.of(2016,&#160;3,&#160;40)<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalDate.of(2016,&#160;11,&#160;6)<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalDate.of(2016,&#160;11,&#160;7)<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalDate.of(2017,&#160;2,&#160;29)<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Option B is incorrect because there is no March 40<sup>th<\/sup>. Option E is incorrect because 2017 isn't a leap year and therefore has no February 29<sup>th<\/sup>. Option D is correct because it is just a regular date and has nothing to do with daylight savings time. Options A and C are correct because Java is smart enough to adjust for daylight savings time.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34195",
+      "attempts_id": "392277",
+      "question_id": "34195",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Given the following code, which of the answer choices can fill in the blank to print <span class=\"dCode dNoWrap\">true<\/span>? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">String&#160;m1&#160;=&#160;Duration.of(1,&#160;ChronoUnit.MINUTES).toString();<\/span><br><span class=\"dCode dNoWrap\">String&#160;m2&#160;=&#160;Duration.ofMinutes(1).toString();<\/span><br><span class=\"dCode dNoWrap\">String&#160;s&#160;=&#160;Duration.of(60,&#160;ChronoUnit.SECONDS).toString();<\/span><br><br><span class=\"dCode dNoWrap\">String&#160;d&#160;=&#160;Duration.ofDays(1).toString();<\/span><br><span class=\"dCode dNoWrap\">String&#160;p&#160;=&#160;Period.ofDays(1).toString();<\/span><br><br><span class=\"dCode dNoWrap\">System.out.println(______);<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">m1&#160;==&#160;m2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">m1.equals(m2)<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">m1.equals(s)<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">d&#160;==&#160;p<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">d.equals(p)<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Options A and D are incorrect because the <span class=\"dCode dNoWrap\">String<\/span> references do not point to the same object. Option E is incorrect because a <span class=\"dCode dNoWrap\">Period<\/span> format begins with a <span class=\"dCode dNoWrap\">P<\/span> and a <span class=\"dCode dNoWrap\">Duration<\/span> format begins with <span class=\"dCode dNoWrap\">PT<\/span>. They are different types and do not represent the same value even though they are both a day. Remember that <span class=\"dCode dNoWrap\">Duration<\/span> uses hours\/minutes\/seconds and <span class=\"dCode dNoWrap\">Period<\/span> uses years\/months\/days for measures. Options B and C are correct because <span class=\"dCode dNoWrap\"><i>m1<\/i><\/span>, <span class=\"dCode dNoWrap\"><i>m2<\/i><\/span>, and <span class=\"dCode dNoWrap\"><i>s<\/i><\/span> all represent a duration of the same length.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34196",
+      "attempts_id": "392277",
+      "question_id": "34196",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;2;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Given the following, which answers can correctly fill in the blank? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">LocalDate&#160;date&#160;=&#160;LocalDate.now();<\/span><br><span class=\"dCode dNoWrap\">LocalTime&#160;time&#160;=&#160;LocalTime.now();<\/span><br><span class=\"dCode dNoWrap\">LocalDateTime&#160;dateTime&#160;=&#160;LocalDateTime.now();<\/span><br><span class=\"dCode dNoWrap\">ZoneId&#160;zoneId&#160;=&#160;ZoneId.systemDefault();<\/span><br><span class=\"dCode dNoWrap\">ZonedDateTime&#160;zonedDateTime&#160;=&#160;ZonedDateTime.of(dateTime,&#160;zoneId);<\/span><br><span class=\"dCode dNoWrap\">long&#160;epochSeconds&#160;=&#160;0;<\/span><br><span class=\"dCode dNoWrap\">Instant&#160;instant&#160;=&#160;_____________________;<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Instant.now()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Instant.ofEpochSecond(epochSeconds)<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">date.toInstant()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">dateTime.toInstant()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">time.toInstant()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">zonedDateTime.toInstant()<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Option A correctly creates the current instant. Option B correctly converts from seconds to an <span class=\"dCode dNoWrap\">Instant<\/span>. Option F is also a proper conversion. Options C, D, and E are incorrect because the source object does not represent a point in time. Without a time zone, Java doesn't know what moment in time to use for the <span class=\"dCode dNoWrap\">Instant<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34197",
+      "attempts_id": "392277",
+      "question_id": "34197",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the output of the following method if <span class=\"dCode dNoWrap\">props<\/span> contains <span class=\"dCode dNoWrap\">{veggies=brontosaurus,&#160;meat=velociraptor}<\/span>?<br><br><span class=\"dCode dNoWrap\">private&#160;static&#160;void&#160;print(Properties&#160;props)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(props.get(\"veggies\",&#160;\"none\")<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;+&#160;\"&#160;\"&#160;+&#160;props.get(\"omni\",&#160;\"none\"));<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">brontosaurus&#160;none<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">brontosaurus&#160;null<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">none&#160;none<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">none&#160;null<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "A runtime exception is thrown.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The <span class=\"dCode dNoWrap\">Properties<\/span> class defines a <span class=\"dCode dNoWrap\">get()<\/span> method that does not allow for a default value. It also has a <span class=\"dCode dNoWrap\">getProperty()<\/span> method, which returns the default value if the key is not provided.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34198",
+      "attempts_id": "392277",
+      "question_id": "34198",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following prints out all of the values in <span class=\"dCode dNoWrap\">props<\/span>?",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.keys().stream().map(k&#160;-&#62;&#160;k&#160;.forEach(System.out::println);<\/span><\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.keys().stream().map(k&#160;-&#62;&#160;props.get(k))&#160;.forEach(System.out::println);<\/span><\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.keySet().stream().map(k&#160;-&#62;&#160;k)&#160;.forEach(System.out::println);<\/span><\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.keySet().stream().map(k&#160;-&#62;&#160;props.get(k))&#160;.forEach(System.out::println);<\/span><\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.stream().map(k&#160;-&#62;&#160;k)&#160;.forEach(System.out::println);<\/span><\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dSmall\"><span class=\"dCode dNoWrap\">props.stream().map(k&#160;-&#62;&#160;props.get(k))&#160;.forEach(System.out::println);<\/span><\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Options E and F do not compile because you can't get a stream directly from a <span class=\"dCode dNoWrap\">Properties<\/span> object. Options A and B do not compile because the method is <span class=\"dCode dNoWrap\">keySet()<\/span>, not <span class=\"dCode dNoWrap\">keys()<\/span>.Option C outputs all of the keys, and Option D outputs all of the values.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34199",
+      "attempts_id": "392277",
+      "question_id": "34199",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;2;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are stored in a <span class=\"dCode dNoWrap\">Period<\/span> object? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Year",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Month",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Day",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Hour",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Minute",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Second",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Remember that <span class=\"dCode dNoWrap\">Duration<\/span> uses hours\/minutes\/seconds and <span class=\"dCode dNoWrap\">Period<\/span> uses years\/months\/days for measures.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34200",
+      "attempts_id": "392277",
+      "question_id": "34200",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "988",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following objects could contain the information \"eastern standard time\"? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Instant<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalDate<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalDateTime<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">LocalTime<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">ZonedDateTime<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Local____ explicitly excludes time zones. <span class=\"dCode dNoWrap\">Instant<\/span> represents a point in time, but always uses GMT rather than the desired time zone.",
+        "display_order": "1"
+      }]
+    }]
+  }
+}

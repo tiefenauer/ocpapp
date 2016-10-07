@@ -1,0 +1,1781 @@
+{
+  "id": "392280",
+  "title": null,
+  "user_id": "14161",
+  "course_id": "823",
+  "test_id": "123",
+  "section_id": null,
+  "mode": "practice",
+  "date_created": "2016-10-07 02:46:42",
+  "lesson_location": "0",
+  "status": "1",
+  "category": "Book 9781119067900",
+  "course_name": "OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide: <br\/>Exam 1Z0-809",
+  "global_time": 0,
+  "sections": {
+    "directions": [{
+      "id": "990",
+      "test_id": "123",
+      "description": "Chapter 7",
+      "time": "22",
+      "direction": [{
+        "id": "980",
+        "reference_id": "990",
+        "direction_for": "section",
+        "data_type_id": "2",
+        "data": "Section level Directions Text appears here.",
+        "display_order": "0"
+      }]
+    }],
+    "question": [{
+      "id": "34221",
+      "attempts_id": "392280",
+      "question_id": "34221",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "4;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Given an instance of a <span class=\"dCode dNoWrap\">Stream<\/span>, <span class=\"dCode dNoWrap\">s<\/span>, and a <span class=\"dCode dNoWrap\">Collection<\/span>, <span class=\"dCode dNoWrap\">c<\/span>, which are valid ways of creating a parallel stream? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;ParallelStream(s)<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">c.parallel()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">s.parallelStream()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">c.parallelStream()<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">new&#160;ParallelStream(c)<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">s.parallel()<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "There is no such class as <span class=\"dCode dNoWrap\">ParallelStream<\/span>, so A and E are incorrect. The method defined in the <span class=\"dCode dNoWrap\">Stream<\/span> class to create a parallel stream from an existing stream is <span class=\"dCode dNoWrap\">parallel()<\/span>; therefore F is correct and C is incorrect. The method defined in the <span class=\"dCode dNoWrap\">Collection<\/span> class to create a parallel stream from a collection is <span class=\"dCode dNoWrap\">parallelStream()<\/span>; therefore D is correct and B is incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34222",
+      "attempts_id": "392280",
+      "question_id": "34222",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;3;4;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following statements about the <span class=\"dCode dNoWrap\">Callable&#160;call()<\/span> and <span class=\"dCode dNoWrap\">Runnable&#160;run()<\/span> methods are correct? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Both can throw unchecked exceptions.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Callable<\/span> takes a generic method argument.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Callable<\/span> can throw a checked exception.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Both can be implemented with lambda expressions.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Runnable<\/span> returns a generic type.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">Callable<\/span> returns a generic type.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Both methods return <span class=\"dCode dNoWrap\">void<\/span>.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "<span class=\"dCode dNoWrap\">Runnable<\/span> and <span class=\"dCode dNoWrap\">Callable<\/span> statements both take no method arguments as input, so B is incorrect. <span class=\"dCode dNoWrap\">Runnable<\/span> returns void and <span class=\"dCode dNoWrap\">Callable<\/span> returns a generic type, so F is correct, and E and G are incorrect. All methods are capable of throwing unchecked exceptions, so A is correct. Only <span class=\"dCode dNoWrap\">Callable<\/span> is capable of throwing checked exceptions, so C is correct. Both <span class=\"dCode dNoWrap\">Runnable<\/span> and <span class=\"dCode dNoWrap\">Callable<\/span> can be implemented with lambda expressions, so D is correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34223",
+      "attempts_id": "392280",
+      "question_id": "34223",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2;3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which lines need to be changed to make the code compile? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">ExecutorService&#160;service&#160;=&#160;Executors.newSingleThreadScheduledExecutor();<\/span><br><span class=\"dCode dNoWrap\">service.scheduleWithFixedDelay(()&#160;-&#62;&#160;{&#160;\/\/&#160;w1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(\"Open&#160;Zoo\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;return&#160;null;&#160;\/\/&#160;w2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;},&#160;0,&#160;1,&#160;TimeUnit.MINUTES);<\/span><br><span class=\"dCode dNoWrap\">Future&#60;?&#62;&#160;result&#160;=&#160;service.submit(()&#160;-&#62;&#160;System.out.println(\"Wake&#160;Staff\"));&#160;\/\/&#160;w3<\/span><br><span class=\"dCode dNoWrap\">System.out.println(result.get());&#160;\/\/&#160;w4<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles and runs without issue.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Line <span class=\"dCode dNoWrap\">w1<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Line <span class=\"dCode dNoWrap\">w2<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Line <span class=\"dCode dNoWrap\">w3<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Line <span class=\"dCode dNoWrap\">w4<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code does not compile, so A and F are incorrect. The first problem is that although a <span class=\"dCode dNoWrap\">ScheduledExecutorService<\/span> is created, it is assigned to an <span class=\"dCode dNoWrap\">ExecutorService<\/span>. Since <span class=\"dCode dNoWrap\">scheduleWithFixedDelay()<\/span> does not exist in <span class=\"dCode dNoWrap\">ExecutorService<\/span>, line <span class=\"dCode dNoWrap\">w1<\/span> will not compile, and B is correct. The second problem is that <span class=\"dCode dNoWrap\">scheduleWithFixedDelay()<\/span>supports only <span class=\"dCode dNoWrap\">Runnable<\/span>, not <span class=\"dCode dNoWrap\">Callable<\/span>, and any attempt to return a value is invalid in a <span class=\"dCode dNoWrap\">Runnable<\/span> lambda expression; therefore line <span class=\"dCode dNoWrap\">w2<\/span> will also not compile and C is correct. The rest of the lines compile without issue, so D and E are incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34224",
+      "attempts_id": "392280",
+      "question_id": "34224",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What statement about the following code is true?<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">AtomicLong&#160;value1&#160;=&#160;new&#160;AtomicLong(0);<\/span><br><span class=\"dCode dNoWrap\">final&#160;long[]&#160;value2&#160;=&#160;{0};<\/span><br><span class=\"dCode dNoWrap\">IntStream.iterate(1,&#160;i&#160;-&#62;&#160;1).limit(100).parallel().forEach(i&#160;-&#62;&#160;value1.incrementAndGet());<\/span><br><span class=\"dCode dNoWrap\">IntStream.iterate(1,&#160;i&#160;-&#62;&#160;1).limit(100).parallel().forEach(i&#160;-&#62;&#160;++value2[0]);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(value1+\"&#160;\"+value2[0]);<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">100&#160;100<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">100&#160;99<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The output cannot be determined ahead of time.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but enters an infinite loop at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles and runs without throwing an exception or entering an infinite loop, so D, E, and F are incorrect. The key here is that the increment operator <span class=\"dCode dNoWrap\">++<\/span> is not atomic. While the first part of the output will always be <span class=\"dCode dNoWrap\">100<\/span>, the second part is nondeterministic. It could output any value from <span class=\"dCode dNoWrap\">1<\/span> to <span class=\"dCode dNoWrap\">100<\/span>, because the threads can overwrite each other's work. Therefore, C is the correct answer and A and B are incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34225",
+      "attempts_id": "392280",
+      "question_id": "34225",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Fill in the blanks: ________ occur(s) when two or more threads are blocked forever but both appear active. _________occur(s) when two or more threads try to complete a related task at the same time.",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Livelock, Deadlock",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Deadlock, Starvation",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Race conditions, Deadlock",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Livelock, Race conditions",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Starvation, Race conditions",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Deadlock, Livelock",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "Livelock occurs when two or more threads are conceptually blocked forever, although they are each still active and trying to complete their task. A race condition is an undesirable result that occurs when two tasks are completed at the same time, which should have been completed sequentially. For these reasons, D is the only correct answer.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34226",
+      "attempts_id": "392280",
+      "question_id": "34226",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which happens when more tasks are submitted to a thread executor than available threads?",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The thread executor will throw an exception when a task is submitted that is over its thread limit.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The task will be added to an internal queue and completed when there is an available thread.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The thread executor will discard any task over its thread limit.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The call to submit the task to the thread executor will wait until there is a thread available before continuing.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The thread executor creates new temporary threads to complete the additional tasks.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "If a task is submitted to a thread executor, and the thread executor does not have any available threads, the call to the task will return immediately with the task being queued internally by the thread executor. For this reason, B is the only correct answer.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34227",
+      "attempts_id": "392280",
+      "question_id": "34227",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "1",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of executing the following code snippet?<br><br><span class=\"dCode dNoWrap\">List&#60;Integer&#62;&#160;l1&#160;=&#160;Arrays.asList(1,2,3);<\/span><br><span class=\"dCode dNoWrap\">List&#60;Integer&#62;&#160;l2&#160;=&#160;new&#160;CopyOnWriteArrayList&#60;&#62;(l1);<\/span><br><span class=\"dCode dNoWrap\">Set&#60;Integer&#62;&#160;s3&#160;=&#160;new&#160;ConcurrentSkipListSet&#60;&#62;();<\/span><br><span class=\"dCode dNoWrap\">s3.addAll(l1);<\/span><br><br><span class=\"dCode dNoWrap\">for(Integer&#160;item:&#160;l2)&#160;l2.add(4);&#160;\/\/&#160;x1<\/span><br><span class=\"dCode dNoWrap\">for(Integer&#160;item:&#160;s3)&#160;s3.add(5);&#160;\/\/&#160;x2<\/span><br><span class=\"dCode dNoWrap\">System.out.println(l1.size()+\"&#160;\"+l2.size()+\"&#160;\"+s3.size());<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">3&#160;6&#160;4<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">6&#160;6&#160;6<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">6&#160;3&#160;4<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime on line <span class=\"dCode dNoWrap\">x1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime on line <span class=\"dCode dNoWrap\">x2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but enters an infinite loop at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles without issue, so D is incorrect. The <span class=\"dCode dNoWrap\">CopyOnWriteArrrayList<\/span> class is designed to preserve the original list on iteration, so the first loop will be executed exactly three times and E is incorrect. The <span class=\"dCode dNoWrap\">ConcurrentSkipListSet<\/span> class allows modifications while iterating, so it is possible that the second loop could generate an infinite loop. In this case, though, the second loop executes exactly four times, since elements in a set are unique and <span class=\"dCode dNoWrap\">5<\/span> can be added only once. For these reasons, F and G are also incorrect. Finally, despite using the elements of <span class=\"dCode dNoWrap\">l1<\/span> to populate the collections, <span class=\"dCode dNoWrap\">l2<\/span> and <span class=\"dCode dNoWrap\">s3<\/span> are not backed by the original list, so the size of <span class=\"dCode dNoWrap\">l1<\/span> is <span class=\"dCode dNoWrap\">3<\/span>. Likewise, the size of <span class=\"dCode dNoWrap\">l2<\/span> is <span class=\"dCode dNoWrap\">6<\/span> and the size of <span class=\"dCode dNoWrap\">s3<\/span> is <span class=\"dCode dNoWrap\">4<\/span>, so A is the correct answer.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34228",
+      "attempts_id": "392280",
+      "question_id": "34228",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "7",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What statements about the following code are true? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Integer&#160;i1&#160;=&#160;Arrays.asList(1,2,3,4,5).stream().findAny().get();<\/span><br><span class=\"dCode dNoWrap\">synchronized(i1)&#160;{&#160;\/\/&#160;y1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;Integer&#160;i2&#160;=&#160;Arrays.asList(6,7,8,9,10)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;.parallelStream()<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;.sorted()&#160;&#160;\/\/&#160;y2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;.findAny().get();&#160;\/\/&#160;y3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;System.out.println(i1+\"&#160;\"+i2);<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">1&#160;6<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">1&#160;10<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">y1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">y2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">y3<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The output cannot be determined ahead of time.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "8",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but waits forever at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles and runs without issue, so C, D, E, F, and H are incorrect. There are two important things to notice: first, synchronizing on the first output doesn't actually impact the results of the code. Second, sorting on a parallel stream does not mean that <span class=\"dCode dNoWrap\">findAny()<\/span> will return the first record. The <span class=\"dCode dNoWrap\">findAny()<\/span> method will return the value from the first thread that retrieves a record. Therefore, the output is not guaranteed for either serial or parallel stream. Since the results cannot be predicted ahead of time, G is the correct answer.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34229",
+      "attempts_id": "392280",
+      "question_id": "34229",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;3;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assuming <span class=\"dCode dNoWrap\">MyTask<\/span> is an <span class=\"dCode dNoWrap\">abstract<\/span> class that implements the <span class=\"dCode dNoWrap\">ForkJoinTask<\/span> interface, what statements about the following code are true? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">import&#160;java.util.concurrent.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;FindMin&#160;extends&#160;MyTask&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;Integer[]&#160;elements;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;int&#160;a;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;int&#160;b;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;FindMin(Integer[]&#160;elements,&#160;int&#160;a,&#160;int&#160;b)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.elements&#160;=&#160;elements;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.a&#160;=&#160;a;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.b&#160;=&#160;b;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;Integer&#160;compute()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;if&#160;((b&#8212;a)&#160;&#60;&#160;2)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;Math.min(elements[a],&#160;elements[b]);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;else&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;m&#160;=&#160;a&#160;+&#160;((b&#8212;a)&#160;\/&#160;2);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(a&#160;+&#160;\",\"&#160;+&#160;m&#160;+&#160;\",\"&#160;+&#160;b);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;MyTask&#160;t1&#160;=&#160;new&#160;FindMin(elements,&#160;a,&#160;m);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;result&#160;=&#160;t1.fork().join();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;Math.min(new&#160;FindMin(elements,&#160;m,&#160;b).compute(),&#160;result);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;throws&#160;InterruptedException,&#160;ExecutionException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Integer[]&#160;elements&#160;=&#160;new&#160;Integer[]&#160;{&#160;8,&#160;-3,&#160;2,&#160;-54&#160;};<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;MyTask&#160;task&#160;=&#160;new&#160;FindMin(elements,&#160;0,&#160;elements.length&#8212;1);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;ForkJoinPool&#160;pool&#160;=&#160;new&#160;ForkJoinPool(1);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Integer&#160;sum&#160;=&#160;pool.invoke(task);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(\"Min:&#160;\"&#160;+&#160;sum);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code correctly finds the minimum value in the array.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">MyTask<\/span> inherits <span class=\"dCode dNoWrap\">RecursiveAction<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">MyTask<\/span> inherits <span class=\"dCode dNoWrap\">RecursiveTask<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code produces a <span class=\"dCode dNoWrap\">ForkJoinPool<\/span> at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The class produces single-threaded performance at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles without issue, so F is incorrect. Note that the <span class=\"dCode dNoWrap\">compute()<\/span> method is <span class=\"dCode dNoWrap\">protected<\/span> in the parent class, although you can override it with <span class=\"dCode dNoWrap\">public<\/span> without issue since this is a more accessible modifier. Since <span class=\"dCode dNoWrap\">compute()<\/span> returns a value, <span class=\"dCode dNoWrap\">RecursiveTask<\/span> must be inherited instead of <span class=\"dCode dNoWrap\">RecursiveAction<\/span>, so C is correct and B is incorrect. The code does correctly find the minimum value on a non-empty array without entering an infinite loop, so A is correct and D is incorrect. Finally, since the code calls <span class=\"dCode dNoWrap\">join()<\/span> immediately after <span class=\"dCode dNoWrap\">fork()<\/span>, causing the process to wait, it does not perform any faster if there are 100 threads versus 1 thread, so E is also correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34230",
+      "attempts_id": "392280",
+      "question_id": "34230",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What statements about the following code are true? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">System.out.println(Arrays.asList(\"duck\",\"chicken\",\"flamingo\",\"pelican\")<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.parallelStream().parallel()&#160;\/\/&#160;q1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;.reduce(0,<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;(c1,&#160;c2)&#160;-&#62;&#160;c1.length()&#160;+&#160;c2.length(),&#160;\/\/&#160;q2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;(s1,&#160;s2)&#160;-&#62;&#160;s1&#160;+&#160;s2));&#160;\/\/&#160;q3<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles and runs without issue, outputting the total length of all strings in the stream.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">q1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">q2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">q3<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code does not compile, so A and E are incorrect. The problem here is that <span class=\"dCode dNoWrap\">c1<\/span> is a <span class=\"dCode dNoWrap\">String<\/span> but <span class=\"dCode dNoWrap\">c2<\/span> is an <span class=\"dCode dNoWrap\">int<\/span>, so the code fails to combine on line <span class=\"dCode dNoWrap\">q2<\/span>, since calling <span class=\"dCode dNoWrap\">length()<\/span> on an <span class=\"dCode dNoWrap\">int<\/span> is not allowed, and C is correct. The rest of the lines compile without issue. Note that calling <span class=\"dCode dNoWrap\">parallel()<\/span> on an already parallel is allowed, and it may in fact return the same object.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34231",
+      "attempts_id": "392280",
+      "question_id": "34231",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What statements about the following code snippet are true? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">Object&#160;o1&#160;=&#160;new&#160;Object();<\/span><br><span class=\"dCode dNoWrap\">Object&#160;o2&#160;=&#160;new&#160;Object();<\/span><br><span class=\"dCode dNoWrap\">ExecutorService&#160;service&#160;=&#160;Executors.newFixedThreadPool(2);<\/span><br><span class=\"dCode dNoWrap\">Future&#60;?&#62;&#160;f1&#160;=&#160;service.submit(()&#160;-&#62;&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;synchronized&#160;(o1)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;synchronized&#160;(o2)&#160;{&#160;System.out.println(\"Tortoise\");&#160;}&#160;\/\/&#160;t1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">});<\/span><br><span class=\"dCode dNoWrap\">Future&#60;?&#62;&#160;f2&#160;=&#160;service.submit(()&#160;-&#62;&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;synchronized&#160;(o2)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;synchronized&#160;(o1)&#160;{&#160;System.out.println(\"Hare\");&#160;}&#160;\/\/&#160;t2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">});<\/span><br><span class=\"dCode dNoWrap\">f1.get();<\/span><br><span class=\"dCode dNoWrap\">f2.get();<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "If the code does output anything, the order cannot be determined.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will always output <span class=\"dCode dNoWrap\">Tortoise<\/span> followed by <span class=\"dCode dNoWrap\">Hare<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will always output <span class=\"dCode dNoWrap\">Hare<\/span> followed by <span class=\"dCode dNoWrap\">Tortoise<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile because of line <span class=\"dCode dNoWrap\">t1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code does not compile because of line <span class=\"dCode dNoWrap\">t2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code may produce a deadlock at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code may produce a livelock at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "8",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles without issue, so D and E are incorrect. Since both tasks are submitted to the same thread executor pool, the order cannot be determined, so B and C are incorrect and A is correct. The key here is that the way the resources <span class=\"dCode dNoWrap\">o1<\/span> and <span class=\"dCode dNoWrap\">o2<\/span> are synchronized, a deadlock could appear if the first thread gets <span class=\"dCode dNoWrap\">o1<\/span> and the second thread gets <span class=\"dCode dNoWrap\">o2<\/span>; therefore F is correct. The code cannot produce a livelock, since both threads are waiting, so G is incorrect. Finally, if a deadlock does occur, an exception will not be thrown, so H is incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34232",
+      "attempts_id": "392280",
+      "question_id": "34232",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of executing the following application? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">import&#160;java.util.concurrent.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;CountNumbers&#160;extends&#160;RecursiveAction&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;int&#160;start;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;int&#160;end;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;CountNumbers(int&#160;start,&#160;int&#160;end)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.start&#160;=&#160;start;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;this.end&#160;=&#160;end;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;protected&#160;void&#160;compute()&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;if&#160;(start&#60;0)&#160;return;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;else&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;middle&#160;=&#160;start&#160;+&#160;((end&#8212;start)&#160;\/&#160;2);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;invokeAll(new&#160;CountNumbers(start,&#160;middle),&#160;new&#160;CountNumbers(middle,&#160;end));&#160;\/\/&#160;m1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;ForkJoinTask&#60;?&#62;&#160;task&#160;=&#160;new&#160;CountNumbers(0,&#160;4);&#160;\/\/&#160;m2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;ForkJoinPool&#160;pool&#160;=&#160;new&#160;ForkJoinPool();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;Object&#160;result&#160;=&#160;pool.invoke(task);&#160;\/\/&#160;m3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles and runs without issue.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of <span class=\"dCode dNoWrap\">m1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of <span class=\"dCode dNoWrap\">m2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of <span class=\"dCode dNoWrap\">m3<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but hangs at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The program compiles without issue, so B, C, and D are incorrect. Lines <span class=\"dCode dNoWrap\">m2<\/span> and <span class=\"dCode dNoWrap\">m3<\/span> throw a compiler warning about generics but still compile. Notice that <span class=\"dCode dNoWrap\">RecursiveAction<\/span>, unlike <span class=\"dCode dNoWrap\">RecursiveTask<\/span>, does not return a value. However, since we used a generic <span class=\"dCode dNoWrap\">ForkJoinTask<\/span> reference, the code still compiles. The issue here is that the base condition is not reached since the numbers <span class=\"dCode dNoWrap\">start<\/span>\/<span class=\"dCode dNoWrap\">end<\/span> are consistently positive. This causes an infinite loop, although since memory is finite, Java detects this and throws a <span class=\"dCode dNoWrap\">StackOverflowError<\/span>, so E is correct. In practice, this could also generate a locking exception before the <span class=\"dCode dNoWrap\">StackOverflowError<\/span> when the program runs out of memory, but in either circumstance, the program will exit.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34233",
+      "attempts_id": "392280",
+      "question_id": "34233",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;7",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What statements about the following code snippet are true? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">4:&#160;Stream&#60;String&#62;&#160;cats&#160;=&#160;Stream.of(\"leopard\",\"lynx\",\"ocelot\",\"puma\").parallel();<\/span><br><span class=\"dCode dNoWrap\">5:&#160;Stream&#60;String&#62;&#160;bears&#160;=&#160;Stream.of(\"panda\",\"grizzly\",\"polar\").parallel();<\/span><br><span class=\"dCode dNoWrap\">6:&#160;ConcurrentMap&#60;Boolean,&#160;List&#60;String&#62;&#62;&#160;data&#160;=&#160;Stream.of(cats,bears)<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;.flatMap(s&#160;-&#62;&#160;s)<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;.collect(Collectors.groupingByConcurrent(s&#160;-&#62;&#160;!s.startsWith(\"p\")));<\/span><br><span class=\"dCode dNoWrap\">9:&#160;System.out.println(data.get(false).size()+\"&#160;\"+data.get(true).size());<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">3&#160;4<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">4&#160;3<\/span>. ",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 6.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 7.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line 8.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The <span class=\"dCode dNoWrap\">collect()<\/span> operation is always executed in a single-threaded fashion.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles and runs without issue, so C, D, E, and F are incorrect. The <span class=\"dCode dNoWrap\">collect()<\/span> operation groups the animals into those that do and do not start with the letter <span class=\"dCode dNoWrap\">p<\/span>. Note that there are four animals that do not start with the letter <span class=\"dCode dNoWrap\">p<\/span> and three animals that do. The negation operator <span class=\"dCode dNoWrap\">!<\/span> before the <span class=\"dCode dNoWrap\">startsWith()<\/span> method means that results are reversed, so the output is <span class=\"dCode dNoWrap\">3&#160;4<\/span> and A is correct, making B incorrect. Finally, the stream created by <span class=\"dCode dNoWrap\">flatMap()<\/span> is a new stream that is not parallel by default, even though its elements are parallel streams. Therefore, the performance will be single-threaded and G is correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34234",
+      "attempts_id": "392280",
+      "question_id": "34234",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of calling the following method?<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">3:&#160;public&#160;void&#160;addAndPrintItems(BlockingDeque&#60;Integer&#62;&#160;deque)&#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&#160;&#160;&#160;&#160;deque.offer(103);<\/span><br><span class=\"dCode dNoWrap\">5:&#160;&#160;&#160;&#160;deque.offerFirst(20,&#160;1,&#160;TimeUnit.SECONDS);<\/span><br><span class=\"dCode dNoWrap\">6:&#160;&#160;&#160;&#160;deque.offerLast(85,&#160;7,&#160;TimeUnit.HOURS);<\/span><br><span class=\"dCode dNoWrap\">7:&#160;&#160;&#160;&#160;System.out.print(deque.pollFirst(200,&#160;TimeUnit.NANOSECONDS));<\/span><br><span class=\"dCode dNoWrap\">8:&#160;&#160;&#160;&#160;System.out.print(\"&#160;\"+deque.pollLast(1,&#160;TimeUnit.MINUTES));<\/span><br><span class=\"dCode dNoWrap\">9:&#160;}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">20&#160;85<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">103&#160;85<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">20&#160;103<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The output cannot be determined ahead of time.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The methods on line 5, 6, 7, and 8 each throw <span class=\"dCode dNoWrap\">InterruptedException<\/span>, which is a checked exception; therefore the method does not compile and C is the only correct answer. If the method signature was updated to include <span class=\"dCode dNoWrap\">throws<\/span> <span class=\"dCode dNoWrap\">InterruptedException<\/span>, then the answer would be F, because the <span class=\"dCode dNoWrap\">deque<\/span> may be blocked at runtime when the <span class=\"dCode dNoWrap\">offerFirst()<\/span>, <span class=\"dCode dNoWrap\">offerLast()<\/span>, <span class=\"dCode dNoWrap\">pollFirst()<\/span>, and <span class=\"dCode dNoWrap\">pollLast()<\/span> operations are called. Finally, if they were not blocked and there were no other operations on the <span class=\"dCode dNoWrap\">deque<\/span>, then the output would be <span class=\"dCode dNoWrap\">20&#160;85<\/span>, and the answer would be A.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34235",
+      "attempts_id": "392280",
+      "question_id": "34235",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "3;5;7",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following are valid <span class=\"dCode dNoWrap\">Callable<\/span> expressions? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">a&#160;-&#62;&#160;{return&#160;10;}<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;{String&#160;s&#160;=&#160;\"\";}<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;5<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;{return&#160;null}<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;\"The\"&#160;+&#160;\"Zoo\"<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">(int&#160;count)&#160;-&#62;&#160;count+1<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "<span class=\"dCode dNoWrap\">()&#160;-&#62;&#160;{System.out.println(\"Giraffe\");&#160;return&#160;10;}<\/span>",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "A <span class=\"dCode dNoWrap\">Callable<\/span> lambda expression takes no values and returns a generic type; therefore C, E, and G are correct. A and F are incorrect because they both take an input parameter. B is a <span class=\"dCode dNoWrap\">Runnable<\/span> lambda expression, because it does not return a value, but it is not a <span class=\"dCode dNoWrap\">Callable<\/span> one, so B is incorrect. D is not a valid lambda expression, because it is missing a semicolon at the end of the <span class=\"dCode dNoWrap\">return<\/span> statement, which is required when inside braces <span class=\"dCode dNoWrap\">{}<\/span>.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34236",
+      "attempts_id": "392280",
+      "question_id": "34236",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "6;8",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of executing the following application? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">import&#160;java.util.concurrent.*;<\/span><br><span class=\"dCode dNoWrap\">import&#160;java.util.stream.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;PrintConstants&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;ExecutorService&#160;service&#160;=&#160;Executors.newScheduledThreadPool(10);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;DoubleStream.of(3.14159,2.71828)&#160;\/\/&#160;b1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.forEach(c&#160;-&#62;&#160;service.submit(&#160;\/\/&#160;b2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;()&#160;-&#62;&#160;System.out.println(10*c)));&#160;\/\/&#160;b3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;service.execute(()&#160;-&#62;&#160;System.out.println(\"Printed\"));&#160;\/\/&#160;b4<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles and outputs the two numbers, followed by <span class=\"dCode dNoWrap\">Printed<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">b1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">b2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">b3<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">b4<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but the output cannot be determined ahead of time.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "8",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but waits forever at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The application compiles and does not throw an exception, so B, C, D, E, and G are incorrect. Even though the stream is processed in sequential order, the tasks are submitted to a thread executor, which may complete the tasks in any order. Therefore, the output cannot be determined ahead of time and F is correct, making A incorrect. Finally, the thread executor is never shut down; therefore the code will run but it will never terminate, making H also correct.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34237",
+      "attempts_id": "392280",
+      "question_id": "34237",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "2",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assuming 100 milliseconds is enough time for the tasks submitted to the thread executor to complete, what is the result of executing the following program? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">import&#160;java.util.concurrent.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;SheepManager&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;static&#160;AtomicInteger&#160;sheepCount1&#160;=&#160;new&#160;AtomicInteger(0);&#160;\/\/&#160;w1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;static&#160;int&#160;sheepCount2&#160;=&#160;0;<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;throws&#160;InterruptedException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;ExecutorService&#160;service&#160;=&#160;null;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;service&#160;=&#160;Executors.newSingleThreadExecutor();&#160;\/\/&#160;w2<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for(int&#160;i=0;&#160;i&#60;100;&#160;i++)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;service.execute(()&#160;-&#62;&#160;{sheepCount1.getAndIncrement();&#160;sheepCount2++;});&#160;\/\/&#160;w3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Thread.sleep(100);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(sheepCount1+\"&#160;\"+sheepCount2);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;finally&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if(service&#160;!=&#160;null)&#160;service.shutdown();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">100&#160;99<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">100&#160;100<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The output cannot be determined ahead of time.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">w1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">w2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">w3<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles and runs without issue, so D, E, F, and G are incorrect. The key aspect to notice in the code is that a single-thread executor is used, meaning that no task will be executed concurrently. Therefore, the results are valid and predictable with <span class=\"dCode dNoWrap\">100&#160;100<\/span> being the output, and B is the correct answer. If a pooled thread executor was used with at least two threads, then the <span class=\"dCode dNoWrap\">sheepCount2++<\/span> operations could overwrite each other, making the second value indeterminate at the end of the program. In this case, C would be the correct answer.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34238",
+      "attempts_id": "392280",
+      "question_id": "34238",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of executing the following application? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">import&#160;java.util.concurrent.*;<\/span><br><span class=\"dCode dNoWrap\">import&#160;java.util.stream.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;StockRoomTracker&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;await(CyclicBarrier&#160;cb)&#160;{&#160;\/\/&#160;j1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;{&#160;cb.await();&#160;}&#160;catch&#160;(InterruptedException&#160;|&#160;BrokenBarrierException&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\/\/&#160;Handle&#160;exception<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;CyclicBarrier&#160;cb&#160;=&#160;new&#160;CyclicBarrier(10,<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;()&#160;-&#62;&#160;System.out.println(\"Stock&#160;Room&#160;Full!\"));&#160;\/\/&#160;j2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;IntStream.iterate(1,&#160;i&#160;-&#62;&#160;1).limit(9).parallel().forEach(i&#160;-&#62;&#160;await(cb));&#160;\/\/&#160;j3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">Stock&#160;Room&#160;Full!<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">j1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">j2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">j3<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but throws an exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles but waits forever at runtime.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles without issue, so B, C, and D are incorrect. The limit on the cyclic barrier is 10, but the stream can generate only up to 9 threads that reach the barrier; therefore the limit can never be reached, and F is the correct answer, making A and E incorrect. Note that even if the <span class=\"dCode dNoWrap\">limit(9)<\/span> statement was changed to <span class=\"dCode dNoWrap\">limit(10)<\/span>, the program could still hang, since the JVM might not allocate 10 threads to the parallel stream.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34239",
+      "attempts_id": "392280",
+      "question_id": "34239",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What statements about the following class definition are true? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">public&#160;class&#160;TicketManager&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;TicketManager()&#160;{&#160;super();&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;static&#160;TicketManager&#160;instance;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;synchronized&#160;TicketManager&#160;getInstance()&#160;{&#160;\/\/&#160;k1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;if&#160;(instance&#160;==&#160;null)&#160;instance&#160;=&#160;new&#160;TicketManager();&#160;\/\/&#160;k2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;return&#160;instance;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;private&#160;int&#160;tickets;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;int&#160;getTicketCount()&#160;{&#160;return&#160;tickets;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;void&#160;makeTicketsAvailable(int&#160;value)&#160;{&#160;tickets&#160;+=&#160;value;&#160;}&#160;\/\/&#160;k3<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;void&#160;sellTickets(int&#160;value)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;synchronized&#160;(this)&#160;{&#160;\/\/&#160;k4<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tickets&#160;-=&#160;value;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It compiles without issue.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">k2<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">k3<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The locks acquired on <span class=\"dCode dNoWrap\">k1<\/span> and <span class=\"dCode dNoWrap\">k4<\/span> are on the same object.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The class correctly prevents concurrency issues for the value of <span class=\"dCode dNoWrap\">tickets<\/span> when accessed by multiple threads.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "At most one instance of <span class=\"dCode dNoWrap\">TicketManager<\/span> will be created in the application.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The class compiles without issue so A is correct, and B and C are incorrect. The synchronized object on line <span class=\"dCode dNoWrap\">k1<\/span> is <span class=\"dCode dNoWrap\">TicketManager.class<\/span>, while the synchronized object on line <span class=\"dCode dNoWrap\">k4<\/span> is the <span class=\"dCode dNoWrap\">instance<\/span> of <span class=\"dCode dNoWrap\">TicketManager<\/span>. The class is not thread-safe because the <span class=\"dCode dNoWrap\">makeTicketsAvailable()<\/span> method is not synchronized, and E is incorrect. One thread could call <span class=\"dCode dNoWrap\">sellTickets()<\/span> while another thread has unblocked accessed to <span class=\"dCode dNoWrap\">makeTicketsAvailable()<\/span>, causing an invalid number of tickets to be reached as part of a race condition. Finally, F is correct because the class synchronizes using a <span class=\"dCode dNoWrap\">static<\/span> <span class=\"dCode dNoWrap\">getInstance()<\/span> method, preventing more than one instance from being created.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34240",
+      "attempts_id": "392280",
+      "question_id": "34240",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;4",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Which of the following properties of concurrency are true? (Choose all that apply.)",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "By itself, concurrency does not guarantee which task will be completed first.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Concurrency always improves the performance of an application.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Computers with a single processor do not benefit from concurrency.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Applications with many resource-heavy tasks tend to benefit more from concurrency than ones with CPU-intensive tasks.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "Concurrent tasks do not share the same memory.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "By itself, concurrency does not guarantee which task will be completed first, so A is correct. Furthermore, applications with numerous resource requests will often be stuck waiting for a resource, which allows other tasks to run. Therefore, they tend to benefit more from concurrency than CPU-intensive tasks, so D is also correct. B is incorrect because concurrency may in fact make an application slower if it is truly single-threaded in nature. Keep in mind that there is a cost associated with allocating additional memory and CPU time to manage the concurrent process. C is incorrect because single-processor CPUs have been benefiting from concurrency for decades. Finally, E is incorrect; there are numerous examples in this chapter of concurrent tasks sharing memory.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34241",
+      "attempts_id": "392280",
+      "question_id": "34241",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mmcq",
+      "answer": "1;3;4;5",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "Assuming an implementation of the <span class=\"dCode dNoWrap\">performCount()<\/span> method is provided prior to runtime, which of the following are possible results of executing the following application? (Choose all that apply.)<br><br><span class=\"dSmall\"><span class=\"dCode dNoWrap\">import&#160;java.util.*;<\/span><br><span class=\"dCode dNoWrap\">import&#160;java.util.concurrent.*;<\/span><br><span class=\"dCode dNoWrap\">import&#160;java.util.stream.*;<\/span><br><span class=\"dCode dNoWrap\">public&#160;class&#160;CountZooAnimals&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;Integer&#160;performCount(int&#160;exhibitNumber)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;\/\/&#160;IMPLEMENTATION&#160;OMITTED<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;printResults(Future&#60;?&#62;&#160;f)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;try&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(f.get());&#160;\/\/&#160;o1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;catch&#160;(Exception&#160;e)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.println(\"Exception!\");<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;throws&#160;InterruptedException,&#160;ExecutionException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;ExecutorService&#160;service&#160;=&#160;Executors.newSingleThreadExecutor();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;final&#160;List&#60;Future&#60;?&#62;&#62;&#160;results&#160;=&#160;new&#160;ArrayList&#60;&#62;();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;IntStream.range(0,&#160;10)<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.forEach(i&#160;-&#62;&#160;results.add(<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;service.submit(()&#160;-&#62;&#160;performCount(i))));&#160;\/\/&#160;o2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;results.stream().forEach(f&#160;-&#62;&#160;printResults(f));<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;service.shutdown();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs a number 10 times.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs a <span class=\"dCode dNoWrap\">Boolean<\/span> value 10 times.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs a <span class=\"dCode dNoWrap\">null<\/span> value 10 times.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It outputs <span class=\"dCode dNoWrap\">Exception!<\/span> 10 times.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It hangs indefinitely at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It throws an unhandled exception at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">o1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "8",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">o2<\/span>.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The code compiles and runs without issue, so G and H are incorrect. The return type of <span class=\"dCode dNoWrap\">performCount()<\/span> is <span class=\"dCode dNoWrap\">Integer<\/span>, so the <span class=\"dCode dNoWrap\">submit()<\/span> is interpreted as being applied to a <span class=\"dCode dNoWrap\">Callable&#60;Integer&#62;<\/span> value. In this manner, the <span class=\"dCode dNoWrap\">Future&#60;?&#62;<\/span> is really a <span class=\"dCode dNoWrap\">Future&#60;Integer&#62;<\/span> object. One possible implementation of <span class=\"dCode dNoWrap\">performCount()<\/span> is just to return the input parameter; therefore A is a correct answer. B is incorrect, because the return type is <span class=\"dCode dNoWrap\">Integer<\/span>, not <span class=\"dCode dNoWrap\">Boolean<\/span>. The <span class=\"dCode dNoWrap\">performCount()<\/span> method could just return <span class=\"dCode dNoWrap\">null<\/span>, so C is a correct choice. The <span class=\"dCode dNoWrap\">performCount()<\/span> can also throw a runtime exception; therefore D is also a correct answer. It is also possible for our <span class=\"dCode dNoWrap\">performCount()<\/span> to hang indefinitely, such as in a deadlock. This would cause <span class=\"dCode dNoWrap\">Future.get()<\/span> to hang in <span class=\"dCode dNoWrap\">printResults()<\/span>, making E also a correct answer. Finally, any exception thrown in <span class=\"dCode dNoWrap\">performCount()<\/span> will appear as an exception in the <span class=\"dCode dNoWrap\">get()<\/span> operation. Since the <span class=\"dCode dNoWrap\">get()<\/span> operations are caught in a <span class=\"dCode dNoWrap\">try\/catch<\/span> block in <span class=\"dCode dNoWrap\">printResults()<\/span>, none of them will be unhandled, and F is incorrect.",
+        "display_order": "1"
+      }]
+    }, {
+      "id": "34242",
+      "attempts_id": "392280",
+      "question_id": "34242",
+      "user_answer": null,
+      "notes": null,
+      "is_bookmarked": "0",
+      "is_correct": null,
+      "time_spent": "0",
+      "status": "0",
+      "section_id": "990",
+      "question_type_id": null,
+      "question_type": "mcq",
+      "answer": "6",
+      "is_final": "0",
+      "opt_start": "1",
+      "correctAnserForDisplay": null,
+      "difficulty_level": "Easy",
+      "assessment_title": "Problem Solving",
+      "learning_objective": "Arithmetic Operations with rational numbers",
+      "suffix": null,
+      "prefix": null,
+      "direction": [],
+      "questionData": [{
+        "data_type_id": "2",
+        "data": "What is the result of executing the following program?<br><br><span class=\"dCode dNoWrap\">import&#160;java.util.*;<\/span><br><span class=\"dCode dNoWrap\">import&#160;java.util.concurrent.*;<\/span><br><span class=\"dCode dNoWrap\">import&#160;java.util.stream.*;<\/span><br><br><span class=\"dCode dNoWrap\">public&#160;class&#160;PrintCounter&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;static&#160;int&#160;counter&#160;=&#160;0;<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;public&#160;static&#160;void&#160;main(String[]&#160;args)&#160;throws&#160;InterruptedException,&#160;ExecutionException&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;ExecutorService&#160;service&#160;=&#160;Executors.newSingleThreadExecutor();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;List&#60;Future&#60;?&#62;&#62;&#160;results&#160;=&#160;new&#160;ArrayList&#60;&#62;();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;IntStream.iterate(0,i&#160;-&#62;&#160;i+1).limit(5).forEach(<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;i&#160;-&#62;&#160;results.add(service.execute(()&#160;-&#62;&#160;counter++))&#160;\/\/&#160;n1<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;);<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;for(Future&#60;?&#62;&#160;result&#160;:&#160;results)&#160;{<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;System.out.print(result.get()+\"&#160;\");&#160;\/\/&#160;n2<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;&#160;&#160;&#160;service.shutdown();<\/span><br><span class=\"dCode dNoWrap\">&#160;&#160;&#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+        "display_order": "1"
+      }],
+      "choiceData": [{
+        "id": "1",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It prints <span class=\"dCode dNoWrap\">0&#160;1&#160;2&#160;3&#160;4<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "2",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It prints <span class=\"dCode dNoWrap\">1&#160;2&#160;3&#160;4&#160;5<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "3",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It prints <span class=\"dCode dNoWrap\">null&#160;null&#160;null&#160;null&#160;null<\/span>",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "4",
+        "data": [{
+          "data_type_id": "2",
+          "data": "It hangs indefinitely at runtime.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "5",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The output cannot be determined.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "6",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">n1<\/span>.",
+          "display_order": "0"
+        }]
+      }, {
+        "id": "7",
+        "data": [{
+          "data_type_id": "2",
+          "data": "The code will not compile because of line <span class=\"dCode dNoWrap\">n2<\/span>.",
+          "display_order": "0"
+        }]
+      }],
+      "hints": [{
+        "data_type_id": "2",
+        "data": "The key to solving this question is to remember that the <span class=\"dCode dNoWrap\">execute()<\/span> method returns <span class=\"dCode dNoWrap\">void<\/span>, not a <span class=\"dCode dNoWrap\">Future<\/span> object. Therefore, line <span class=\"dCode dNoWrap\">n1<\/span> does not compile and F is the correct answer. If the <span class=\"dCode dNoWrap\">submit()<\/span> method had been used instead of <span class=\"dCode dNoWrap\">execute()<\/span>, then C would have been the correct answer, as the output of <span class=\"dCode dNoWrap\">submit(Runnable)<\/span> task is a <span class=\"dCode dNoWrap\">Future&#60;?&#62;<\/span> object which can only return <span class=\"dCode dNoWrap\">null<\/span> on its <span class=\"dCode dNoWrap\">get()<\/span> method.",
+        "display_order": "1"
+      }]
+    }]
+  }
+}
